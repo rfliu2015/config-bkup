@@ -174,6 +174,18 @@
 
 ###  布局管理器
 
+<<<<<<< HEAD
+- [java中setSize(),setLocation()和setBounds()的关系](https://blog.csdn.net/u011235543/article/details/51892500)
+
+#### Layout
+
+- [**Official:** A Visual Guide to Layout Managers](https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html)
+- [**Official:**  How to Use GridLayout](https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html)
+
+#### Border
+
+- [**Official:** How to Use Borders](https://docs.oracle.com/javase/tutorial/uiswing/components/border.html)
+=======
 #### Layout
 
 - [A Visual Guide to Layout Managers](https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html)
@@ -181,14 +193,23 @@
 #### Border
 
 - [Official: How to Use Borders](https://docs.oracle.com/javase/tutorial/uiswing/components/border.html)
+>>>>>>> 6983ad826bf2b2acc10bcdb4432adb4524a2a900
 
 ###  事件处理
 
 ###  AWT绘图
 
+<<<<<<< HEAD
+- [**Official:** A Closer Look at the *Paint Mechanism*](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
+
+####  Graphics类
+
+- [Java中*paint, repaint, update*之间的关系(闪烁问题的解决)](http://blog.csdn.net/sangjinchao/article/details/53052897)
+=======
 ####  Graphics类
 
 - [java中paint,repaint,update之间的关系(闪烁问题的解决)](http://blog.csdn.net/sangjinchao/article/details/53052897)
+>>>>>>> 6983ad826bf2b2acc10bcdb4432adb4524a2a900
 
 ####  Graphics2D类
 
@@ -196,8 +217,11 @@
 
 ### Specific Item
 
+<<<<<<< HEAD
+=======
 - [A Closer Look at the Paint Mechanism](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
 
+>>>>>>> 6983ad826bf2b2acc10bcdb4432adb4524a2a900
 ##  结构化数据
 ###  Collection
 ####  总论
