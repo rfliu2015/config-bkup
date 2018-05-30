@@ -1,0 +1,1 @@
+- [vim常用配置和操作(大致整理的还不错)](http://blog.csdn.net/meowgi/article/details/53162791)

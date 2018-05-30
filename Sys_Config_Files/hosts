@@ -1,0 +1,35 @@
+127.0.0.1	localhost
+127.0.1.1	blackt
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+
+66.220.149.32 www.dropbox.com
+199.59.148.209 www.dropbox.com
+31.13.81.17 www.dropbox.com
+162.125.248.1 www.dropbox.com
+31.13.83.8 www.dropbox.com
+203.208.39.99 www.dropbox.com
+69.171.235.101 www.dropbox.com
+69.63.176.15 www.dropbox.com
+69.63.190.26 www.dropbox.com
+69.171.229.11 www.dropbox.com
+66.220.151.20 www.dropbox.com
+66.220.149.18 www.dropbox.com
+31.13.73.23 www.dropbox.com
+69.63.181.11 www.dropbox.com
+
+
+151.101.72.249 github.global.ssl.fastly.net 
+151.101.100.133 assets-cdn.github.com
+151.101.72.249 http://global-ssl.fastly.Net  
+192.30.253.112 http://github.com  
+192.30.253.118 http://gist.github.com
+192.30.253.119 http://gist.github.com
+
+162.125.248.2 www.db.tt
