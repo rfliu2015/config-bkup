@@ -9,7 +9,7 @@
 
 ## 别人的博文推荐
 
-- [2017年最受欢迎的10个编程挑战网站](http://blog.csdn.net/xiexingshishu/article/details/78024571)
+- [CSDN：2017年最受欢迎的10个编程挑战网站](http://blog.csdn.net/xiexingshishu/article/details/78024571)
 
 
 
@@ -18,26 +18,21 @@
 ## 基础知识
 
 ### ==Python数据结构==
-#### 列表
-##### 列表解析
-
 - [Python列表解析详解](http://python.jobbole.com/83884/)
 
 ### ==Python内置函数==
-#### eval, exec, execfile
-
 - [**深入分析**Python 中 eval 带来的潜在风险](http://python.jobbole.com/82770/)
 - [Python中的exec、eval使用实例](http://www.jb51.net/article/55529.htm)
 
-#### sort和sorted
+#### 
 
 ### ==Python语句==
-#### import和from ... import ...
-
 - [使用import匯入模組](https://openhome.cc/Gossip/Python/ImportImportAsFrom.html)
 
 
+
 ## 数据处理
+
 ### 各种库
 
 #### ==numpy And Scipy==
@@ -63,6 +58,8 @@
 - [Stackoverflow: numpy: multiply arrays rowwise](https://stackoverflow.com/questions/22934219/numpy-multiply-arrays-rowwise)
 - [Numpy中Meshgrid函数介绍及2种应用场景](http://www.cnblogs.com/lemonbit/p/7593898.html)
 
+
+
 #### ==matplotlib.pyplot==
 
 ##### General
@@ -74,6 +71,8 @@
 - [Python--matplotlib绘图可视化知识点整理](http://python.jobbole.com/85106/)
 - [利用matplotlib+numpy绘制多种绘图的方法实例](http://www.jb51.net/article/112805.htm)
 
+
+
 ### 数学相关
 
 #### 线性代数
@@ -82,9 +81,12 @@
 - [Python--线性代数篇](http://www.cnblogs.com/moon1992/p/4960700.html) <!--条目分明-->
 
 
+
 ### Python和数据格式
 
 - [Python 小数点精度控制](http://blog.csdn.net/zhongbeida_xue/article/details/51274760)
+
+
 
 ## 数据可视化
 
@@ -111,8 +113,9 @@
 - [Python 数据可视化之PyEcharts](https://zhuanlan.zhihu.com/p/27990382)
 
 
+
 ## 文件和I/O
-### 文本文件读写
+
 - [Python open()文件处理使用介绍](http://www.jb51.net/article/58002.htm)
 
 
@@ -151,18 +154,14 @@
 
 
 
-## 面向对象分析
-
-## 函数式编程
+## 
 
 ## 爬虫
 
 ###  别人的笔记
 
-####  知乎
-
-- [Python入门网络爬虫之精华版](https://github.com/lining0806/PythonSpiderNotes)
-- [宁哥的小站之爬虫部分](http://www.lining0806.com/category/spider/)
+- [知乎：Python入门网络爬虫之精华版](https://github.com/lining0806/PythonSpiderNotes)
+- [知乎：宁哥的小站之爬虫部分](http://www.lining0806.com/category/spider/)
 
 
 
@@ -174,48 +173,44 @@
 
 - [Java笔记(10)-图形界面设计、Swing、窗口、JFrame、常用组件和布局、处理事件、MVC结构、对话框、GUI](https://blog.csdn.net/Peng_Hong_fu/article/details/52682179)
 
-###  AWT组件和Swing组件
 
-###  创建图形用户界面的基本步骤
 
 ###  布局管理器
 
-- [java中setSize(),setLocation()和setBounds()的关系](https://blog.csdn.net/u011235543/article/details/51892500)
+- [Java中setSize(),setLocation()和setBounds()的关系](https://blog.csdn.net/u011235543/article/details/51892500)
+- [Java: Difference between the setPreferredSize() and setSize()](https://stackoverflow.com/questions/1783793/java-difference-between-the-setpreferredsize-and-setsize-methods-in-compone)
 
 #### Layout
 
 - [**Official:** A Visual Guide to Layout Managers](https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html)
 - [**Official:**  How to Use GridLayout](https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html)
 
-
-
 #### Border
 
 - [**Official:** How to Use Borders](https://docs.oracle.com/javase/tutorial/uiswing/components/border.html)
 
+#### Pane
 
-###  事件处理
+- [**Official:** How to Use Scroll Panes](https://docs.oracle.com/javase/tutorial/uiswing/components/scrollpane.html)
+
+#### Others
+
+- [**Official:** How to Use Tables](https://docs.oracle.com/javase/tutorial/uiswing/components/table.html)
+
+
 
 ###  AWT绘图
 
 - [**Official:** A Closer Look at the *Paint Mechanism*](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
 
-####  Graphics类
-
 - [Java中*paint, repaint, update*之间的关系(闪烁问题的解决)](http://blog.csdn.net/sangjinchao/article/details/53052897)
 
+- [A Closer Look at the **Paint Mechanism**](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
 
-####  Graphics2D类
-
-###  AWT线程（时间分派线程）
-
-### Specific Item
-
-- [A Closer Look at the Paint Mechanism](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
 
 
 ##  结构化数据
-###  Collection
+
 ####  总论
 - [Java - Collection实例**简略**解析](http://blog.csdn.net/itlwc/article/details/10148321)
 - [Java集合框架之Collection实例**详细**解析](http://blog.csdn.net/qq_28261343/article/details/52614411)
@@ -224,15 +219,14 @@
 - [Java**遍历**集合的几种方法分析（实现原理、算法性能、适用场合）](http://www.cnblogs.com/xyhuangjinfu/p/5429644.html)
 - [java提高篇(三十)-----Iterator](http://cmsblogs.com/?p=1185)
 - [java的**iterator删除**机制](http://www.cnblogs.com/hasse/p/5024193.html)
-  ​
 
-####  Set
+##### Set
 
 - [java的set集合的遍历, 和**倒序遍历**](http://blog.csdn.net/shenshen123jun/article/details/9074097)
 - [java Set集合**详解**](http://blog.csdn.net/qq_33642117/article/details/52040345)
 
 
-###  Map
+#####  Map
 - [HashMap和Hashtable的区别](http://www.importnew.com/7010.html)
 
 
@@ -244,7 +238,8 @@
 - [java提高篇(九)----详解匿名内部类](http://blog.csdn.net/chenssy/article/details/13170015)
 - [Java匿名类也能使用构造函数](https://my.oschina.net/sub/blog/222790)  <!--简短有趣的一个小程序计算功能-->
 
-###  [Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)类相关
+
+
 ####  [类的克隆](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--)
 - [Java提高篇——对象克隆, 原因，实现，要点](http://www.cnblogs.com/Qian123/p/5710533.html)
 
@@ -283,19 +278,20 @@
 - [Java正则表达式Pattern和Matcher类详解，以及matcher方法区别](http://blog.csdn.net/yin380697242/article/details/52049999)
 
 
+
 ##  文件和I/O
-###  [java.io](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html)
+
 ####  [java.io.File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 - [File 类**源代码**解析](http://czj4451.iteye.com/blog/1507760)
-
-###  [java.nio](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html)
 
 ###  [java.util.Scanner](https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html)
 - [Java Scanner tutorial and examples](http://javatutorialhq.com/java/util/scanner-class-tutorial/)
 - [Java Scanner general description](http://www.tutorialspoint.com/java/util/java_util_scanner.htm)
 
 
+
 ##  异常
+
 ###  异常的基础知识
 - [Java异常处理的**要点总结**](http://lavasoft.blog.51cto.com/62575/18920/)
 
@@ -306,10 +302,14 @@
 - [The **try-with-resources** Statement](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
 
 
+
 ##  数字
-###  浮点数
+
 - [浮点数的舍入](http://cmsblogs.com/?p=54)
+
+
 ## 数据处理
+
 ### 线性代数
 - [*JAMA* : A Java Matrix Package](http://math.nist.gov/javanumerics/jama/)
 - [JAMA Matrix Document](http://math.nist.gov/javanumerics/jama/doc/)
@@ -317,30 +317,22 @@
 
 ---
 
+
+
 #  cpp
+
 ##  变量和基本类型
-###  变量
 ####  _全局变量_
 
 - [C++全局变量在**多个源代码**文件中的使用](http://blog.csdn.net/jiadebin890724/article/details/40509333)
 
-##  字符串,向量和数组
+##  
 
 ### 数组
 
 - [c++数组遍历十种方式](https://blog.csdn.net/man_sion/article/details/54945579) <!--简略无解释只有代码-->
 
-##  表达式
-##  函数
-##  类
-##  IO库
-##  顺序容器
-##  泛型算法
-##  动态内存
-##  拷贝控制
-##  重载运算与类型转换
-##  面向对象程序设计
-##  模板与泛型编程
+
 
 
 
