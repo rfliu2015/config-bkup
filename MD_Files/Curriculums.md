@@ -7,6 +7,8 @@
 - [专栏 - 计算机理论基础: Forec's notes](http://blog.forec.cn/columns/cs-basic.html)
 - [Learning How to Learn](https://zilongshanren.com/blog/2017-05-09-learning-how-to-learn.html#sec-2-7)
 
+---
+
 ## Operating System
 
 ### 问题和解答
@@ -19,10 +21,14 @@
 - [Operating System Engineering](https://pdos.csail.mit.edu/6.828/2014/xv6.html)
 - [6.828/2018](https://pdos.csail.mit.edu/6.828/2017/)
 
+---
+
 ## 计算机组成原理
 
 - [机器字长 存储字长 指令字长 数据字长区别](http://www.cnblogs.com/claremore/p/4802881.html)
 - [详解大端模式和小端模式](https://blog.csdn.net/ce123_zhouwei/article/details/6971544)
+
+---
 
 ## 算法与数据结构
 
@@ -37,11 +43,27 @@
 - [关于二叉树非递归遍历](http://crescentmoon.info/2012/10/14/%E5%85%B3%E4%BA%8E%E4%BA%8C%E5%8F%89%E6%A0%91%E9%9D%9E%E9%80%92%E5%BD%92%E9%81%8D%E5%8E%86/) <!--大概后序遍历讲得还好-->
 - [一种统一的个人想法的非递归遍历二叉树的方法](https://www.jianshu.com/p/49c8cfd07410) <!--看看就行了-->
 
+---
+
 ## 计算机网络
+
+### 数据链路层
+
+- [网卡工作原理详解 - CSDN 博客](https://blog.csdn.net/tao546377318/article/details/51602298)
+
+- [基带信号、载波信号和宽带信号](http://www.cnblogs.com/rainbow70626/p/4937573.html)
+
+> <img src="https://i.loli.net/2018/05/31/5b0f83a23e75e.png" alt="载波和调制波.png" title="载波和调制波.png" />
+
+
+
+---
 
 ## 公开课教程
 
 - [計算機網路概論](http://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=13&)
+
+---
 
 ## 其他计算机系列
 
