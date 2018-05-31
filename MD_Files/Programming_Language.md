@@ -8,6 +8,7 @@
 # 编程练习网站
 
 ## 别人的博文推荐
+
 - [2017年最受欢迎的10个编程挑战网站](http://blog.csdn.net/xiexingshishu/article/details/78024571)
 
 
@@ -15,22 +16,26 @@
 # Python
 
 ## 基础知识
+
 ### ==Python数据结构==
 #### 列表
 ##### 列表解析
+
 - [Python列表解析详解](http://python.jobbole.com/83884/)
 
 ### ==Python内置函数==
 #### eval, exec, execfile
+
 - [**深入分析**Python 中 eval 带来的潜在风险](http://python.jobbole.com/82770/)
 - [Python中的exec、eval使用实例](http://www.jb51.net/article/55529.htm)
 
 #### sort和sorted
-​
 
 ### ==Python语句==
 #### import和from ... import ...
+
 - [使用import匯入模組](https://openhome.cc/Gossip/Python/ImportImportAsFrom.html)
+
 
 ## 数据处理
 ### 各种库
@@ -44,6 +49,7 @@
 - [The N-dimensional array(官网)](https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html)
 - [Python Numpy 数组的初始化和基本操作](http://blog.csdn.net/Baoli1008/article/details/50531684) <!--基本操作-->
 - [python numpy基础 数组和矢量计算](http://python.jobbole.com/87352/) <!--一般-->
+
 ##### Specific
 
 - [Array creation routines(官网)](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.array-creation.html#routines-array-creation)
@@ -64,8 +70,6 @@
 - [pyplot tutorial(官网)](https://matplotlib.org/tutorials/introductory/pyplot.html)
 - [Matplotlib tutorial](http://www.labri.fr/perso/nrougier/teaching/matplotlib/) <!--个人博客，简略全，旁边有参考链接-->
 - [Matplotlib 教程 | 始终](https://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)  <!--翻译的上文-->
-
-
 - [matplotlib入门之Pyplot](http://blog.csdn.net/lilongsy/article/details/72903339)
 - [Python--matplotlib绘图可视化知识点整理](http://python.jobbole.com/85106/)
 - [利用matplotlib+numpy绘制多种绘图的方法实例](http://www.jb51.net/article/112805.htm)
@@ -106,29 +110,30 @@
 
 - [Python 数据可视化之PyEcharts](https://zhuanlan.zhihu.com/p/27990382)
 
+
 ## 文件和I/O
 ### 文本文件读写
-+ [Python open()文件处理使用介绍](http://www.jb51.net/article/58002.htm)
+- [Python open()文件处理使用介绍](http://www.jb51.net/article/58002.htm)
 
 
 
 ## 常用的第三方库
 
 ### ==re==
-+ [re — Regular expression operations(官方文档)](https://docs.python.org/3/library/re.html)
-+ [python正则表达式re模块详细介绍](http://www.jb51.net/article/50511.htm)
-+ [Python detailed Re Match, Search Examples - Dot Net Perls](https://www.dotnetperls.com/re-python)
-+ ​
+- [re — Regular expression operations(官方文档)](https://docs.python.org/3/library/re.html)
+- [python正则表达式re模块详细介绍](http://www.jb51.net/article/50511.htm)
+- [Python detailed Re Match, Search Examples - Dot Net Perls](https://www.dotnetperls.com/re-python)
+- ​
 
 ### ==[os](https://docs.python.org/3/library/os.html)==
 #### os.path
-+ [os.path — Common pathname manipulations](https://docs.python.org/3/library/os.path.html)
+- [os.path — Common pathname manipulations](https://docs.python.org/3/library/os.path.html)
 
 ### ==sys==
 
-### ==爬虫==
+### 爬虫
 
-### requests
+#### requests
 
 - [Requests: HTTP for Humans](http://www.python-requests.org/en/master/)
 
@@ -140,16 +145,17 @@
 
 
 
-## <u>Python语法和规范</u>
+## Python语法和规范
 ### PEP8
 1. [**PEP 8** -- Style Guide for Python Code](http://legacy.python.org/dev/peps/pep-0008/)
 
 
+
 ## 面向对象分析
 
-## <u>函数式编程</u>
+## 函数式编程
 
-## <u>爬虫</u>
+## 爬虫
 
 ###  别人的笔记
 
@@ -161,7 +167,7 @@
 
 
 ---
-#  [**Java**](https://docs.oracle.com/javase/8/docs/)
+#  [Java](https://docs.oracle.com/javase/8/docs/)
 ## 图形
 
 ### 概述or详论
@@ -174,7 +180,6 @@
 
 ###  布局管理器
 
-<<<<<<< HEAD
 - [java中setSize(),setLocation()和setBounds()的关系](https://blog.csdn.net/u011235543/article/details/51892500)
 
 #### Layout
@@ -182,34 +187,23 @@
 - [**Official:** A Visual Guide to Layout Managers](https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html)
 - [**Official:**  How to Use GridLayout](https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html)
 
+
+
 #### Border
 
 - [**Official:** How to Use Borders](https://docs.oracle.com/javase/tutorial/uiswing/components/border.html)
-=======
-#### Layout
 
-- [A Visual Guide to Layout Managers](https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html)
-
-#### Border
-
-- [Official: How to Use Borders](https://docs.oracle.com/javase/tutorial/uiswing/components/border.html)
->>>>>>> 6983ad826bf2b2acc10bcdb4432adb4524a2a900
 
 ###  事件处理
 
 ###  AWT绘图
 
-<<<<<<< HEAD
 - [**Official:** A Closer Look at the *Paint Mechanism*](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
 
 ####  Graphics类
 
 - [Java中*paint, repaint, update*之间的关系(闪烁问题的解决)](http://blog.csdn.net/sangjinchao/article/details/53052897)
-=======
-####  Graphics类
 
-- [java中paint,repaint,update之间的关系(闪烁问题的解决)](http://blog.csdn.net/sangjinchao/article/details/53052897)
->>>>>>> 6983ad826bf2b2acc10bcdb4432adb4524a2a900
 
 ####  Graphics2D类
 
@@ -217,11 +211,9 @@
 
 ### Specific Item
 
-<<<<<<< HEAD
-=======
 - [A Closer Look at the Paint Mechanism](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
 
->>>>>>> 6983ad826bf2b2acc10bcdb4432adb4524a2a900
+
 ##  结构化数据
 ###  Collection
 ####  总论
@@ -235,7 +227,7 @@
   ​
 
 ####  Set
->
+
 - [java的set集合的遍历, 和**倒序遍历**](http://blog.csdn.net/shenshen123jun/article/details/9074097)
 - [java Set集合**详解**](http://blog.csdn.net/qq_33642117/article/details/52040345)
 
@@ -253,7 +245,7 @@
 - [Java匿名类也能使用构造函数](https://my.oschina.net/sub/blog/222790)  <!--简短有趣的一个小程序计算功能-->
 
 ###  [Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)类相关
-####  _[类的克隆](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--)_
+####  [类的克隆](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--)
 - [Java提高篇——对象克隆, 原因，实现，要点](http://www.cnblogs.com/Qian123/p/5710533.html)
 
 
@@ -264,7 +256,7 @@
 
 - [java提高篇(五)—–抽象类与接口](http://cmsblogs.com/?p=56)
 
-####  _Comparable_和_Comparator_
+####  Comparable和Comparator
 
 - [Java中实现对象的比较：Comparable接口和Comparator接口](http://www.cnblogs.com/Kevin-mao/p/5912775.html)
 - [Java 中 Comparable 和 Comparator 比较](http://www.cnblogs.com/skywang12345/p/3324788.html)
@@ -273,13 +265,13 @@
 
 ##  常用API或类库
 ###  字符串
-####  _[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)_
+####  [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 - [String、StringBuffer、与StringBuilder的区别](http://www.cnblogs.com/sevenlin/p/sevenlin_StringBuffer_StringBuilder20150806.html)
 - [Java String类的常用方法汇总](http://www.jb51.net/article/88331.htm) 
 - [Java – String Class and its methods explained with examples](https://beginnersbook.com/2013/12/java-strings/)
 - [Java String examples](http://www.java-examples.com/java-string-examples)
 
-####  _[StringBuffer](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuffer.html)和[StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)_
+####  [StringBuffer](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuffer.html)和[StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
 - [String、StringBuffer、与StringBuilder的区别](http://www.cnblogs.com/sevenlin/p/sevenlin_StringBuffer_StringBuilder20150806.html)
 - [StringBuffer与StringBuilder的区别，及实现原理](http://www.cnblogs.com/myhappylife/p/6542633.html)
 
@@ -293,7 +285,7 @@
 
 ##  文件和I/O
 ###  [java.io](https://docs.oracle.com/javase/8/docs/api/java/io/package-summary.html)
-####  _[java.io.File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)_
+####  [java.io.File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 - [File 类**源代码**解析](http://czj4451.iteye.com/blog/1507760)
 
 ###  [java.nio](https://docs.oracle.com/javase/8/docs/api/java/nio/package-summary.html)
@@ -329,6 +321,7 @@
 ##  变量和基本类型
 ###  变量
 ####  _全局变量_
+
 - [C++全局变量在**多个源代码**文件中的使用](http://blog.csdn.net/jiadebin890724/article/details/40509333)
 
 ##  字符串,向量和数组
@@ -364,6 +357,8 @@
 - [知乎:Java贪吃蛇应用的设计与实现](https://zhuanlan.zhihu.com/p/23316639) <!--设计思想很好-->
 - [有哪些适合新手练手的Java项目？](https://zhuanlan.zhihu.com/p/22062736)
 
+
+
 # 开发工具
 
 ##  Java
@@ -373,7 +368,9 @@
 - [代码生成利器：IDEA 强大的 Live Templates](http://blog.jobbole.com/110607/)
 
 
+
 ##  Vim
+
 ###  插件
 
 ###### nerdtree
@@ -384,16 +381,19 @@
 
 - [Vim galore 中文翻译，构建 Vim 知识体系](https://github.com/wsdjeg/vim-galore-zh_cn)
 
+
+
 ###  外部工具
 
 #### Astyle 
 
 - [Astyle官网文档](http://astyle.sourceforge.net/astyle.html)
-
-
 - [Astyle常用参数表格化](http://www.cnblogs.com/zhaoshixin/archive/2011/12/02/2272076.html)
 
+
+
 ##  Vscode
+
 ###  Get Started
 - [vscode**官网**](https://code.visualstudio.com/docs?start=true)
 - [使用vscode写python的正确姿态](http://www.cnblogs.com/bloglkl/archive/2016/08/23/5797805.html)
@@ -401,6 +401,8 @@
 ###  Plugins
 
 ---
+
+
 
 # 其他
 

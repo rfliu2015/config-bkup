@@ -78,7 +78,7 @@ set wildmode=longest,list:longest  " zsh-like
 set foldenable
 set foldmethod=syntax
 set foldcolumn=2
-set foldlevel=1
+set foldlevel=9
 
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
