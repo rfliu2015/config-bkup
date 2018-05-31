@@ -24,6 +24,8 @@
 
 - [Operating System Engineering](https://pdos.csail.mit.edu/6.828/2014/xv6.html)
 - [6.828/2018](https://pdos.csail.mit.edu/6.828/2017/)
+- [chyyuu (chyyuu)· GitHub](https://github.com/chyyuu/)
+- [OS2017(Spring)| Institute of Computer Software](http://moon.nju.edu.cn/people/fengxu/OS2017)
 
 ---
 

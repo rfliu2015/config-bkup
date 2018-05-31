@@ -5,13 +5,26 @@
 ---
 [TOC]
 
+---
+
 # 编程练习网站
+
+- [Dashboard | HackerRank](https://www.hackerrank.com/dashboard)
+- [Home | Codewars](https://www.codewars.com/dashboard)
+- [LintCode](http://www.lintcode.com/) <!--login by google account-->
+- [学堂在线-最大的中文慕课(MOOC)平台](http://www.xuetangx.com/)
+- [全部 - 课程 - 实验楼](https://www.shiyanlou.com/courses/)
+- [中国大学MOOC(慕课)_最好的在线课程学习平台](http://www.icourse163.org/home.htm?userId=1022247890#/home/course)
+- [C语言上交作业](ftp://172.26.184.2/)
+
+### Operation System
 
 ## 别人的博文推荐
 
 - [CSDN：2017年最受欢迎的10个编程挑战网站](http://blog.csdn.net/xiexingshishu/article/details/78024571)
+- [2017年最受欢迎的10个编程挑战网站 原 2017年最受欢迎的10个编程挑战网站 可乐瓶的小辣椒 – 技术成就梦想](http://sparkgis.com/java/2017/10/2017%e5%b9%b4%e6%9c%80%e5%8f%97%e6%ac%a2%e8%bf%8e%e7%9a%8410%e4%b8%aa%e7%bc%96%e7%a8%8b%e6%8c%91%e6%88%98%e7%bd%91%e7%ab%99-%e5%8e%9f-2017%e5%b9%b4%e6%9c%80%e5%8f%97%e6%ac%a2%e8%bf%8e%e7%9a%8410/)
 
-
+---
 
 # Python
 
@@ -23,8 +36,6 @@
 ### ==Python内置函数==
 - [**深入分析**Python 中 eval 带来的潜在风险](http://python.jobbole.com/82770/)
 - [Python中的exec、eval使用实例](http://www.jb51.net/article/55529.htm)
-
-#### 
 
 ### ==Python语句==
 - [使用import匯入模組](https://openhome.cc/Gossip/Python/ImportImportAsFrom.html)
@@ -332,7 +343,9 @@
 
 - [c++数组遍历十种方式](https://blog.csdn.net/man_sion/article/details/54945579) <!--简略无解释只有代码-->
 
+## QT
 
+- [Qt编程指南，Qt新手教程，Qt Programming Guide](https://lug.ustc.edu.cn/sites/qtguide/)
 
 
 

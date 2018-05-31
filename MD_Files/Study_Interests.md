@@ -7,10 +7,14 @@
 # General
 
 - [知乎专栏：这些公开课让你脑洞大开 | 物语](https://zhuanlan.zhihu.com/p/21561233)
-
 - [知乎：Coursera 上有哪些课程值得推荐](https://www.zhihu.com/question/22436320)
-
 - [B站超全文史公开课汇总（经典名著）](https://www.bilibili.com/read/cv21466/)
+- [除了edx，coursera，网络还有哪里公开课资源？ - 知乎](https://www.zhihu.com/question/27952897)
+
+## Platform
+
+- [全民终身学习课程平台 - 首页 - 精品课 - Home Page](http://www.jingpinke.com/)
+- [全部课程 | 果壳MOOC学院](http://mooc.guokr.com/course/?dept_id=52&order=grading)
 
 
 
@@ -21,6 +25,7 @@
 ### Statistics
 
 - [Bilibili：【熟肉·合集】十分钟速成课：统计学（更新至11集）](https://www.bilibili.com/video/av20624185?from=search&seid=7786483019099648998)
+- [可汗学院公开课：统计学全85集 网易公开课](http://open.163.com/special/Khan/khstatistics.html)
 
 ## ==Computer Science==
 
