@@ -251,6 +251,7 @@
 - [pornhub](https://www.pornhub.com/)
 - [Camster](https://camster.com/) <!--Live online-->
 - [KindGirls](http://www.kindgirls.com/)
+- [XHAMSTER](https://xhamster.com/photos)
 
 ### Video URL Resolution
 
