@@ -208,6 +208,12 @@
 
 - [**Official:** How to Use Tables](https://docs.oracle.com/javase/tutorial/uiswing/components/table.html)
 
+#### Questions
+
+- [StackOverflow：JInternalFrame is not show](https://stackoverflow.com/questions/22546762/jinternalframe-is-not-show)
+
+  > 在desktopPane.add(JInternalFrame)之后，JInternalFram.setVisible(true); 的顺序
+
 
 
 ###  AWT绘图
