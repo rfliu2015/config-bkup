@@ -190,7 +190,7 @@ let g:tagbar_width=25
 "@@@ vim-autoformat.vim
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 noremap <F3> :Autoformat<CR>
-au BufWrite * :Autoformat "formatted upon saving file
+" au BufWrite * :Autoformat "formatted upon saving file
 let g:autoformat_retab = 1
 let g:autoformat_remove_trailing_spaces = 1
 
@@ -386,7 +386,7 @@ nnoremap tp :tabprevious<Cr>
 nnoremap <TAB> >>
 nnoremap <S-TAB> <<
 vnoremap <TAB> >
-vnoremap <S-TAB> >
+vnoremap <S-TAB> <
 
 nnoremap j gj
 nnoremap k gk

@@ -89,43 +89,40 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-    #
-    # Example aliases
-    alias zshconfig="vim ~/.zshrc"
-    # alias ohmyzsh="mate ~/.oh-my-zsh"
-    alias v="vim"
-    alias ains="sudo apt install"
-        alias arm="sudo apt remove"
-            alias update="sudo apt update"
-                alias upgrade="sudo apt upgrade"
-                    alias gv="gvim"
-                    alias snow="shutdown -h now"
-                    alias vrc="vim ~/.vimrc"
+# Example aliases
+alias zshconfig="vim ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias v="vim"
+alias ains="sudo apt install"
+alias arm="sudo apt remove"
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
+alias gv="gvim"
+alias snow="shutdown -h now"
+alias vrc="vim ~/.vimrc"
+alias python="python3"
+alias ado="python3 ~/bin/ado.py"
+alias pln="python3 ~/bin/pln.py"
+alias lines="python3 ~/bin/lines.py"
 
-                    alias python="python3"
+alias -s md="typora"
+alias -s cpp="vim"
+alias -s hpp="vim"
+alias -s h="vim"
+alias -s c="vim"
+alias -s py="python3"
 
-
-                    alias -s md="typora"
-                    alias -s cpp="vim"
-                    alias -s hpp="vim"
-                    alias -s h="vim"
-                    alias -s c="vim"
-                    alias -s py="python3"
-
-
-                    alias ado="python3 ~/bin/ado.py"
-                        alias pln="python3 ~/bin/pln.py"
-                        alias lines="python3 ~/bin/lines.py"
 
 # *** for ncl
-    export NCARG_ROOT=/opt/ncl_ncarg-6.4.0-Debian8.6_64bit_gnu492
-    export PATH=$NCARG_ROOT/bin:$PATH
+export NCARG_ROOT=/opt/ncl_ncarg-6.4.0-Debian8.6_64bit_gnu492
+export PATH=$NCARG_ROOT/bin:$PATH
 
-    alias ncq="ncl -Q"
+alias ncq="ncl -Q"
 
 
 # $$$ for git
-    alias gs="git status"
-    alias ga.="git add ."
-    alias gcm="git commit -m"
-    alias gpush="git push origin master"
+alias gs="git status"
+alias ga.="git add ."
+alias gcm="git commit -m"
+alias gpush="git push origin master"
+alias gpull="git pull origin master"
