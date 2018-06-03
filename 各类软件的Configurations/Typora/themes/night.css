@@ -7,6 +7,8 @@
     --side-bar-bg-color: #2E3033;
     --text-color: #b8bfc6;
 
+    --select-text-bg-color:#4a89dc;
+
     --item-hover-bg-color: #0a0d16;
     --control-text-color: #b7b7b7;
     --control-text-hover-color: #eee;
@@ -74,7 +76,7 @@ textarea {
 hr {
     height: 2px;
     border: 0;
-    margin: 50px 0 !important;
+    margin: 24px 0 !important;
 }
 
 h1,

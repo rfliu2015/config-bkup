@@ -7,6 +7,8 @@
     --side-bar-bg-color: #2E3033;
     --text-color: #b8bfc6;
 
+    --select-text-bg-color:#4a89dc;
+
     --item-hover-bg-color: #0a0d16;
     --control-text-color: #b7b7b7;
     --control-text-hover-color: #eee;
@@ -476,7 +478,7 @@ td {
     color: #b8bfc6;
 }
 
-.md-table-edit {
+.ty-table-edit {
     border-top: 1px solid gray;
     background-color: #363B40;
 }

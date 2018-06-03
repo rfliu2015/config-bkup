@@ -37,6 +37,14 @@
 	--active-file-text-color: white;
 	--bg-color: #f3f2ee;
 	--text-color: #1f0909;
+
+	--select-text-bg-color: rgba(32, 43, 51, 0.63);
+    --select-text-font-color: white;
+}
+
+pre {
+	--select-text-bg-color: #36284e;
+	--select-text-font-color: #fff;
 }
 
 html {
@@ -218,10 +226,6 @@ code,
 .md-fences {
 	margin-left: 2em;
 	margin-bottom: 3em;
-}
-
-.md-fences .CodeMirror.CodeMirror-wrap {
-	top: -0.8em;
 }
 
 pre,
