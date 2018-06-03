@@ -37,6 +37,14 @@
 	--active-file-text-color: white;
 	--bg-color: #f3f2ee;
 	--text-color: #1f0909;
+
+	--select-text-bg-color: rgba(32, 43, 51, 0.63);
+    --select-text-font-color: white;
+}
+
+pre {
+	--select-text-bg-color: #36284e;
+	--select-text-font-color: #fff;
 }
 
 html {
@@ -276,7 +284,7 @@ blockquote {
 	border-color: #bababa;
 	color: #656565;
 }
-thead.md-table-edit {
+.ty-table-edit {
 	background-color: transparent;
 }
 thead {

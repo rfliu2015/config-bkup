@@ -134,9 +134,8 @@ body {
 	-webkit-box-sizing: border-box;
 }
 
-.md-table-edit {
+.ty-table-edit {
 	background: #ededed;
-    padding-top: 4px;
 }
 
 table {
