@@ -75,6 +75,8 @@
 
 > <img src="https://i.loli.net/2018/05/31/5b0f83a23e75e.png" alt="载波和调制波.png" title="载波和调制波.png" />
 
+- [CSDN: CSMA/CD协议最小帧长的思考](https://blog.csdn.net/u011240016/article/details/52719183)
+
 
 
 ---

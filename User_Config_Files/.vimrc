@@ -208,6 +208,7 @@ autocmd FileType vim,tex,zshrc let b:autoformat_autoindent=0
 "@@@ vim-commentary.vim
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <Leader>c :Commentary<Cr>
+vnoremap <Leader>c :Commentary<cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -354,7 +355,7 @@ func SetTitle()
     if &filetype == 'sh'
         call setline(1, "\#!/bin/bash")
     elseif &filetype == 'python'
-        call setline(1, "\#!/usr/bin/python")
+        call setline(1, "\#!/usr/bin/python3")
         call append(line("."), "\# -*- coding: utf-8 -*-")
     elseif &filetype == 'cpp'
         call setline(1, "#include <iostream>")
