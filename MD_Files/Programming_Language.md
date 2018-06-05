@@ -55,6 +55,8 @@
 - [The N-dimensional array(官网)](https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html)
 - [Python Numpy 数组的初始化和基本操作](http://blog.csdn.net/Baoli1008/article/details/50531684) <!--基本操作-->
 - [python numpy基础 数组和矢量计算](http://python.jobbole.com/87352/) <!--一般-->
+- [scipy的线性代数](https://docs.scipy.org/doc/scipy/reference/tutorial/linalg.html)
+- [Python--线性代数篇](http://www.cnblogs.com/moon1992/p/4960700.html) <!--条目分明-->
 
 ##### Specific
 
@@ -64,6 +66,7 @@
 
 - [numpy生成随机数组](http://blog.csdn.net/u013066730/article/details/58590270)
 - [numpy 数组维度操作 reshape/flatten/transpose](https://blog.csdn.net/weixin_38283159/article/details/78793277)
+- [numpy中的广播机制](http://www.cnblogs.com/jiaxin359/p/9021726.html)
 ##### Questions
 
 - [Stackoverflow: numpy: multiply arrays rowwise](https://stackoverflow.com/questions/22934219/numpy-multiply-arrays-rowwise)
@@ -83,13 +86,6 @@
 - [利用matplotlib+numpy绘制多种绘图的方法实例](http://www.jb51.net/article/112805.htm)
 
 
-
-### 数学相关
-
-#### 线性代数
-
-- [scipy的线性代数](https://docs.scipy.org/doc/scipy/reference/tutorial/linalg.html)
-- [Python--线性代数篇](http://www.cnblogs.com/moon1992/p/4960700.html) <!--条目分明-->
 
 
 
