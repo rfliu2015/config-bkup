@@ -66,3 +66,9 @@
 
 - [用Python画一个中国地图](https://segmentfault.com/a/1190000010871928)
 - [用Python画中国地图（二）](https://segmentfault.com/a/1190000010900212)
+
+## EOF分析
+
+- [主分量分析与核主分量分析](https://wenku.baidu.com/view/42c002264b35eefdc8d33311#20)
+- [EOF应用：从数据预处理到详细分析](https://wenku.baidu.com/view/42c002264b35eefdc8d33311#20)
+- [对EOF分解的自己的理解](https://wenku.baidu.com/view/abea8b1b6bd97f192279e9e1)
