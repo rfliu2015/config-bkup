@@ -1,8 +1,3 @@
-
-
-# 我的CSDN收藏网址
-
----
 [TOC]
 
 ---
@@ -17,63 +12,64 @@
 - [中国大学MOOC(慕课)_最好的在线课程学习平台](http://www.icourse163.org/home.htm?userId=1022247890#/home/course)
 - [C语言上交作业](ftp://172.26.184.2/)
 
-### Operation System
+
 
 ## 别人的博文推荐
 
 - [CSDN：2017年最受欢迎的10个编程挑战网站](http://blog.csdn.net/xiexingshishu/article/details/78024571)
-- [2017年最受欢迎的10个编程挑战网站 原 2017年最受欢迎的10个编程挑战网站 可乐瓶的小辣椒 – 技术成就梦想](http://sparkgis.com/java/2017/10/2017%e5%b9%b4%e6%9c%80%e5%8f%97%e6%ac%a2%e8%bf%8e%e7%9a%8410%e4%b8%aa%e7%bc%96%e7%a8%8b%e6%8c%91%e6%88%98%e7%bd%91%e7%ab%99-%e5%8e%9f-2017%e5%b9%b4%e6%9c%80%e5%8f%97%e6%ac%a2%e8%bf%8e%e7%9a%8410/)
+- [2017年最受欢迎的10个编程挑战网站 可乐瓶的小辣椒 – 技术成就梦想](http://sparkgis.com/java/2017/10/2017%e5%b9%b4%e6%9c%80%e5%8f%97%e6%ac%a2%e8%bf%8e%e7%9a%8410%e4%b8%aa%e7%bc%96%e7%a8%8b%e6%8c%91%e6%88%98%e7%bd%91%e7%ab%99-%e5%8e%9f-2017%e5%b9%b4%e6%9c%80%e5%8f%97%e6%ac%a2%e8%bf%8e%e7%9a%8410/)
 
 ---
 
 # Python
 
-## 基础知识
+## Basic
 
-### ==Python数据结构==
+### Data Structure
 - [Python列表解析详解](http://python.jobbole.com/83884/)
 
-### ==Python内置函数==
+### Built-in Functions
 - [**深入分析**Python 中 eval 带来的潜在风险](http://python.jobbole.com/82770/)
 - [Python中的exec、eval使用实例](http://www.jb51.net/article/55529.htm)
 
-### ==Python语句==
+### Statements
 - [使用import匯入模組](https://openhome.cc/Gossip/Python/ImportImportAsFrom.html)
 
 
 
-## 数据处理
+## Data Processing
 
-### 各种库
+### ==numpy And Scipy==
 
-#### ==numpy And Scipy==
+#### General
 
-##### General
-
-- [Numpy Quickstart tutorial(官网)](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
-- [NumPy functions by category(官网)](https://docs.scipy.org/doc/numpy/reference/routines.html)
-- [The N-dimensional array(官网)](https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html)
-- [Python Numpy 数组的初始化和基本操作](http://blog.csdn.net/Baoli1008/article/details/50531684) <!--基本操作-->
+- [Cnblogs: Python--**线性代数**篇](http://www.cnblogs.com/moon1992/p/4960700.html) <!--条目分明-->
+- [Official: NumPy **functions by category**](https://docs.scipy.org/doc/numpy/reference/routines.html)
+- [Official: The N-dimensional array](https://docs.scipy.org/doc/numpy-1.13.0/reference/arrays.ndarray.html)
+- [CSDN: Python Numpy 数组的初始化和基本操作](http://blog.csdn.net/Baoli1008/article/details/50531684) <!--基本操作-->
 - [python numpy基础 数组和矢量计算](http://python.jobbole.com/87352/) <!--一般-->
+- [Official: Linear Algebra (scipy.linalg)](https://docs.scipy.org/doc/scipy/reference/tutorial/linalg.html)
+- [Official: Numpy Quickstart tutorial](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
 
-##### Specific
+#### Specific
 
-- [Array creation routines(官网)](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.array-creation.html#routines-array-creation)
+- [Official: Array creation routines](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.array-creation.html#routines-array-creation)
 
-##### Other Items
+#### Other Items
 
-- [numpy生成随机数组](http://blog.csdn.net/u013066730/article/details/58590270)
-- [numpy 数组维度操作 reshape/flatten/transpose](https://blog.csdn.net/weixin_38283159/article/details/78793277)
-##### Questions
+- [CSDN: numpy生成**随机数组**](http://blog.csdn.net/u013066730/article/details/58590270)
+- [CSDN: numpy **数组维度**操作 *reshape/flatten/transpose*](https://blog.csdn.net/weixin_38283159/article/details/78793277)
+- [Cnblogs: numpy中的**广播机制**](http://www.cnblogs.com/jiaxin359/p/9021726.html)
+#### Questions
 
 - [Stackoverflow: numpy: multiply arrays rowwise](https://stackoverflow.com/questions/22934219/numpy-multiply-arrays-rowwise)
 - [Numpy中Meshgrid函数介绍及2种应用场景](http://www.cnblogs.com/lemonbit/p/7593898.html)
 
 
 
-#### ==matplotlib.pyplot==
+### ==matplotlib.pyplot==
 
-##### General
+#### General
 
 - [pyplot tutorial(官网)](https://matplotlib.org/tutorials/introductory/pyplot.html)
 - [Matplotlib tutorial](http://www.labri.fr/perso/nrougier/teaching/matplotlib/) <!--个人博客，简略全，旁边有参考链接-->
@@ -82,94 +78,49 @@
 - [Python--matplotlib绘图可视化知识点整理](http://python.jobbole.com/85106/)
 - [利用matplotlib+numpy绘制多种绘图的方法实例](http://www.jb51.net/article/112805.htm)
 
+### 鸡零琐碎
 
-
-### 数学相关
-
-#### 线性代数
-
-- [scipy的线性代数](https://docs.scipy.org/doc/scipy/reference/tutorial/linalg.html)
-- [Python--线性代数篇](http://www.cnblogs.com/moon1992/p/4960700.html) <!--条目分明-->
+- [CSDN: Python 小数点精度控制](http://blog.csdn.net/zhongbeida_xue/article/details/51274760)
 
 
 
-### Python和数据格式
-
-- [Python 小数点精度控制](http://blog.csdn.net/zhongbeida_xue/article/details/51274760)
-
-
-
-## 数据可视化
-
-### General
-
-- [6 种 Python 数据可视化工具](http://python.jobbole.com/85601/)
-- [10个超实用的数据可视化库](http://nooverfit.com/wp/10%E4%B8%AA%E8%B6%85%E5%AE%9E%E7%94%A8%E7%9A%84python%E5%8F%AF%E8%A7%86%E5%8C%96%E5%BA%93%EF%BC%8C%E6%80%BB%E6%9C%89%E4%B8%80%E6%AC%BE%E9%80%82%E5%90%88%E4%BD%A0/)
-
-### Specific Topic
-
-#### Basemap
-
-- [Basemap(官网)](https://matplotlib.org/basemap/)
-
-
-- [【python数据挖掘课程】二十二.Basemap地图包安装入门及基础知识讲解](https://blog.csdn.net/Eastmount/article/details/79188415)
-
-
-- [用Python画一个中国地图](https://segmentfault.com/a/1190000010871928)
-- [用Python画中国地图（二）](https://segmentfault.com/a/1190000010900212)
-
-#### PyEcharts
-
-- [Python 数据可视化之PyEcharts](https://zhuanlan.zhihu.com/p/27990382)
-
-
-
-## 文件和I/O
+## File and I/O
 
 - [Python open()文件处理使用介绍](http://www.jb51.net/article/58002.htm)
 
 
 
-## 常用的第三方库
+## Practical Third Party Libraries
 
-### ==re==
+### ==RE==
 - [re — Regular expression operations(官方文档)](https://docs.python.org/3/library/re.html)
 - [python正则表达式re模块详细介绍](http://www.jb51.net/article/50511.htm)
 - [Python detailed Re Match, Search Examples - Dot Net Perls](https://www.dotnetperls.com/re-python)
-- ​
 
-### ==[os](https://docs.python.org/3/library/os.html)==
-#### os.path
+### ==[OS](https://docs.python.org/3/library/os.html)==
 - [os.path — Common pathname manipulations](https://docs.python.org/3/library/os.path.html)
 
-### ==sys==
-
-### 爬虫
-
-#### requests
-
-- [Requests: HTTP for Humans](http://www.python-requests.org/en/master/)
-
-#### beautifulsoup4
-
-- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Beautiful Soup 4.4.0. 文档](http://beautifulsoup.readthedocs.io/zh_CN/latest/#)
 
 
 
 
-## Python语法和规范
-### PEP8
+## Others
 1. [**PEP 8** -- Style Guide for Python Code](http://legacy.python.org/dev/peps/pep-0008/)
 
 
 
-## 
+## Web Crawler
 
-## 爬虫
+### ==requests==
 
-###  别人的笔记
+- [Requests: HTTP for Humans](http://www.python-requests.org/en/master/)
+
+### ==beautifulsoup4==
+
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Beautiful Soup 4.4.0. 文档](http://beautifulsoup.readthedocs.io/zh_CN/latest/#)
+
+###  Notes
 
 - [知乎：Python入门网络爬虫之精华版](https://github.com/lining0806/PythonSpiderNotes)
 - [知乎：宁哥的小站之爬虫部分](http://www.lining0806.com/category/spider/)
