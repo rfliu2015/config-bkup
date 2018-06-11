@@ -48,6 +48,11 @@
 - [Numpy中Meshgrid函数介绍及2种应用场景](http://www.cnblogs.com/lemonbit/p/7593898.html)
 - [Stackoverflow: Testing if the matrix is a symmetric or skew-symmetric?](https://stackoverflow.com/questions/25602717/testing-if-the-matrix-is-a-symmetric-or-skew-symmetric)
 
+#### Petty
+
+- [NumPy的梯度函数](https://www.jianshu.com/p/0b7ae131ed29)
+- [记录：Numpy(v1.11.1)梯度函数存在的一个问题](https://www.jianshu.com/p/81c8dc55f076)
+
 
 
 ### ==matplotlib.pyplot==
