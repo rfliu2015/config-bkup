@@ -12,3 +12,13 @@
 ###### Pycharm 
 
 - [(官网)](https://www.jetbrains.com/pycharm/download/#section=linux)
+
+
+
+### 美化
+
+- [简书：不美翻怎么开发!Ubuntu 16.04 LTS深度美化!(2017年度定稿版)](https://www.jianshu.com/p/4bd2d9b1af41)
+
+### 好玩
+
+- [动画演示10个有趣但毫无用处的Linux命令](http://www.vaikan.com/10-funny-liunx-command/)
