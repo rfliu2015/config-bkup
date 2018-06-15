@@ -123,6 +123,12 @@
 - [用Python画一个中国地图](https://segmentfault.com/a/1190000010871928)
 - [用Python画中国地图（二）](https://segmentfault.com/a/1190000010900212)
 
+## R语言
+
+### 入门
+
+- [R语言教程](https://www.w3cschool.cn/r/r_overview.html)
+
 ## EOF分析
 
 - [主分量分析与核主分量分析](https://wenku.baidu.com/view/42c002264b35eefdc8d33311#20)
