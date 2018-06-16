@@ -154,6 +154,19 @@ sudo add-apt-repository ppa:viktor-krivak/pycharm
 sudo apt install pycharm
 ```
 
+### XX-Net
+
+```shell
+# 自动导入证书，需安装 libnss3-tools 包
+sudo apt install libnss3-tools 
+# 没有安装PyGtk的，需要先安装gtk：
+sudo apt-get install python-gtk2 
+# cd到XX-Net解压的目录地址，第一次启动, 请用sudo ./start.sh, 以安装CA证书
+sudo ./start.sh 
+```
+
+
+
 
 
 ## 卸载不常用
