@@ -81,7 +81,10 @@
 ### Installation
 
 - [Github: 脚本install_netcdf4.sh](https://gist.github.com/perrette/cd815d03830b53e24c82) <!--很好-->
-- [GoogleCode: netcdf4-python - UbuntuInstall.wiki](https://gist.github.com/perrette/cd815d03830b53e24c82)
+  1. [下载到hdf5-1.10.1](https://support.hdfgroup.org/ftp/HDF5/current/src/)
+  2. [下载netcdf4.6.1](ftp://ftp.unidata.ucar.edu/pub/netcdf/)
+
+- [GoogleCode: netcdf4-python - UbuntuInstall.wiki](https://code.google.com/archive/p/netcdf4-python/wikis/UbuntuInstall.wiki)
 - [Official: Unidata: Getting and Building netCDF](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html#build_default)
 - [Github: Unidata/netcdf4-python](https://github.com/Unidata/netcdf4-python)
 
