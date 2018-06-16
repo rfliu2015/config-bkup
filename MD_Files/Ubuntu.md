@@ -1,10 +1,9 @@
 # Ubuntu 安装软件
 
+- [Ubuntu 常用软件安装](https://www.jianshu.com/p/4d220b01686b)
+- [Ubuntu主题美化、个性化设置与常用软件](http://yangbingdong.com/2017/ubuntu-todo-after-install/) <!--全面-->
+
 ## 编程语言
-
-### Java环境
-
-- [Install Java on Ubuntu using apt-get by ***PPA***](https://poweruphosting.com/blog/install-java-ubuntu/)
 
 ### Intellij
 
@@ -43,7 +42,7 @@
 
 ```shell
 sudo apt install cmake git 
-sudo apt install cairo-dock guake 
+sudo apt install cairo-dock cairo-dock-plug-ins guake 
 sudo apt install unity-tweak-tool gnome-tweak-tool
 
 # pcmanfm
@@ -56,11 +55,15 @@ sudo apt install pcmanfm ; xdg-mime default pcmanfm.desktop inode/directory appl
 git config --global user.email "rfliu2015@gmail.com"
 git config --global user.name "rfliu2015"
 ssh-keygen -t rsa -C "rfliu2015@email.com"
-cd ~/.ssh
-gedit id_rsa.pub    # 将文件内容添加至github或其它代码托管平台
+gedit ~/.ssh/id_rsa.pub    # 将文件内容添加至github或其它代码托管平台
 ```
 
+##### Q&A
+
+- [Github之SSH连接配置](http://www.linmuxi.com/2016/02/24/github-config-ssh/)
+
 #### Zsh
+
 ```shell
 sudo apt install zsh
 # sudo apt update
@@ -144,6 +147,16 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt install oracle-java8-installer
 ```
 
+### Intellij Idea
+
+```shell
+curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
+echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
+# sudo apt update
+sudo apt install intellij-idea-ultimate
+```
+
+> 也可以从这个仓库安装Pycharm
 
 ### Pycharm
 
@@ -155,6 +168,8 @@ sudo apt install pycharm
 ```
 
 ### XX-Net
+
+- [下载界面](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)
 
 ```shell
 # 自动导入证书，需安装 libnss3-tools 包

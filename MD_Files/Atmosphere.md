@@ -80,16 +80,18 @@
 
 ### Installation
 
-- [Github: 脚本install_netcdf4.sh](https://gist.github.com/perrette/cd815d03830b53e24c82) <!--很好-->
+- [Github: 脚本install_netcdf4.sh](https://gist.github.com/perrette/cd815d03830b53e24c82) <!--很好,但是需要一些修改-->
   1. ~~[下载到hdf5-1.10.1](https://support.hdfgroup.org/ftp/HDF5/current/src/)~~ <!--很慢-->
-  2. [下载hdf5-1.10.2](https://www.hdfgroup.org/downloads/hdf5/source-code/)
-  3. [下载netcdf4.6.1](ftp://ftp.unidata.ucar.edu/pub/netcdf/)
+  2. `sudo apt install m4 libcurl4-openssl-dev`
+  3. [下载zlib 1.2.11](https://zlib.net/)
+  4. [下载hdf5-1.10.2](https://www.hdfgroup.org/downloads/hdf5/source-code/)
+  5. [下载netcdf4.6.1](ftp://ftp.unidata.ucar.edu/pub/netcdf/)
 
 - [GoogleCode: netcdf4-python - UbuntuInstall.wiki](https://code.google.com/archive/p/netcdf4-python/wikis/UbuntuInstall.wiki)
 - [Official: Unidata: Getting and Building netCDF](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html#build_default)
 - [Github: Unidata/netcdf4-python](https://github.com/Unidata/netcdf4-python)
 
-### ==Usage==
+### ==NetCDF4 Usage==
 
 - [Python - NetCDF reading and writing example with plotting](http://schubert.atmos.colostate.edu/~cslocum/netcdf_example.html)
 
