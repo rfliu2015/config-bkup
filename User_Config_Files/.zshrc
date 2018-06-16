@@ -2,7 +2,7 @@
     # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/blackt/.oh-my-zsh
+export ZSH=/home/storm/.oh-my-zsh
 . /usr/share/autojump/autojump.sh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
