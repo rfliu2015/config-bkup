@@ -78,7 +78,7 @@
 
 ## NetCDF4-Python
 
-### Installation
+### Ubuntu Installation
 
 - [Github: 脚本install_netcdf4.sh](https://gist.github.com/perrette/cd815d03830b53e24c82) <!--很好,但是需要一些修改-->
   1. ~~[下载到hdf5-1.10.1](https://support.hdfgroup.org/ftp/HDF5/current/src/)~~ <!--很慢-->
@@ -90,6 +90,10 @@
 - [GoogleCode: netcdf4-python - UbuntuInstall.wiki](https://code.google.com/archive/p/netcdf4-python/wikis/UbuntuInstall.wiki)
 - [Official: Unidata: Getting and Building netCDF](https://www.unidata.ucar.edu/software/netcdf/docs/getting_and_building_netcdf.html#build_default)
 - [Github: Unidata/netcdf4-python](https://github.com/Unidata/netcdf4-python)
+
+### Windows Installation
+
+- [win10+python3.6下netCDF4以及basemap的安装](https://blog.csdn.net/Larry_fighting/article/details/80542674) <!--还没尝试-->
 
 ### ==NetCDF4 Usage==
 
@@ -119,7 +123,7 @@
 >
 >   `pip3 install --upgrade matplotlib`
 
-### ==Usages==
+### ==Basemap Usages==
 
 - [Official: Basemap tutorial](http://basemaptutorial.readthedocs.io/en/latest/index.html) <!--全面-->
 - [Visualization: Mapping Global Earthquake Activity](http://introtopython.org/visualization_earthquakes.html#Making-a-simple-map) <!--步骤清晰-->
