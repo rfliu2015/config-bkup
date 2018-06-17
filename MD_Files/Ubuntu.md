@@ -22,3 +22,7 @@
 ### 好玩
 
 - [动画演示10个有趣但毫无用处的Linux命令](http://www.vaikan.com/10-funny-liunx-command/)
+
+### 评论
+
+- [升级到 Ubuntu 18.04 LTS 的理由，大波新特性到来](https://www.oschina.net/news/94692/ubuntu-18-04-new-features)
