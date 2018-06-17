@@ -424,6 +424,7 @@ inoremap <leader>< <><Left>
 nnoremap <Leader>l :loadview<Cr>
 nnoremap <Leader>m :mkview<Cr>
 nnoremap <Leader>n :next<Cr>
+nnoremap <Leader>p :previous<Cr>
 inoremap <Leader>o <End><Cr>
 inoremap <Leader>O <Home><Cr><Up>
 nnoremap <Leader>v V

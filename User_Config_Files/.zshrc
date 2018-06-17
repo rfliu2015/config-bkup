@@ -2,7 +2,7 @@
     # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/blackt/.oh-my-zsh
+export ZSH=/home/storm/.oh-my-zsh
 . /usr/share/autojump/autojump.sh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -96,6 +96,7 @@ alias v="vim"
 alias ains="sudo apt install"
 alias pins="pip3 install --user"
 alias arm="sudo apt remove"
+alias prm="sudo apt-get purge"
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
 alias gv="gvim"
