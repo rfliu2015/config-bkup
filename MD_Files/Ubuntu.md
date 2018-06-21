@@ -52,6 +52,11 @@ sudo apt install unity-tweak-tool gnome-tweak-tool
 
 # pcmanfm
 sudo apt install pcmanfm ; xdg-mime default pcmanfm.desktop inode/directory application/x-gnome-saved-search
+
+# python 3.6
+sudo add-apt-repository ppa:deadsnakes/ppa
+# sudo apt update
+sudo apt install python3.6
 ```
 
 #### Git配置

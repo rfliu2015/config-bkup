@@ -16,9 +16,19 @@
 - [visdom](https://github.com/facebookresearch/visdom)
 - [Python 数据可视化之PyEcharts](https://zhuanlan.zhihu.com/p/27990382)
 
+### For Download
 
+- [Tsinghua Miniconda](https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/)
 
 ## Data Processing
+
+### General
+
+- [AARON SCHLEGEL](http://www.aaronschlegel.com/) <!--一个个人博客-->
+- [Cate - The ESA CCI Toolbox](https://cate.readthedocs.io/en/latest/index.html) <!--高大上-->
+- [eofs: A Library for EOF Analysis of Meteorological, Oceanographic, and Climate Data](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.122/)
+- [介绍气候研究中几个常用Python包给大家](http://bbs.06climate.com/forum.php?mod=viewthread&tid=49523)
+- [机器学习（Machine Learning）- 吴恩达（Andrew Ng）](https://www.bilibili.com/video/av9912938?from=search&seid=1939566517714256699)
 
 ### ==numpy And Scipy==
 
@@ -139,8 +149,36 @@
 
 - [R语言教程](https://www.w3cschool.cn/r/r_overview.html)
 
-## EOF分析
 
+
+## PCA分析
+
+- [In Depth: Principal Component Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html)
+- [主成分分析（PCA）-最大方差解释](https://blog.csdn.net/huang1024rui/article/details/46662195) <!--解释不错-->
 - [主分量分析与核主分量分析](https://wenku.baidu.com/view/42c002264b35eefdc8d33311#20)
 - [matlab经验正交函数EOF(转载)](https://wenku.baidu.com/view/e64ba4691eb91a37f1115c0b.html?from=search) <!--解法步骤条例清晰，编程参考-->
+- [Bilibili：机器学习数学基础_PCA](https://www.bilibili.com/video/av22519623?from=search&seid=13946604917998003074)
 - [对EOF分解的自己的理解](https://wenku.baidu.com/view/abea8b1b6bd97f192279e9e1)
+
+---
+
+- [Ajdawson eof in Python](http://ajdawson.github.io/eofs/api/eofs.standard.html#eofs.standard.Eof)
+
+  > ***Warning: The first dimension is assumed to represent time.***
+
+### Python实现
+
+- [sklearn.decomposition.PCA方法中fit, fit_transform, transform应该怎么用](http://sofasofa.io/forum_main_post.php?postid=1000389)  <!--很好的文章-->
+- [Principal Component Analysis (PCA) in Python](https://stackoverflow.com/questions/13224362/principal-component-analysis-pca-in-python) <!--一个手动计算的实例-->
+- [scikit-learn中PCA的使用方法](https://blog.csdn.net/u012162613/article/details/42192293)
+- [使用 PCA 进行降维处理——基于 sklearn 库](http://buptguo.com/2015/04/19/pca-by-sklearn/)
+- [知乎：EOF/PCA的python实践](https://zhuanlan.zhihu.com/p/31445649)
+- [PCA in numpy and sklearn produces different results](https://stats.stackexchange.com/questions/235882/pca-in-numpy-and-sklearn-produces-different-results) <!--标准化处理-->
+
+## Rotated PCA
+
+- [factor_rotation](https://github.com/mvds314/factor_rotation/blob/master/README.md)
+- [Practical Guide to Principal Component Analysis (PCA) in R & Python](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
+
+- [perform varimax rotation in python using numpy](https://stackoverflow.com/questions/17628589/perform-varimax-rotation-in-python-using-numpy)
+- [Issures: Add Varimax rotation for Factor Analysis and PCA ](https://github.com/scikit-learn/scikit-learn/issues/2688)

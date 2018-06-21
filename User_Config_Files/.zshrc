@@ -95,6 +95,7 @@ alias zshconfig="vim ~/.zshrc"
 alias v="vim"
 alias ains="sudo apt install"
 alias pins="pip3 install --user"
+alias conins="conda install -c conda-forge"
 alias arm="sudo apt remove"
 alias prm="sudo apt-get purge"
 alias update="sudo apt update"
@@ -102,17 +103,18 @@ alias upgrade="sudo apt upgrade"
 alias gv="gvim"
 alias snow="shutdown -h now"
 alias vrc="vim ~/.vimrc"
-alias python="python3"
-alias ado="python3 ~/bin/ado.py"
-alias pln="python3 ~/bin/pln.py"
-alias lines="python3 ~/bin/lines.py"
+alias python="python3.6"
+alias py="python3.6"
+alias ado="python3.6 ~/bin/ado.py"
+alias pln="python3.6 ~/bin/pln.py"
+alias lines="python3.6 ~/bin/lines.py"
 
 alias -s md="typora"
 alias -s cpp="vim"
 alias -s hpp="vim"
 alias -s h="vim"
 alias -s c="vim"
-alias -s py="python3"
+alias -s py="python3.6"
 
 
 # *** for ncl
@@ -128,3 +130,7 @@ alias ga.="git add ."
 alias gcm="git commit -m"
 alias gpush="git push origin master"
 alias gpull="git pull origin master"
+
+# 特定目录
+conf='/home/storm/Git/config-bkup'
+
