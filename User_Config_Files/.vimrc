@@ -23,6 +23,46 @@ Plug 'tpope/vim-surround'
 Plug 'Valloric/YouCompleteMe'
 call plug#end()
 
+"""""""""""""""""""""""""""""""@@@ youcompleteme.vim"""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ycm_confirm_extra_conf=0 "关闭加载.ycm_extra_conf.py提示
+let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
+let g:ycm_cache_omnifunc=0                      " 禁止缓存匹配项,每次都重新生成匹配项
+" let g:ycm_server_python_interpreter='/usr/bin/python3'
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif    "离开插入模式后自动关闭预览窗口
+inoremap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
+"上下左右键的行为 会显示其他信息
+inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
+inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
+inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>"
+inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
+let g:ycm_collect_identifiers_from_tags_files=1 " 开启 YCM 基于标签引擎
+let g:ycm_min_num_of_chars_for_completion=99     " turns off the identifier completion engine and just leaves the semantic engine.
+let g:ycm_seed_identifiers_with_syntax=1        " 语法关键字补全
+let g:ycm_complete_in_strings = 1   "在字符串输入中也能补全
+let g:ycm_add_preview_to_completeopt = 0
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_warning_symbol = '*>'
+let g:ycm_key_invoke_completion = '<c-z>'
+let g:ycm_filetype_whitelist = {
+            \ "c":1,
+            \ "cpp":1,
+            \ "objc":1,
+            \ "sh":1,
+            \ "zsh":1,
+            \ "zimbu":1,
+            \ }
+let g:ycm_semantic_triggers =  {
+            \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
+            \ 'cs,lua,javascript': ['re!\w{2}'],
+            \ }
+highlight PMenu ctermfg=0 ctermbg=242 guifg=black guibg=darkgrey
+highlight PMenuSel ctermfg=242 ctermbg=8 guifg=darkgrey guibg=black
+
+nnoremap <Leader>jd :YcmCompleter GoToDeclaration<Cr>
+nnoremap <Leader>jc :YcmCompleter GoToDefinition<Cr>
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "###外观
@@ -103,46 +143,6 @@ set fencs=utf8,gbk,gb2312,gb18030
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""""""""""""""""""""""""""""@@@ youcompleteme.vim"""""""""""""""""""""""""""""""
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:ycm_confirm_extra_conf=0 "关闭加载.ycm_extra_conf.py提示
-let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
-let g:ycm_cache_omnifunc=0                      " 禁止缓存匹配项,每次都重新生成匹配项
-" let g:ycm_server_python_interpreter='/usr/bin/python3'
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif    "离开插入模式后自动关闭预览窗口
-inoremap <expr> <CR>       pumvisible() ? "\<C-y>" : "\<CR>"
-"上下左右键的行为 会显示其他信息
-inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
-inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
-inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>"
-inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
-let g:ycm_collect_identifiers_from_tags_files=1 " 开启 YCM 基于标签引擎
-let g:ycm_min_num_of_chars_for_completion=99     " turns off the identifier completion engine and just leaves the semantic engine.
-let g:ycm_seed_identifiers_with_syntax=1        " 语法关键字补全
-let g:ycm_complete_in_strings = 1   "在字符串输入中也能补全
-let g:ycm_add_preview_to_completeopt = 0
-let g:ycm_autoclose_preview_window_after_completion = 1
-let g:ycm_autoclose_preview_window_after_insertion = 1
-let g:ycm_warning_symbol = '*>'
-let g:ycm_key_invoke_completion = '<c-z>'
-let g:ycm_filetype_whitelist = {
-            \ "c":1,
-            \ "cpp":1,
-            \ "objc":1,
-            \ "sh":1,
-            \ "zsh":1,
-            \ "zimbu":1,
-            \ }
-let g:ycm_semantic_triggers =  {
-            \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{1}'],
-            \ 'cs,lua,javascript': ['re!\w{2}'],
-            \ }
-highlight PMenu ctermfg=0 ctermbg=242 guifg=black guibg=darkgrey
-highlight PMenuSel ctermfg=242 ctermbg=8 guifg=darkgrey guibg=black
-
-nnoremap <Leader>jd :YcmCompleter GoToDeclaration<Cr>
-nnoremap <Leader>jc :YcmCompleter GoToDefinition<Cr>
-
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -196,7 +196,7 @@ let g:autoformat_remove_trailing_spaces = 1
 
 " let g:formatdef_custom_c='"astyle --style=linux -cpU -j -z2 --align-pointer=type"'
 " 大小写关键
-let g:formatdef_custom_c='"clang-format -style=file"'
+let g:formatdef_custom_c='"clang-format-5.0 -style=file"'
 " let g:formatdef_custom_c='"clang-format -style=Google"'
 let g:formatters_c = ['custom_c']
 let g:formatters_cpp = ['custom_c']

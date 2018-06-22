@@ -145,9 +145,28 @@
 
 ## R语言
 
+### 准备
+
+```shell
+# ===install R=== official
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
+# sudo apt-get update
+sudo apt-get install r-base	
+
+# ===Install tidyverse from CRAN===
+install.packages("tidyverse")
+```
+
+
+
 ### 入门
 
 - [R语言教程](https://www.w3cschool.cn/r/r_overview.html)
+
+### Usage 
+
+- [Official: tidyverse](https://tidyverse.tidyverse.org/)
 
 
 
@@ -177,8 +196,6 @@
 
 ## Rotated PCA
 
-- [factor_rotation](https://github.com/mvds314/factor_rotation/blob/master/README.md)
-- [Practical Guide to Principal Component Analysis (PCA) in R & Python](https://www.analyticsvidhya.com/blog/2016/03/practical-guide-principal-component-analysis-python/)
+- [How to compute varimax-rotated principal components in R?](https://stats.stackexchange.com/questions/59213/how-to-compute-varimax-rotated-principal-components-in-r)
 
-- [perform varimax rotation in python using numpy](https://stackoverflow.com/questions/17628589/perform-varimax-rotation-in-python-using-numpy)
-- [Issures: Add Varimax rotation for Factor Analysis and PCA ](https://github.com/scikit-learn/scikit-learn/issues/2688)
+- [perform varimax rotation in python using numpy](https://stackoverflow.com/questions/17628589/perform-varimax-rotation-in-python-using-numpy) <!--垃圾-->
