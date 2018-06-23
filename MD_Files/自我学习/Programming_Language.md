@@ -82,7 +82,21 @@
 - [知乎：Python入门网络爬虫之精华版](https://github.com/lining0806/PythonSpiderNotes)
 - [知乎：宁哥的小站之爬虫部分](http://www.lining0806.com/category/spider/)
 
+## 书籍阅读
 
+### 流畅的Python
+
+<img src="https://upload-images.jianshu.io/upload_images/906960-d491862659f9ddbe.png" style="zoom:10%"/>
+
+- [简书：《流畅的 Python》 读后感&笔记](https://www.jianshu.com/p/36c40147e64a)
+
+  > 完全讲的自己对每一个章节的读后感，更重要的是**做了很详细的思维导图笔记**！
+
+- [流畅的python要点整理](https://www.jianshu.com/p/7a831fe1d484)
+
+### Problem Solving with Algorithms and Data Structure Using Python
+
+- [problem-solving-with-algorithms-and-data-structure-using-python 中文版](https://facert.gitbooks.io/python-data-structure-cn/)
 
 ---
 #  [Java](https://docs.oracle.com/javase/8/docs/)
