@@ -29,7 +29,11 @@
 
 ## ==Computer Science==
 
-- [Bilibili：【合集：10分钟速成课：计算机科学 Crash Course Computer Science】](https://www.bilibili.com/video/av8694900?from=search&seid=7128644318475597913)
+- [Bilibili：【合集：10分钟速成课：计算机科学 Crash Course Computer Science】](https://www.bilibili.com/video/av8694900?from=search&seid=7128644318475597913)  
+
+### 机器学习
+
+- [机器学习（Machine Learning）- 吴恩达（Andrew Ng）](https://www.bilibili.com/video/av9912938?from=search&seid=1939566517714256699)
 
 ## ==Psychology==
 
