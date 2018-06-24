@@ -45,7 +45,9 @@
 
 - [Python open()文件处理使用介绍](http://www.jb51.net/article/58002.htm)
 
+### ==[OS](https://docs.python.org/3/library/os.html)==
 
+- [os.path — Common pathname manipulations](https://docs.python.org/3/library/os.path.html)
 
 ## Practical Third Party Libraries
 
@@ -53,11 +55,6 @@
 - [re — Regular expression operations(官方文档)](https://docs.python.org/3/library/re.html)
 - [python正则表达式re模块详细介绍](http://www.jb51.net/article/50511.htm)
 - [Python detailed Re Match, Search Examples - Dot Net Perls](https://www.dotnetperls.com/re-python)
-
-### ==[OS](https://docs.python.org/3/library/os.html)==
-- [os.path — Common pathname manipulations](https://docs.python.org/3/library/os.path.html)
-
-
 
 
 
