@@ -37,12 +37,28 @@ audio:not([controls]) {
 template {
   display: none;
 }
-a {
+/* a {
   background-color: transparent;
 }
-a:active,
 a:hover {
   outline: 0;
+  color: #e10000;
+}
+a:active {
+  outline: 0;
+} */
+a {
+  color: #555;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 1px solid #999;
+  word-wrap: break-word;
+}
+a:hover {
+  color: #b58900;
+  border-bottom-color: #222;
+  font-size: 1.01em;
+  /* text-decoration: overline; */
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -55,8 +71,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 2rem; /* em-> rem */
+  margin: 0.67rem 0;
 }
 mark {
   background: #ff0;
@@ -217,8 +233,9 @@ h6 {
   font-weight: bold;
   line-height: 1.5;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  color:#009688;
 }
+h1, h2, h3 { color: #009688; }
+h4, h5, h6 { color: #b58900; }
 h1,
 h2,
 h3,
@@ -278,17 +295,7 @@ h6 {
 p {
   margin: 0 0 20px 0;
 }
-a {
-  color: #555;
-  text-decoration: none;
-  outline: none;
-  border-bottom: 1px solid #999;
-  word-wrap: break-word;
-}
-a:hover {
-  color: #222;
-  border-bottom-color: #222;
-}
+
 blockquote {
   margin: 0;
   padding: 0;

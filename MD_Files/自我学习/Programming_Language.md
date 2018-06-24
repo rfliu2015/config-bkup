@@ -201,8 +201,7 @@
 - [Java String类的常用方法汇总](http://www.jb51.net/article/88331.htm) 
 - [Java – String Class and its methods explained with examples](https://beginnersbook.com/2013/12/java-strings/)
 - [Java String examples](http://www.java-examples.com/java-string-examples)
-
-####  [StringBuffer](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuffer.html)和[StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
+- [StringBuffer](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuffer.html)和[StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
 - [String、StringBuffer、与StringBuilder的区别](http://www.cnblogs.com/sevenlin/p/sevenlin_StringBuffer_StringBuilder20150806.html)
 - [StringBuffer与StringBuilder的区别，及实现原理](http://www.cnblogs.com/myhappylife/p/6542633.html)
 
@@ -223,10 +222,10 @@
 
 ##  文件和I/O
 
-####  [java.io.File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
-- [File 类**源代码**解析](http://czj4451.iteye.com/blog/1507760)
+- [java.io.File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 
-###  [java.util.Scanner](https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html)
+- [File 类**源代码**解析](http://czj4451.iteye.com/blog/1507760)
+- [java.util.Scanner](https://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html)
 - [Java Scanner tutorial and examples](http://javatutorialhq.com/java/util/scanner-class-tutorial/)
 - [Java Scanner general description](http://www.tutorialspoint.com/java/util/java_util_scanner.htm)
 
@@ -333,17 +332,3 @@
 ###  Get Started
 - [vscode**官网**](https://code.visualstudio.com/docs?start=true)
 - [使用vscode写python的正确姿态](http://www.cnblogs.com/bloglkl/archive/2016/08/23/5797805.html)
-
-###  Plugins
-
----
-
-
-
-# 其他
-
-## 微信小程序
-
-- [知乎：如何入门微信小程序开发，有哪些学习资料？](https://www.zhihu.com/question/50907897)
-- [微信公共平台：小程序](https://developers.weixin.qq.com/miniprogram/dev/)
-- [简书：微信小程序开发教程--从零开始](https://www.jianshu.com/p/aaef5ceb3936)
