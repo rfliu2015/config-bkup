@@ -29,14 +29,11 @@
 
 ## Basic
 
-### Data Structure
 - [Python列表解析详解](http://python.jobbole.com/83884/)
 
-### Built-in Functions
 - [**深入分析**Python 中 eval 带来的潜在风险](http://python.jobbole.com/82770/)
 - [Python中的exec、eval使用实例](http://www.jb51.net/article/55529.htm)
 
-### Statements
 - [使用import匯入模組](https://openhome.cc/Gossip/Python/ImportImportAsFrom.html)
 
 
@@ -44,8 +41,6 @@
 ## File and I/O
 
 - [Python open()文件处理使用介绍](http://www.jb51.net/article/58002.htm)
-
-### ==[OS](https://docs.python.org/3/library/os.html)==
 
 - [os.path — Common pathname manipulations](https://docs.python.org/3/library/os.path.html)
 
@@ -65,19 +60,17 @@
 
 ## Web Crawler
 
-### ==requests==
-
-- [Requests: HTTP for Humans](http://www.python-requests.org/en/master/)
-
-### ==beautifulsoup4==
-
-- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Beautiful Soup 4.4.0. 文档](http://beautifulsoup.readthedocs.io/zh_CN/latest/#)
-
-###  Notes
+#### General
 
 - [知乎：Python入门网络爬虫之精华版](https://github.com/lining0806/PythonSpiderNotes)
 - [知乎：宁哥的小站之爬虫部分](http://www.lining0806.com/category/spider/)
+
+#### Library
+
+- [Requests: HTTP for Humans](http://www.python-requests.org/en/master/)
+
+- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Beautiful Soup 4.4.0. 文档](http://beautifulsoup.readthedocs.io/zh_CN/latest/#)
 
 ## 书籍阅读
 
@@ -99,55 +92,42 @@
 #  [Java](https://docs.oracle.com/javase/8/docs/)
 ## 图形
 
-### 概述or详论
+### General
 
 - [Java笔记(10)-图形界面设计、Swing、窗口、JFrame、常用组件和布局、处理事件、MVC结构、对话框、GUI](https://blog.csdn.net/Peng_Hong_fu/article/details/52682179)
 
+###  Specific
 
-
-###  布局管理器
-
-- [Java中setSize(),setLocation()和setBounds()的关系](https://blog.csdn.net/u011235543/article/details/51892500)
-- [Java: Difference between the setPreferredSize() and setSize()](https://stackoverflow.com/questions/1783793/java-difference-between-the-setpreferredsize-and-setsize-methods-in-compone)
-
-#### Layout
+#### 傻大全
 
 - [**Official:** A Visual Guide to Layout Managers](https://docs.oracle.com/javase/tutorial/uiswing/layout/visual.html)
 - [**Official:**  How to Use GridLayout](https://docs.oracle.com/javase/tutorial/uiswing/layout/grid.html)
 
-#### Border
-
 - [**Official:** How to Use Borders](https://docs.oracle.com/javase/tutorial/uiswing/components/border.html)
-
-#### Pane
 
 - [**Official:** How to Use Scroll Panes](https://docs.oracle.com/javase/tutorial/uiswing/components/scrollpane.html)
 
-#### Others
-
 - [**Official:** How to Use Tables](https://docs.oracle.com/javase/tutorial/uiswing/components/table.html)
 
-#### Questions
+### Petty
+
+- [Java中setSize(),setLocation()和setBounds()的关系](https://blog.csdn.net/u011235543/article/details/51892500)
+- [Java: Difference between the setPreferredSize() and setSize()](https://stackoverflow.com/questions/1783793/java-difference-between-the-setpreferredsize-and-setsize-methods-in-compone)
+- [**Official:** A Closer Look at the *Paint Mechanism*](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
+- [Java中***paint, repaint, update***之间的关系(闪烁问题的解决)](http://blog.csdn.net/sangjinchao/article/details/53052897)
+- [A Closer Look at the **Paint Mechanism**](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
+
+### Questions
 
 - [StackOverflow：JInternalFrame is not show](https://stackoverflow.com/questions/22546762/jinternalframe-is-not-show)
 
-  > 在desktopPane.add(JInternalFrame)之后，JInternalFram.setVisible(true); 的顺序
-
-
-
-###  AWT绘图
-
-- [**Official:** A Closer Look at the *Paint Mechanism*](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
-
-- [Java中*paint, repaint, update*之间的关系(闪烁问题的解决)](http://blog.csdn.net/sangjinchao/article/details/53052897)
-
-- [A Closer Look at the **Paint Mechanism**](https://docs.oracle.com/javase/tutorial/uiswing/painting/closer.html) <!--super.paintComponet-->
+  > 在`desktopPane.add(JInternalFrame)`之后，`JInternalFram.setVisible(true)`; 的顺序
 
 
 
 ##  结构化数据
 
-####  总论
+####  General
 - [Java - Collection实例**简略**解析](http://blog.csdn.net/itlwc/article/details/10148321)
 - [Java集合框架之Collection实例**详细**解析](http://blog.csdn.net/qq_28261343/article/details/52614411)
 
@@ -156,38 +136,24 @@
 - [java提高篇(三十)-----Iterator](http://cmsblogs.com/?p=1185)
 - [java的**iterator删除**机制](http://www.cnblogs.com/hasse/p/5024193.html)
 
-##### Set
+#### Specific
 
 - [java的set集合的遍历, 和**倒序遍历**](http://blog.csdn.net/shenshen123jun/article/details/9074097)
 - [java Set集合**详解**](http://blog.csdn.net/qq_33642117/article/details/52040345)
 
-
-#####  Map
 - [HashMap和Hashtable的区别](http://www.importnew.com/7010.html)
 
 
 
 ##  面对对象技术
-###  匿名类,抽象类和内部类
+####  Specific
+- [Java提高篇——对象克隆, 原因，实现，要点](http://www.cnblogs.com/Qian123/p/5710533.html)
 - [ActionListener的三种实现方法](https://my.oschina.net/MissLee/blog/203949)
 - [java提高篇(八)----详解内部类](http://www.cnblogs.com/chenssy/p/3388487.html)
 - [java提高篇(九)----详解匿名内部类](http://blog.csdn.net/chenssy/article/details/13170015)
 - [Java匿名类也能使用构造函数](https://my.oschina.net/sub/blog/222790)  <!--简短有趣的一个小程序计算功能-->
 
-
-
-####  [类的克隆](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--)
-- [Java提高篇——对象克隆, 原因，实现，要点](http://www.cnblogs.com/Qian123/p/5710533.html)
-
-
-
-### 抽象类和接口
-
-####  总述
-
 - [java提高篇(五)—–抽象类与接口](http://cmsblogs.com/?p=56)
-
-####  Comparable和Comparator
 
 - [Java中实现对象的比较：Comparable接口和Comparator接口](http://www.cnblogs.com/Kevin-mao/p/5912775.html)
 - [Java 中 Comparable 和 Comparator 比较](http://www.cnblogs.com/skywang12345/p/3324788.html)
@@ -196,7 +162,6 @@
 
 ##  常用API或类库
 ###  字符串
-####  [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 - [String、StringBuffer、与StringBuilder的区别](http://www.cnblogs.com/sevenlin/p/sevenlin_StringBuffer_StringBuilder20150806.html)
 - [Java String类的常用方法汇总](http://www.jb51.net/article/88331.htm) 
 - [Java – String Class and its methods explained with examples](https://beginnersbook.com/2013/12/java-strings/)
@@ -209,7 +174,7 @@
 
 - [Java 8 – Get Current Date and Time](https://beginnersbook.com/2017/09/java-8-get-current-date-and-time/)
 
-  > `ava.time.LocalDate`,`java.time.LocalTime` &`java.time.LocalDateTime`
+  > 三个类`ava.time.LocalDate`,`java.time.LocalTime` &`java.time.LocalDateTime`
 
 
 
@@ -233,16 +198,12 @@
 
 ##  异常
 
-###  异常的基础知识
 - [Java异常处理的**要点总结**](http://lavasoft.blog.51cto.com/62575/18920/)
 
-###  处理异常的思想和最佳实践
 - [Java有效处理异常三**原则**](http://www.importnew.com/1701.html)
 - [9 Best Practices to Handle Exceptions in Java](https://stackify.com/best-practices-exceptions-java/)
 - [Exceptions: Why throw early? Why catch late?](https://softwareengineering.stackexchange.com/questions/231057/exceptions-why-throw-early-why-catch-late)
 - [The **try-with-resources** Statement](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html)
-
-
 
 ##  数字
 
@@ -251,7 +212,6 @@
 
 ## 数据处理
 
-### 线性代数
 - [*JAMA* : A Java Matrix Package](http://math.nist.gov/javanumerics/jama/)
 - [JAMA Matrix Document](http://math.nist.gov/javanumerics/jama/doc/)
 - [JAVA矩阵包JAMA学习](http://blog.csdn.net/liuzhoulong/article/details/47005659)
@@ -260,75 +220,13 @@
 
 
 
-#  cpp
+#  C++
 
-##  变量和基本类型
-####  _全局变量_
-
+##  Basic
 - [C++全局变量在**多个源代码**文件中的使用](http://blog.csdn.net/jiadebin890724/article/details/40509333)
-
-##  
-
-### 数组
 
 - [c++数组遍历十种方式](https://blog.csdn.net/man_sion/article/details/54945579) <!--简略无解释只有代码-->
 
 ## QT
 
 - [Qt编程指南，Qt新手教程，Qt Programming Guide](https://lug.ustc.edu.cn/sites/qtguide/)
-
-
-
----
-# 可以尝试的项目
-
-## C++
-
-- [c++经典项目控制台贪吃蛇小游戏详细教程](https://blog.csdn.net/silence1772/article/details/55005008)
-- [c++经典项目控制台贪吃蛇小游戏详细教程](https://github.com/silence1772/GreedySnake)
-
-## Java
-
-- [知乎:Java贪吃蛇应用的设计与实现](https://zhuanlan.zhihu.com/p/23316639) <!--设计思想很好-->
-- [有哪些适合新手练手的Java项目？](https://zhuanlan.zhihu.com/p/22062736)
-
-
-
-# 开发工具
-
-##  Java
-###  ==IntelliJ IDEA==
-
-- [ IntelliJ IDEA优秀插件（编程通用）](http://blog.csdn.net/sujun10/article/details/72852939)
-- [代码生成利器：IDEA 强大的 Live Templates](http://blog.jobbole.com/110607/)
-
-
-
-##  Vim
-
-###  插件
-
-###### nerdtree
-
-- [NERDTree 配置详细](https://blog.csdn.net/ccccdddxxx/article/details/50575753)
-
-###  vimrc的一些设置&教程
-
-- [Vim galore 中文翻译，构建 Vim 知识体系](https://github.com/wsdjeg/vim-galore-zh_cn)
-
-
-
-###  外部工具
-
-#### Astyle 
-
-- [Astyle官网文档](http://astyle.sourceforge.net/astyle.html)
-- [Astyle常用参数表格化](http://www.cnblogs.com/zhaoshixin/archive/2011/12/02/2272076.html)
-
-
-
-##  Vscode
-
-###  Get Started
-- [vscode**官网**](https://code.visualstudio.com/docs?start=true)
-- [使用vscode写python的正确姿态](http://www.cnblogs.com/bloglkl/archive/2016/08/23/5797805.html)
