@@ -1,16 +1,15 @@
-## 软件&工具推荐
+## 软件
+
+### Recommend
 
 - [Github: Best Windows Windows Apps](https://github.com/stackia/best-windows-apps)
 - [Windows常用软件推荐 *by HelloDog*](https://wsgzao.github.io/post/windows/)  <!--2016/04--->
 - [ifanr: Windows 上有什么鲜为人知的好软件？| 自爆区 023](http://www.ifanr.com/app/823084)
 
-## 软件
-
-### DIY Software And VIP
+### DIY Software And VIP Collections
 
 - [下一个好软件](https://www.xia1ge.com/) <!--Win, Android, IOS, Mac-->
 - [7k 免费科学上网工具](https://www.7k21.com/)
-- [PortableApps.com AppCompactor | PortableApps.com - Portable software for USB, portable and cloud drives](https://portableapps.com/apps/utilities/portableapps.com_appcompactor)
 - [精品资源分享](http://www.jpzyfx.com/)
 - [精品绿色软件](https://www.portablesoft.org/)
 - [Apowersoft](https://www.apowersoft.tw/) <!--为您提供专业的商务办公及日常生活的桌面软件和在线-->
@@ -21,6 +20,7 @@
 - [软件NO.1](http://www.rjno1.com/) <!--需要关闭adblock-->
 - [轻狂志 - 少轻狂分享优质软件资源！](http://www.flighty.cn/)
 - [免费吧-分享互联网-分享精品免费资源！](http://www.mianfeib.com/) <!--更新较少-->
+- [PortableApps.com AppCompactor | PortableApps.com - Portable software for USB, portable and cloud drives](https://portableapps.com/apps/utilities/portableapps.com_appcompactor)
 
 ### Web Browers
 
@@ -34,7 +34,9 @@
 
 - [提供Chrome商店中优秀的Chrome插件推荐与下载服务](http://chromecj.com/)
 
+#### 星愿浏览器
 
+-  [福利吧：星愿浏览器：度盘高速下载&看视频无广告](http://fuliba.net/twinkstar.html) <!--有绿色版本4.0-->
 
 ## Installations
 

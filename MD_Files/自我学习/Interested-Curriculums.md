@@ -4,7 +4,7 @@
 
 
 
-# General
+# Recommend
 
 - [知乎专栏：这些公开课让你脑洞大开 | 物语](https://zhuanlan.zhihu.com/p/21561233)
 - [知乎：Coursera 上有哪些课程值得推荐](https://www.zhihu.com/question/22436320)
@@ -27,13 +27,24 @@
 - [Bilibili：【熟肉·合集】十分钟速成课：统计学（更新至11集）](https://www.bilibili.com/video/av20624185?from=search&seid=7786483019099648998)
 - [可汗学院公开课：统计学全85集 网易公开课](http://open.163.com/special/Khan/khstatistics.html)
 
+###  Linear Algebra
+
+- [Bilibili：线性代数的本质【熟肉】](https://www.bilibili.com/video/av5987715?from=search&seid=12621488406557834507)
+- [Bilibili：吴恩达机器学习图解笔记](https://www.bilibili.com/video/av20994456?from=search&seid=14849620634007483368)
+
+### Probability
+
+- [Bilibili：概率机器学习基础：MIT概率课图解笔记](https://www.bilibili.com/video/av23922698?from=search&seid=14849620634007483368)
+
 ## ==Computer Science==
 
 - [Bilibili：【合集：10分钟速成课：计算机科学 Crash Course Computer Science】](https://www.bilibili.com/video/av8694900?from=search&seid=7128644318475597913)  
 
 ### 机器学习
 
-- [机器学习（Machine Learning）- 吴恩达（Andrew Ng）](https://www.bilibili.com/video/av9912938?from=search&seid=1939566517714256699)
+- [Bilibili：机器学习（Machine Learning）- 吴恩达（Andrew Ng）](https://www.bilibili.com/video/av9912938?from=search&seid=1939566517714256699)
+- [Bilibili：吴恩达机器学习图解笔记](https://www.bilibili.com/video/av20994456?from=search&seid=14849620634007483368)
+- [Bilibili：概率机器学习基础：MIT概率课图解笔记](https://www.bilibili.com/video/av23922698?from=search&seid=14849620634007483368)
 
 ## ==Psychology==
 

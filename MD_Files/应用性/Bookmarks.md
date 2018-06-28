@@ -39,20 +39,17 @@
 
 # Browser Search Engine
 
-- [谷百度歌-左右对比一下，开启智慧大门！](https://www.gobaidugle.com/search2.php?keyword=cmder%E9%85%8D%E7%BD%AE&num=10&one=baidu&two=bing&three=sogou&four=so)
+- [龙轩导航](http://ilxdh.com/)
 - [Google香港](https://www.google.com.hk/)
 
 - [Google](https://www.google.com/ncr)
 
 - [hao123_上网从这里开始](https://www.hao123.com/)
 
-
-
 # Daily Practical Websites And Tools
 
 ### Resources Aggregation
 
-- [如何高效使用和整理印象笔记（Evernote）？ - 高效学习 - 知乎](https://www.zhihu.com/question/25852838)
 - [谷歌学术镜像_Google学术搜索导航](http://dir.scmor.com/google/)
 - [Anki与学习群 精华汇合 - 幕布](https://mubu.com/doc/g5GHJKw1B)
 - [Windows更新补丁下载网站](http://www.catalog.update.microsoft.com/home.aspx)
@@ -60,7 +57,7 @@
 
 #### ==Music==
 
-- [超高无损音乐](https://www.sq688.com/)
+- [SQ688超高无损音乐](https://www.sq688.com/)
 
 #### WeChat
 
@@ -94,19 +91,16 @@
 #### ==kindle==
 
 - [您的 Amazon.cn](https://www.amazon.cn/gp/yourstore/home?ie=UTF8&action=sign-out&claim_type=EmailAddress&new_account=1&path=%2Fgp%2Fyourstore%2Fhome&ref_=nav__gno_signout&signIn=1&useRedirectOnSuccess=1&)
+- [免费kindle电子书](https://www.amazon.cn/Kindle%E5%85%8D%E8%B4%B9%E7%94%B5%E5%AD%90%E4%B9%A6/b?ie=UTF8&node=116175071)
 - [readfree.me](http://readfree.me/)
 - [Kindle伴侣 - 为静心阅读而生](https://kindlefere.com/)
 - [狗耳朵 - Kindle推送服务](http://www.dogear.cn/)
 - [Kindle4rss](https://kindle4rss.com/)
 ##### 乱七八糟
 
-- [E-INK - Geek Talks · 奇客怪谈 - Hi!PDA Hi!PDA](http://www.hi-pda.com/forum/forumdisplay.php?fid=59)
-- [TXT精编 - OneDrive](https://onedrive.live.com/?id=65C27572E1EF52BA%21125&cid=65C27572E1EF52BA)
 - [kindle推|kindle推送|kindle图书推送|kindlepush|kindle电子书推送|kindle网站](http://www.kindlepush.com/main)
 - [Export your Kindle Highlights with Clippings.io](https://my.clippings.io/#/)
-- [找资源电子书](http://zhaoziyuan.com/)
 - [Free eBooks For Your Kindle or Other eReader | ManyBooks](http://manybooks.net/)
-- [KindleEar：免费把RSS订阅定时推送到Kindle](http://runbing.me/archives/kindleear-rss-kindle.html)
 - [Gutenberg](http://www.gutenberg.org/)
 ### To Pay
 
@@ -114,16 +108,8 @@
 - [客运服务 | 铁路客户服务中心](https://kyfw.12306.cn/otn/index/init)
 - [淘宝网 - 淘！我喜欢](https://www.taobao.com/)
 
-
-
 # Intersted Items
 
-## Keyboard Typing
-
-- [双拼加辅助码使用心得_依怡以弈_新浪博客](http://blog.sina.com.cn/s/blog_6699665d0100yk1u.html)
-- [【新手必读】如何高效练习双拼，如何快速提高打字速度_小鹤双拼吧_百度贴吧](http://tieba.baidu.com/p/2419267957)
-- [双拼输入法对比全拼输入法效率更高吗？ - 输入法 - 知乎](http://www.zhihu.com/question/20555958)
-- [盲打在线课程](http://www.typingstudy.com/zh/)
 ## Copywriting Style
 
 - [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
@@ -135,18 +121,14 @@
 - [YouTube](https://www.youtube.com/)
 - [Twitter](https://twitter.com/)
 - [Reddit](https://www.reddit.com/)
-## PC Fonts
-
-- [迷你简铁筋隶书下载-迷你字体下载-中文字体-字体下载大宝库_Font.knowsky.com](http://font.knowsky.com/down/6753.html)
-
 ## Wallpapers
-
-- [有哪些较好的壁纸网站？ - 周广恩的回答 - 知乎](https://www.zhihu.com/question/32762402/answer/58707616)
 
 
 - [www.wallpaper4k.com](http://www.wallpaper4k.com/)
 
+### Suggestions
 
+- [有哪些较好的壁纸网站？ - 周广恩的回答 - 知乎](https://www.zhihu.com/question/32762402/answer/58707616)
 
 ## pornography
 
