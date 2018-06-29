@@ -1,0 +1,56 @@
+# 问题和解答
+
+- [关于特权指令，系统调用，访管指令，trap指令](http://www.cskaoyan.com/thread-183370-1-1.html)
+
+  > **访管指令中包含TRAP指令**,也正是从TRAP指令转入内核的.首先由**用户程序主动调用访管指令**,访管指令在用户态预先把数据存入寄存器,然后**通过一条TRAP指令跳转到内核的系统调用处理程序**.调用结束后首先返回访管指令,再从访管指令返回用户程序.如果你要问为什么访管指令这么神奇的话,那是因为访管指令是用汇编语言写的. 
+  >
+  > 访管指令和TRAP指令从大面上讲属于一种内中断（在主机【内存和处理器】中发生的中断），**一般这两者不做区分，可以看成等同。** 
+  >
+  > 系统调用同样也提供一部分程序接口，用于用户程序调用。而实际上，**一旦调用这个接口，就一定产生中断进入核心态**转去执行系统调用程序。所以，我们常说的**在目态下执行系统调用并不严谨，仅仅是调用了一个接口而已**。 
+
+- [进程内核栈、用户栈](https://blog.csdn.net/bailyzheng/article/details/8015618)
+
+  > 内核在创建进程的时候，在创建task_struct的同时，会为进程创建相应的堆栈。**每个进程会有两个栈，一个用户栈，存在于用户空间，一个内核栈，存在于内核空间**。**当进程在用户空间运行时，cpu堆栈指针寄存器里面的内容是用户堆栈地址，使用用户栈**；当进程在内核空间时，cpu堆栈指针寄存器里面的内容是内核栈空间地址，使用内核栈。 
+
+- 简书：计算机启动过程
+
+  - [博客园：计算机启动过程](https://www.cnblogs.com/Braveliu/p/3305975.html ) 
+
+    > <!--例子古老，然而解释足够清楚，流程图足够详细。大好-->
+    >
+    > 当我们按下电源开关时，电源就开始向主板和其它设备供电，此时电压还不太稳定，主板上的控制芯片组会向CPU发出并保持一个RESET（重置）信号，让CPU内部自动恢复到初始状态，但CPU在此刻不会马上执行指令。当芯片组检测到电源已经开始稳定供电了（当然从不稳定到稳定的过程只是一瞬间的事情），它便撤去RESET信号，CPU马上就从地址FFFF0H处开始执行指令，从前面的介绍可知，这个地址实际上在系统BIOS的地址范围内，放在这里的只是一条跳转指令，跳到系统BIOS中真正的启动代码处。 
+
+  - [CSDN：计算机启动过程](https://blog.csdn.net/langb2014/article/details/79370818)
+
+    > <!--对CPU进入正常工作，执行BIOS之前的解释很详细。-->
+
+    > 大部分的[寄存器(registers)](http://en.wikipedia.org/wiki/Processor_register)都预先设定了在通电后的初始值，保存着CPU执行指令地址的地址寄存器(EIP)也不例外。虽然在刚刚开机后只能使用1MB的存储地址空间，但是32位的Intel处理器第一条执行指令地址为0xFFFFFFF0（4GB存储空间的最后16字节），这个地址被称为[reset vector](http://en.wikipedia.org/wiki/Reset_vector)，是现代Intel系列CPU的标准之一。
+    >
+    > 主板会保证在reset vector处的指令是一条到BIOS程序入口的跳转指令。在主板芯片组的存储地址映射作用下，所有的存储地址都对应有CPU需要的正确的内容。这些地址都被映射到了包含有BIOS的闪存中，而此时RAM中存在的只是一些无用的随机值。
+
+  - [简书：计算机启动过程 by Nuk](https://www.jianshu.com/p/dcca1543d719) <!--图配的不错，解释很差-->
+
+    > CPU启动之后首先进入的是实模式，这种模式下CPU处理的是物理内存地址，也就是说MMU没有开启分页功能，而且最多只能访问1MB的内存。
+    >
+    > 不过这时候绝大多数的CPU寄存器已经能够正常使用了，其中EIP寄存器是指向CPU要执行的指令内存地址的寄存器。启动之后，Intel CPU会有一个特殊的行为，那就是对EIP的初始值加一个基寄存器的值，让CPU跳转到0xFFFFFFF0这个地址执行那里的第一条指令。之所以称之特殊行为是因为这个地址其实大于实模式下1MB的内存限制。0xFFFFFFF0这个地址也因此被称为重置向量（reset vector）。
+
+# General
+
+- [Operating System Engineering](https://pdos.csail.mit.edu/6.828/2014/xv6.html)
+- [6.828/2018](https://pdos.csail.mit.edu/6.828/2017/)
+- [chyyuu (chyyuu)· GitHub](https://github.com/chyyuu/)
+- [OS2017(Spring)| Institute of Computer Software](http://moon.nju.edu.cn/people/fengxu/OS2017)
+
+# Specific
+
+# 存储模型
+
+## 内存管理
+
+-  [《计算机操作系统》总结三（**内存管理**）](https://blog.csdn.net/bigpudding24/article/details/48655055)
+
+  > 做的颜色标注很不错。内存管理的每一个部分都总结的全面。相同的文章在[简书：操作系统之内存管理](https://www.jianshu.com/p/901689c7820d)。
+
+- [操作系统（八）：内存管理 from Forec’s note](http://blog.forec.cn/2017/01/03/os-concepts-8/)
+
+  > 整理《Operating System Concepts》 第七版第八章内存管理部分，内容均为原书和中文版翻译的摘录 。

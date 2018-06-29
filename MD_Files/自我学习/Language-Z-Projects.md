@@ -3,7 +3,6 @@
 - [Dashboard | HackerRank](https://www.hackerrank.com/dashboard)
 - [Home | Codewars](https://www.codewars.com/dashboard)
 - [LintCode](http://www.lintcode.com/) <!--login by google account-->
-- [学堂在线-最大的中文慕课(MOOC)平台](http://www.xuetangx.com/)
 - [全部 - 课程 - 实验楼](https://www.shiyanlou.com/courses/)
 - [中国大学MOOC(慕课)_最好的在线课程学习平台](http://www.icourse163.org/home.htm?userId=1022247890#/home/course)
 - [C语言上交作业](ftp://172.26.184.2/)
@@ -17,12 +16,21 @@
 
 - [StackOverFlow中文网](http://stackoverflow.org.cn/front/ask/list)
 
+  > 就StackOverFlow的中文版，多看看的话，顺便攒经验。
+
+# 亲身经验
+
+- [知乎专栏：学习编程](https://zhuanlan.zhihu.com/passer)
+
+  > 极好的平台，包括很多笔经面经，还有知识点总结。多看看补充自己的视野。
+
 # 可以尝试的项目
 
 ## C++
 
 - [c++经典项目控制台贪吃蛇小游戏详细教程](https://blog.csdn.net/silence1772/article/details/55005008)
-- [c++经典项目控制台贪吃蛇小游戏详细教程](https://github.com/silence1772/GreedySnake)
+
+  > [Github上的源代码](https://github.com/silence1772/GreedySnake)。很不错的项目。
 
 ## Java
 

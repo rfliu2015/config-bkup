@@ -296,10 +296,6 @@ p {
   margin: 0 0 20px 0;
 }
 
-blockquote {
-  margin: 0;
-  padding: 0;
-}
 img {
   display: block;
   margin: auto;
@@ -313,10 +309,19 @@ hr {
   background-color: #ddd;
   background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
+
 blockquote {
-  padding: 0 15px;
-  color: #666;
-  border-left: 4px solid #ddd;
+  font-family: Microsoft YaHei;
+  font-size: 0.9rem;
+  border-left: 0.5rem solid rgba(102, 128, 153, 0.075);
+  background-color: rgba(102, 128, 153, 0.05);
+  border-radius:0 5px 5px 0;
+  padding: 5px 15px; /* ÉÏÏÂ±ß¾àºÍ×óÓÒ±ß¾à*/
+  margin-left:0;
+  margin-right:0;
+  color:#666;
+  position: relative;
+  line-height: 1.5;
 }
 blockquote cite::before {
   content: "-";

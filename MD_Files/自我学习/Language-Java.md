@@ -38,8 +38,6 @@
 ###  General
 - [Java - Collection实例**简略**解析](http://blog.csdn.net/itlwc/article/details/10148321)
 - [Java集合框架之Collection实例**详细**解析](http://blog.csdn.net/qq_28261343/article/details/52614411)
-
-
 - [Java**遍历**集合的几种方法分析（实现原理、算法性能、适用场合）](http://www.cnblogs.com/xyhuangjinfu/p/5429644.html)
 - [java提高篇(三十)-----Iterator](http://cmsblogs.com/?p=1185)
 - [java的**iterator删除**机制](http://www.cnblogs.com/hasse/p/5024193.html)

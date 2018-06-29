@@ -26,5 +26,5 @@
 
 ### Download
 
-- [新概念英语第二册_新概念英语第二册课文MP3下载_新概念英语_沪江英语网](http://www.hjenglish.com/nce/xingainian2/)
+- [新概念英语第二册新概念英语第二册课文MP3下载](http://www.hjenglish.com/nce/xingainian2/)
 - [人人听力网 - 在线英语听力网|英语听力教程|英语听力MP3下载](http://www.rrting.net/)
