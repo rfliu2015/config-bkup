@@ -94,6 +94,7 @@ sup {
 sub {
   bottom: -0.25em;
 }
+
 img {
   border: 0;
 }
@@ -242,7 +243,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 20px 0 15px;
+  margin: 1.1rem 0 15px;
 }
 h1 {
   font-size: 24px;
@@ -293,16 +294,16 @@ h6 {
   }
 }
 p {
-  margin: 0 0 20px 0;
+  margin: 0.4rem 0 0.4rem 0;
 }
 
 img {
-  display: block;
+  /* display: block; */
   margin: auto;
   max-width: 100%;
   height: auto;
 }
-hr {
+hr {  /* 水平分割线*/
   margin: 40px 0;
   height: 3px;
   border: none;
@@ -313,19 +314,14 @@ hr {
 blockquote {
   font-family: Microsoft YaHei;
   font-size: 0.9rem;
-  border-left: 0.5rem solid rgba(102, 128, 153, 0.075);
-  background-color: rgba(102, 128, 153, 0.05);
-  border-radius:0 5px 5px 0;
-  padding: 5px 15px; /* 上下边距和左右边距*/
-  margin-left:0;
-  margin-right:0;
-  color:#666;
+  margin: 0 0 1.5rem 0;
+  padding: 0.5rem 3rem 0.5rem 2rem;
+  line-height: 1.45;
   position: relative;
-  line-height: 1.5;
-}
-blockquote cite::before {
-  content: "-";
-  padding: 0 5px;
+  color: #383838;
+  border:2px dashed #c1c1c1;
+  border-radius:0 5px 5px 0;
+  background:#fff;
 }
 dt {
   font-weight: 700;
@@ -515,15 +511,18 @@ code {
   background: #eee;
   border-radius: 3px;
   font-size: 14px;
+  margin: 0, 0, 0, 0;
 }
 pre {
-  padding: 10px;
+  padding: 0;
+  margin: 0, 0, 0, 0;
 }
 pre code {
   padding: 0;
   color: #4d4d4c;
   background: none;
   text-shadow: none;
+  margin: 0, 0, 0, 0;
 }
 .highlight {
   border-radius: 1px;

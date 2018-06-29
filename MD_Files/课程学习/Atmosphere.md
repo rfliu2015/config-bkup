@@ -28,7 +28,7 @@
 
   - [CNBLOGS: Numpy中**Meshgrid**函数介绍及2种应用场景](http://www.cnblogs.com/lemonbit/p/7593898.html)
 
-    > <img src="https://images2017.cnblogs.com/blog/1088672/201709/1088672-20170925204600792-247576997.jpg" style="zoom:30%"/>
+    <img src="https://images2017.cnblogs.com/blog/1088672/201709/1088672-20170925204600792-247576997.jpg" style="zoom:30%"/>
 
   - [CSDN: numpy生成**随机数组**](http://blog.csdn.net/u013066730/article/details/58590270) <!--很短-->
 
@@ -43,7 +43,7 @@
 
   - [Cnblogs: numpy中的**广播机制**](http://www.cnblogs.com/jiaxin359/p/9021726.html) <!--原理和图示解释不错。-->
 
-    > ***利用python进行数据分析*** 第十一章 广播，本书的图片和广播的原则的描述都来自本书 。
+    > <u>*利用python进行数据分析*</u> 第十一章 广播，本书的图片和广播的原则的描述都来自本书 。
     >
     > 一个应用：[Stackoverflow: numpy: multiply arrays rowwise](https://stackoverflow.com/questions/22934219/numpy-multiply-arrays-rowwise)
 
@@ -92,23 +92,23 @@
     > 极好的一篇文章。对其翻译有一下两个。大致相同。可以相互补充。
     >
     > - [知乎：【翻译搬运】Matplotlib - 用Python绘制2D和3D图像](https://zhuanlan.zhihu.com/p/29740724)
-    >
     > - [腾讯云：【Python环境】matplotlib - 2D 与 3D 图的绘制](https://cloud.tencent.com/developer/article/1045483) <!--有目录-->
-    >
-    >   > 如果我们不在意坐标轴在图中的排放位置️，那么就可以使用matplotlib的布局管理器了，我最喜欢的是subplots。
+
+    > 如果我们不在意坐标轴在图中的排放位置️，那么就可以使用matplotlib的布局管理器了，我最喜欢的是subplots。
 
   - [Python 数值计算 —— 绘图与可视化 by GreatX](https://vlight.me/2018/04/14/Numerical-Python-Plotting-and-Visualization/)
 
     > 对Matplotlib画图的基本原理讲得最好。
+
+    > Matplotlib 中的图形是根据 Figure 实例和 figure 中的一个或多个 Axes 实例构建而成的。Figure 实例为绘图提供了一个画布区域(Canvas)，而 Axes 实例则提供了坐标系，用于分配给画布的特定区域。
     >
-    > Matplotlib 中的图形是根据 Figure 实例和 figure 中的一个或多个 Axes 实例构建而成的。**Figure 实例为绘图提供了一个画布区域**(Canvas)，而 **Axes 实例则提供了坐标系**，用于分配给画布的特定区域。
-    >
-    > In most cases, `add_subplot` would be the **prefered method to create axes** for plots on a canvas. Only in cases where exact positioning matters, `add_axes` might be useful. 
+    > In most cases, add_subplot would be the prefered method to create axes for plots on a canvas. Only in cases where exact positioning matters, add_axes might be useful. 
 
   - [Scipy Lecture Notes: 1.4. Matplotlib: plotting](http://www.scipy-lectures.org/intro/matplotlib/matplotlib.html)
 
     > 网页做的很好看；有目录，条理清晰，逐步增加，很好的tutorial。可复习多看。
     >
+
     > Axes are very similar to `subplots` but allow placement of plots at any location in the figure. So if we want to put a smaller plot inside a bigger one we do so with `axes`.
 
   - ["Artist" in matplotlib - something I wanted to know before spending tremendous hours on googling how-tos](https://dev.to/skotaro/artist-in-matplotlib---something-i-wanted-to-know-before-spending-tremendous-hours-on-googling-how-tos--31oo)
@@ -122,7 +122,7 @@
 
   - [**Official**: Matplotlib FAQ](https://matplotlib.org/faq/usage_faq.html)
 
-    > **General Concepts**; Parts of a Figure; **Figure**(Axes Axis Artist); Types of inputs to plotting functions;
+    > General Concepts; Parts of a Figure; Figure(Axes Axis Artist); Types of inputs to plotting functions;
     > Matplotlib, pyplot and pylab: how are they related?; **Coding Styles**
     >
     > 对一些概念的澄清和基本usage pattern使用还好。
