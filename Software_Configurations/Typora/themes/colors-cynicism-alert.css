@@ -1,11 +1,35 @@
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
+  font-size: 16px;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+/* Body Tag
+==============================================================*/
 body {
-  margin: 0;
+  position: relative;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.6; /*暂不清楚这里的作用*/
+  color: #555;
+  background: #fff;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+@media (max-width: 767px) {
+  body {
+    padding-right: 0 !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding-right: 0 !important;
+  }
+}
+@media (min-width: 1600px) {
+  body {
+    font-size: 16px;
+  }
 }
 article,
 aside,
@@ -37,16 +61,8 @@ audio:not([controls]) {
 template {
   display: none;
 }
-/* a {
-  background-color: transparent;
-}
-a:hover {
-  outline: 0;
-  color: #e10000;
-}
-a:active {
-  outline: 0;
-} */
+/* A Tag
+==============================================================*/
 a {
   color: #555;
   text-decoration: none;
@@ -55,7 +71,7 @@ a {
   word-wrap: break-word;
 }
 a:hover {
-  color: #b58900;
+  color: #21759b;
   border-bottom-color: #222;
   font-size: 1.01em;
   /* text-decoration: overline; */
@@ -69,10 +85,6 @@ strong {
 }
 dfn {
   font-style: italic;
-}
-h1 {
-  font-size: 2rem; /* em-> rem */
-  margin: 0.67rem 0;
 }
 mark {
   background: #ff0;
@@ -94,7 +106,16 @@ sup {
 sub {
   bottom: -0.25em;
 }
-
+u {
+  text-decoration: none;
+  border-bottom: 0.5px dotted;
+  padding-bottom: 0.5px;
+}
+u:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #21759b;
+}
 img {
   border: 0;
 }
@@ -200,103 +221,132 @@ th {
   background: #262a30;
   color: #fff;
 }
-body {
-  position: relative;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 14px;
-  line-height: 2;
-  color: #555;
-  background: #fff;
-}
-@media (max-width: 767px) {
-  body {
-    padding-right: 0 !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  body {
-    padding-right: 0 !important;
-  }
-}
-@media (min-width: 1600px) {
-  body {
-    font-size: 16px;
-  }
-}
+
+/* Header Tag
+==============================================================*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin: 0;
   padding: 0;
   font-weight: bold;
-  line-height: 1.5;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
-h1, h2, h3 { color: #009688; }
-h4, h5, h6 { color: #b58900; }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 1.1rem 0 15px;
+h1, h2, h3 { color: #21759b; }
+h4, h5 { color: #009688; }
+h6 { color: #b58900; }
+h1,h2,h3  {
+  margin: 1.1rem 0 1.1rem 0;
+  line-height: 1.8rem;
+}
+h4,h5,h6 {
+  margin: 0.8rem 0 0.8rem 0;
+  line-height: 1.6rem;
 }
 h1 {
-  font-size: 24px;
+  font-size: 1.8rem;
 }
 @media (max-width: 767px) {
   h1 {
-    font-size: 20px;
+    font-size: 1.6rem;
   }
 }
 h2 {
-  font-size: 22px;
+  font-size: 1.6rem;
 }
 @media (max-width: 767px) {
   h2 {
-    font-size: 18px;
+    font-size: 1.4rem;
   }
 }
 h3 {
-  font-size: 20px;
+  font-size: 1.4rem;
 }
 @media (max-width: 767px) {
   h3 {
-    font-size: 16px;
+    font-size: 1.25rem;
   }
 }
 h4 {
-  font-size: 18px;
+  font-size: 1.3rem;
 }
 @media (max-width: 767px) {
   h4 {
-    font-size: 14px;
+    font-size: 1.15rem;
   }
 }
 h5 {
-  font-size: 16px;
+  font-size: 1.15rem;
 }
 @media (max-width: 767px) {
   h5 {
-    font-size: 12px;
+    font-size: 1rem;
   }
 }
 h6 {
-  font-size: 14px;
+  font-size: 1.1rem;
 }
 @media (max-width: 767px) {
   h6 {
-    font-size: 10px;
+    font-size: 1rem;
   }
 }
+
+/* P Tag
+==============================================================*/
+li h5,li h6,
+ol h5,ol h6,
 p {
-  margin: 0.4rem 0 0.4rem 0;
+  line-height: 1.5rem;  /*p标签内部以及其他元素(受影响)*/
+  margin-bottom: 0.15rem;  /*p标签和其他元素之间的空隙*/
+  margin-top: 0rem;
+  font-size: 0.9rem;
 }
 
+/* List Tag
+==============================================================*/
+li {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  line-height: auto; /* 对侧边栏目录的行距和html行距有影响，而md没影响*/
+}
+li h5,li h6 {
+  line-height: 1.5rem;  /*p标签内部以及其他元素(受影响)*/
+  margin-bottom: 0.5rem;  /*p标签和其他元素之间的空隙*/
+  margin-top: 0rem;
+}
+
+li p {
+  line-height: auto;
+  margin-top: 0rem;
+  margin-bottom: 0.2rem;  /* 修改这一项而不上一项，对连续并列的列表行距有影响 */
+}
+li > ol,
+li > ul {
+    margin: 0 0;
+    line-height: auto;
+}
+/* blockquote Tag
+==============================================================*/
+blockquote {
+  font-family: Microsoft YaHei;
+  font-size: 0.9rem;
+  padding: 0.5rem 2rem 0.5rem 1.5rem;
+  line-height: 1.45rem;
+  position: relative;
+  color: #383838;
+  border:2px dashed #c1c1c1;
+  border-radius:0 5px 5px 0;
+  background:#fff;
+  margin-top: 0;
+  margin-bottom: 1.4rem;
+}
+blockquote p {
+  line-height: 1.4rem;
+  margin-bottom: 0.5rem;
+}
 img {
   /* display: block; */
   margin: auto;
@@ -311,18 +361,6 @@ hr {  /* 水平分割线*/
   background-image: repeating-linear-gradient(-45deg, #fff, #fff 4px, transparent 4px, transparent 8px);
 }
 
-blockquote {
-  font-family: Microsoft YaHei;
-  font-size: 0.9rem;
-  margin: 0 0 1.5rem 0;
-  padding: 0.5rem 3rem 0.5rem 2rem;
-  line-height: 1.45;
-  position: relative;
-  color: #383838;
-  border:2px dashed #c1c1c1;
-  border-radius:0 5px 5px 0;
-  background:#fff;
-}
 dt {
   font-weight: 700;
 }
