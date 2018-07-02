@@ -45,6 +45,20 @@
 ### Specific
 
 - [java的set集合的遍历, 和**倒序遍历**](http://blog.csdn.net/shenshen123jun/article/details/9074097)
+
+  > ```java
+  > /* 遍历方法一，迭代遍历*/
+  > for(Iterator<String> iterator = set.iterator(); iterator.hasNext();){
+  >     System.out.print(iterator.next() + " ");
+  > }
+  > 
+  > 
+  > /** for增强循环遍历 */
+  > for(String value : set){
+  >     System.out.print(value + " ");
+  > }
+  > ```
+
 - [java Set集合**详解**](http://blog.csdn.net/qq_33642117/article/details/52040345)
 
 - [HashMap和Hashtable的区别](http://www.importnew.com/7010.html)
