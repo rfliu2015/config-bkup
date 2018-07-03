@@ -23,7 +23,9 @@
     "Unordered List": "Shift+Alt+u",
     "Highlight": "Shift+Ctrl+h",
     "Quote":"Shift+ctrl+q",
-    "Comment":"Shift+Ctrl+c"
+    "Comment":"Shift+Ctrl+c",
+     "Superscript":"Shift+Ctrl+p",
+    "Subscript":"Shift+Ctrl+b"
   },
 
   "autoSaveTimer" : 5, // default 5 minutes
