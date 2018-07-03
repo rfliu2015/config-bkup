@@ -1,6 +1,4 @@
-
-
-<img src="https://i.loli.net/2018/06/04/5b1560294894d.gif" alt="1986284-87165a1e7d0e7b86.gif" title="1986284-87165a1e7d0e7b86.gif" />
+ <img src="https://i.loli.net/2018/06/04/5b1560294894d.gif" alt="1986284-87165a1e7d0e7b86.gif" title="1986284-87165a1e7d0e7b86.gif" style="zoom:60%" />
 
 ## 物理层
 
@@ -10,7 +8,7 @@
 
 - [博客园：基带信号、载波信号和宽带信号](http://www.cnblogs.com/rainbow70626/p/4937573.html)
 
-> <img src="https://i.loli.net/2018/05/31/5b0f83a23e75e.png" alt="载波和调制波.png" title="载波和调制波.png" />
+>  <img src="https://i.loli.net/2018/05/31/5b0f83a23e75e.png" alt="载波和调制波.png" title="载波和调制波.png" style="zoom:50%" />
 
 - [CSDN: CSMA/CD协议最小帧长的思考](https://blog.csdn.net/u011240016/article/details/52719183)
 
@@ -48,3 +46,28 @@
 ## 公开课教程
 
 - [計算機網路概論](http://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=13&)
+
+## 自己感兴趣
+
+- [用信鸽来解释 HTTPS](https://www.oschina.net/translate/https-explained-with-carrier-pigeons)
+
+  > 简单，然而通俗易懂的好例子！Good！
+
+  > 如果爱丽丝想要给鲍勃发送一段信息，她会把信息绑在信鸽的腿上然后送往鲍勃那里。鲍勃收到了信息，并阅读了信息，非常完美。
+  >
+  > 但如果马洛里拦截了爱丽丝的鸽子并且篡改了信息呢？鲍勃就没有办法去知道爱丽丝发出的信息在传递过程中遭到了修改。
+  >
+  > 这就是 HTTP 如何运作的。看起来很可怕对吧？我是不会通过 HTTP 来发送我的银行资信证明的，并且你也不应如此。
+  >
+  > ---
+  >
+  > 那么如果爱丽丝和鲍勃都非常的机智。他们一致认同使用一种隐蔽的密码来书写他们的信息。他们会将信息中的每个字母按照字母表中的顺序前移三位。比如，D→A，E→B，F→C。如此一来，原文为 “secret message” 的信息就变成了 “pbzobq jbppxdb” 。
+  >
+  > 那现在如果马洛里再截获了信鸽，她既不能做出有意义的修改同时也不会知道信息的内容，因为她不知道隐蔽的密码到底是什么。然而鲍勃却可以很容易反转密码，依靠 A → D, B → E, C → F 之类的规则破译信息的内容。加密后的信息 “pbzobq jbppxdb” 会被破解还原为 “secret message” 。
+  >
+  > 搞定！
+  >
+  > 这就是**对称密匙加密**，因为如果你知道如何加密一段信息那么你同样可以解密这段信息。
+  >
+  > 上述的密码通常被称为凯撒码。在现实生活中，我们会使用更为奇特和复杂的密码，但原理相同。
+

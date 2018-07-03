@@ -235,8 +235,8 @@ h6 {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h1, h2, h3 { color: #21759b; }
-h4, h5 { color: #009688; }
-h6 { color: #b58900; }
+h4, h5 { color: #007f96; }
+h6 { color: #009688; }
 h1,h2,h3  {
   margin: 1.1rem 0 1.1rem 0;
   line-height: 1.8rem;
