@@ -286,11 +286,11 @@ h5 {
   }
 }
 h6 {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 @media (max-width: 767px) {
   h6 {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -351,6 +351,9 @@ blockquote p {
   line-height: 1.25rem;
   margin-bottom: 0.5rem;
   font-size: 0.8rem;
+}
+blockquote h6 {
+  font-size: 0.9rem;
 }
 img {
   /* display: block; */
