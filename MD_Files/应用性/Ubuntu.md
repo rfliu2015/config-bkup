@@ -5,26 +5,45 @@
 
 ## 编程语言
 
-### Intellij
+- ###### Oracle JDK
 
-- [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目-->
-- [Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
+  ```shell
+  sudo apt-get install python-software-properties
+  sudo add-apt-repository ppa:webupd8team/java
+  
+  sudo apt install oracle-java8-installer
+  ```
 
-### Pycharm 
+- ###### Intellij
 
-- [Official: Download Pycharm](https://www.jetbrains.com/pycharm/download/#section=linux)
+  - [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目-->
+  - [Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
 
-### R
+  ```shell
+  curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
+  echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
+  # sudo apt update
+  sudo apt install intellij-idea-ultimate
+  ```
 
-- [RStudio on Ubuntu 18.04 Bionic Beaver Linux](https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux)
+  > 也可以从这个仓库安装Pycharm
 
-## Shell
+- ###### Pycharm
 
-- [Ubuntu 下 Oh My Zsh 的最佳实践「安装及配置」](https://juejin.im/post/5b216263f265da6e44326959)
+  - [Official: Download Pycharm](https://www.jetbrains.com/pycharm/download/#section=linux)
 
+  ```shell
+  # 速度一般
+  sudo add-apt-repository ppa:viktor-krivak/pycharm
+  
+  sudo apt install pycharm
+  ```
 
+- ###### R
 
-### 评论
+  - [RStudio on Ubuntu 18.04 Bionic Beaver Linux](https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux)
+
+## 评论
 
 - [升级到 Ubuntu 18.04 LTS 的理由，大波新特性到来](https://www.oschina.net/news/94692/ubuntu-18-04-new-features)
 
@@ -32,7 +51,36 @@
 ## 美化
 
 - [简书：不美翻怎么开发!Ubuntu 16.04 LTS深度美化!(2017年度定稿版)](https://www.jianshu.com/p/4bd2d9b1af41) <!--很不错-->
+
+  - ###### Flatabulous主题
+
+    ```shell
+    sudo add-apt-repository ppa:noobslab/themes
+    
+    sudo apt install flatabulous-theme
+    ```
+
+  - ###### Flatabulous图标
+
+    ```shell
+    sudo add-apt-repository ppa:noobslab/icons
+    # sudo apt update
+    sudo apt install ultra-flat-icons
+    
+    # Flat Icons有多种可以选择，如：ultra-flat-icons-orange，ultra-flat-icons-green可以通过如下方法来安装
+    sudo apt-get install ultra-flat-icons-orange
+    ```
+
+  - ###### Numix图标
+
+    ```shell
+    sudo add-apt-repository ppa:numix/ppa
+    
+    sudo apt install numix-icon-theme
+    ```
+
 - [Ubuntu主题美化、个性化设置与常用软件](http://yangbingdong.com/2017/ubuntu-todo-after-install/) <!--全面-->
+
 - [ubuntu 18.04 LTS 界面美化教程](http://valdanito.top/2018/05/01/ubuntu-bionic-beautification.html) <!--一般-->
 
 ## 好玩
@@ -41,9 +89,7 @@
 
 
 
-## 命令行软件安装
-
-### 系统工具
+## 系统工具
 
 ```shell
 sudo apt install cmake git 
@@ -59,7 +105,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.6
 ```
 
-#### Git配置
+### Git配置
 
 ```shell
 git config --global user.email "rfliu2015@gmail.com"
@@ -68,20 +114,24 @@ ssh-keygen -t rsa -C "rfliu2015@email.com"
 gedit ~/.ssh/id_rsa.pub    # 将文件内容添加至github或其它代码托管平台
 ```
 
-##### Q&A
+- ###### Q&A
 
-- [Github之SSH连接配置](http://www.linmuxi.com/2016/02/24/github-config-ssh/)
+  - [Github之SSH连接配置](http://www.linmuxi.com/2016/02/24/github-config-ssh/)
 
-#### Zsh
+### Shell
 
-```shell
-sudo apt install zsh
-# sudo apt update
-chsh -s `which zsh`  # 将 Zsh 设置为默认 Shell
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
+- [ <img src="https://camo.githubusercontent.com/5c385f15f3eaedb72cfcfbbaf75355b700ac0757/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6f686d797a73682f6f682d6d792d7a73682d6c6f676f2e706e67" style="zoom:30%">](https://github.com/robbyrussell/oh-my-zsh)
 
-#### vim
+  ```shell
+  sudo apt install zsh
+  # sudo apt update
+  chsh -s `which zsh`  # 将 Zsh 设置为默认 Shell
+  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ```
+
+- [Ubuntu 下 Oh My Zsh 的最佳实践「安装及配置」](https://juejin.im/post/5b216263f265da6e44326959)
+
+### Vim
 
 ```shell
 sudo add-apt-repository ppa:jonathonf/vim
@@ -92,39 +142,6 @@ sudo apt install vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-
-#### 主题
-
-##### Flatabulous主题
-
-```shell
-sudo add-apt-repository ppa:noobslab/themes
-
-sudo apt install flatabulous-theme
-```
-
-##### Flatabulous图标
-
-```shell
-sudo add-apt-repository ppa:noobslab/icons
-# sudo apt update
-sudo apt install ultra-flat-icons
-
-# Flat Icons有多种可以选择，如：ultra-flat-icons-orange，ultra-flat-icons-green可以通过如下方法来安装
-# sudo apt-get install ultra-flat-icons-orange
-
-```
-
-##### Numix图标
-
-```shell
-sudo add-apt-repository ppa:numix/ppa
-
-sudo apt install numix-icon-theme
-```
-
-
-
 
 
 ### Typora
@@ -148,51 +165,30 @@ sudo apt install google-chrome-stable
 
 
 
-### Oracle Jdk
-
-```shell
-sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:webupd8team/java
-
-sudo apt install oracle-java8-installer
-```
-
-### Intellij Idea
-
-```shell
-curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
-echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
-# sudo apt update
-sudo apt install intellij-idea-ultimate
-```
-
-> 也可以从这个仓库安装Pycharm
-
-### Pycharm
-
-```shell
-# 速度一般
-sudo add-apt-repository ppa:viktor-krivak/pycharm
-
-sudo apt install pycharm
-```
-
 ### XX-Net
 
 - [下载界面](https://github.com/XX-net/XX-Net/blob/master/code/default/download.md)
 
-```shell
-# 自动导入证书，需安装 libnss3-tools 包
-sudo apt install libnss3-tools 
-# 没有安装PyGtk的，需要先安装gtk：
-sudo apt-get install python-gtk2 
-# cd到XX-Net解压的目录地址，第一次启动, 请用sudo ./start.sh, 以安装CA证书
-sudo ./start.sh 
-```
+  ```shell
+  # 自动导入证书，需安装 libnss3-tools 包
+  sudo apt install libnss3-tools 
+  # 没有安装PyGtk的，需要先安装gtk：
+  sudo apt-get install python-gtk2 
+  # cd到XX-Net解压的目录地址，第一次启动, 请用sudo ./start.sh, 以安装CA证书
+  sudo ./start.sh
+  ```
 
+### Kde-Connect
 
+- [How to install and use KDEConnect on Ubuntu 16.04LTS](https://www.howtoforge.com/tutorial/how-to-install-and-use-kdeconnect-on-ubuntu-16-04/)
 
+  ```shell
+  sudo add-apt-repository ppa:vikoadi/ppa
+  sudo apt update
+  sudo apt install kdeconnect indicator-kdeconnect
+  ```
 
+  
 
 ## 卸载不常用
 
