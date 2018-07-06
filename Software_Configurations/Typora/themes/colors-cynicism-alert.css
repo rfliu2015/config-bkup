@@ -13,8 +13,8 @@ body {
   line-height: 1.6; /*暂不清楚这里的作用*/
   color: #555;
   background: #fff;
-  margin-left: 0.5rem;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 @media (max-width: 767px) {
   body {
@@ -311,6 +311,7 @@ li {
   margin-top: 0rem;
   margin-bottom: 0rem;
   line-height: auto; /* 对侧边栏目录的行距和html行距有影响，而md没影响*/
+  font-size: 0.9rem;
 }
 li h5,li h6 {
   line-height: 1.5rem;  /*p标签内部以及其他元素(受影响)*/
@@ -322,6 +323,7 @@ li p {
   line-height: auto;
   margin-top: 0rem;
   margin-bottom: 0.2rem;  /* 修改这一项而不上一项，对连续并列的列表行距有影响 */
+  font-size: 0.9rem;
 }
 li > ol,
 li > ul {
@@ -332,6 +334,7 @@ ul,
 ol {
   margin-top: 0.5rem;
   margin-bottom: 0.8rem;
+  font-size: 0.9rem;
 }
 /* blockquote Tag
 ==============================================================*/
@@ -347,10 +350,11 @@ blockquote {
   margin-top: 0;
   margin-bottom: 1.4rem;
 }
+blockquote li,
 blockquote p {
   line-height: 1.25rem;
   margin-bottom: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.845rem;
 }
 blockquote h6 {
   font-size: 0.9rem;

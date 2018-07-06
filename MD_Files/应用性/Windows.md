@@ -8,12 +8,15 @@
 
 ### DIY Software And VIP Collections
 
-- [下一个好软件](https://www.xia1ge.com/) <!--Win, Android, IOS, Mac-->
-- [7k 免费科学上网工具](https://www.7k21.com/)
-- [精品资源分享](http://www.jpzyfx.com/)
-- [精品绿色软件](https://www.portablesoft.org/)
-- [Apowersoft](https://www.apowersoft.tw/) <!--为您提供专业的商务办公及日常生活的桌面软件和在线-->
-- [胡萝卜周-欢迎访问胡萝卜周博客](http://www.carrotchou.blog/)
+- 不错
+  - [zd423 - 软件分享平台领跑者](http://www.zdfans.com/) <!--High Quality-->
+  - [下一个好软件](https://www.xia1ge.com/) <!--Win, Android, IOS, Mac-->
+  - [7k 免费科学上网工具](https://www.7k21.com/)
+  - [精品绿色软件](https://www.portablesoft.org/)
+  - [胡萝卜周-欢迎访问胡萝卜周博客](http://www.carrotchou.blog/)
+- 不怎么样
+  - [精品资源分享](http://www.jpzyfx.com/) <!--不怎么样-->
+  - [Apowersoft](https://www.apowersoft.tw/) <!--为您提供专业的商务办公及日常生活的桌面软件和在线-->
 - [阿荣福利味](https://www.azofreeware.com/)
 - [绿软分享吧](http://www.lrshare.com/) <!--很多破解版软件，很多安卓软件-->
 - [Soft8ware](https://soft8ware.com/)
@@ -38,6 +41,8 @@
 
 -  [福利吧：星愿浏览器：度盘高速下载&看视频无广告](http://fuliba.net/twinkstar.html) <!--有绿色版本4.0-->
 
+
+
 ## Installations
 
 ### Python Installation
@@ -58,5 +63,4 @@
 - Emeditor
 
   用户名：`ttrar.com`
-
   序列号：`DKAZQ-R9TYP-5SM2A-9Z8KD-3E2RK `
