@@ -59,6 +59,7 @@
 
 - [SQ688超高无损音乐](https://www.sq688.com/)
 - [91Flac无损音乐下载](https://www.91flac.com/)
+- [音乐狂](http://music.junyuewl.com/)
 
 #### WeChat
 
@@ -153,9 +154,9 @@
 - [解析吧](http://www.jiexiba.tech/#/)
 - [FreeGet](http://freeget.vip/)
 
-# Techniques
 
-## Text Edition
+
+# Techniques
 
 ### Regular Expression
 
