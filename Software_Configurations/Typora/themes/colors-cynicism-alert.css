@@ -553,6 +553,7 @@ pre,
 pre,
 code {
   font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  padding-left: 5rem;
 }
 code {
   padding: 2px 4px;
@@ -565,6 +566,7 @@ code {
 }
 pre code {
   padding: 0;
+  padding-left: 5rem;
   color: #4d4d4c;
   background: none;
   text-shadow: none;

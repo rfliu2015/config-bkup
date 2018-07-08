@@ -7,30 +7,65 @@
 
 - ###### Oracle JDK
 
-  ```shell
-  sudo apt-get install python-software-properties
-  sudo add-apt-repository ppa:webupd8team/java
-  
-  sudo apt install oracle-java8-installer
-  ```
+  - [Install Oracle Java 8 / 9 in Ubuntu 16.04, Linux Mint 18](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
+
+    ```shell
+    sudo apt install python-software-properties
+    sudo add-apt-repository ppa:webupd8team/java
+    sudo apt update
+    sudo apt install oracle-java8-installer
+    ```
 
 - ###### Intellij
+  - [***Official***：Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
 
-  - [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目-->
-  - [Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
+     ```shell
+     # 不要加上--edge选项  # 速度可达~560Kb/s左右
+     sudo snap install intellij-idea-community --classic
+     ```
 
-  ```shell
-  curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
-  echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
-  # sudo apt update
-  sudo apt install intellij-idea-ultimate
-  ```
+  - [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目，缓慢-->
 
-  > 也可以从这个仓库安装Pycharm
+    ```shell
+    curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
+    echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
+    # sudo apt update
+    sudo apt install intellij-idea-community
+    ```
+
+    > 也可以从这个仓库安装Pycharm
+
+  - [itsfoss：How To Install IntelliJ IDEA On Ubuntu Linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
+
+    > <!--有两种方法，通过ubuntu-make；通过ppa，速度不错，但更新非最新-->
+    >
+    > ```shell
+    > sudo add-apt-repository ppa:mmk2410/intellij-idea-community
+    > sudo apt-get update
+    > sudo apt-get install intellij-idea-community 
+    > 
+    > # to remove
+    > sudo apt-get remove intellij-idea-community
+    > sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-community
+    > ```
 
 - ###### Pycharm
 
-  - [Official: Download Pycharm](https://www.jetbrains.com/pycharm/download/#section=linux)
+  - [Itsfoss：How To Install PyCharm In Ubuntu 14.04 and 16.04](https://itsfoss.com/install-pycharm-ubuntu/)
+
+    > <!--有snap，umake和PPA三种方法-->
+    >
+    > ```shell
+    > # snap
+    > sudo snap install pycharm-community --classic
+    > 
+    > # PPA
+    > sudo add-apt-repository ppa:mystic-mirage/pycharm
+    > # sudo apt update
+    > sudo apt install pycharm-community
+    > ```
+
+  - [***Official***：Download Pycharm](https://www.jetbrains.com/pycharm/download/#section=linux)
 
   ```shell
   # 速度一般
@@ -40,7 +75,6 @@
   ```
 
 - ###### R
-
   - [RStudio on Ubuntu 18.04 Bionic Beaver Linux](https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux)
 
 ## 评论
@@ -83,6 +117,24 @@
 
 - [ubuntu 18.04 LTS 界面美化教程](http://valdanito.top/2018/05/01/ubuntu-bionic-beautification.html) <!--一般-->
 
+## 优化
+
+- [10 条加速 Ubuntu Linux 的杀手级技巧](https://linux.cn/article-9789-1.html)
+
+  > - `Preload` 是一个后台运行的守护进程，它分析用户行为和频繁运行的应用。打开终端，使用如下的命令来安装 preload：
+  >
+  >   ```shell
+  >    sudo apt install preload
+  >   ```
+  >
+  > - `apt-fast` 是 `apt-get` 的一个 shell 脚本包装器，通过从多连接同时下载包来提升更新及包下载速度。 如果你经常使用终端以及 `apt-get` 来安装和更新包，你也许会想要试一试 `apt-fast`。使用下面的命令来通过官方 PPA 安装 `apt-fast`：
+  >
+  >   ```shell
+  >   sudo add-apt-repository ppa:apt-fast/stable
+  >   sudo apt update
+  >   sudo apt install apt-fast
+  >   ```
+
 ## 好玩
 
 - [动画演示10个有趣但毫无用处的Linux命令](http://www.vaikan.com/10-funny-liunx-command/)
@@ -95,9 +147,11 @@
 sudo apt install cmake git 
 sudo apt install cairo-dock cairo-dock-plug-ins guake 
 sudo apt install unity-tweak-tool gnome-tweak-tool
+sudo apt install xclip
 
 # pcmanfm
-sudo apt install pcmanfm ; xdg-mime default pcmanfm.desktop inode/directory application/x-gnome-saved-search
+sudo apt install pcmanfm
+xdg-mime default pcmanfm.desktop inode/directory application/x-gnome-saved-search
 
 # python 3.6
 sudo add-apt-repository ppa:deadsnakes/ppa
