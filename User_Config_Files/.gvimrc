@@ -7,3 +7,4 @@ set showtabline=0 " 隐藏Tab栏
 
 
 set lines=35 columns=118           " 启动时的大小
+winpos 177 51                     " 启动时的位置
