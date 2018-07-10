@@ -63,36 +63,82 @@
   > <!--大块头。很有趣，需要细细思考消化。-->
 
 ###  Specific
-- [Java提高篇——对象克隆, 原因，实现，要点](http://www.cnblogs.com/Qian123/p/5710533.html)
+
+- ##### 克隆，内部类，匿名类
+  - [Java提高篇——对象克隆, 原因，实现，要点](http://www.cnblogs.com/Qian123/p/5710533.html)
+
+    > <!--有浮动的目录，而且一步步说明，并不晦涩。上佳-->
+    >
+    > 大家先思考一个问题，为什么需要克隆对象？直接new一个对象不行吗？
+    >
+    > 答案是：……把这个对象的临时属性一个一个的赋值给我新new的对象不也行嘛？……二来，大家通过上面的源码都发现了clone是一个`native`方法，就是快啊，在底层实现的。
+    >
+    > 浅克隆：1. 被复制的类需要实现`Clonenable`接口（不实现的话在调用clone方法会抛出`CloneNotSupportedException`异常)， 该接口为标记接口(不含任何方法)；2. 覆盖`clone()`方法，访问修饰符设为`public`。**方法中调用`super.clone()`方法得到需要的复制对象**。（native为本地方法)
+    >
+    >  
+
 - [ActionListener的三种实现方法](https://my.oschina.net/MissLee/blog/203949)
+
 - [java提高篇(八)----详解内部类](http://www.cnblogs.com/chenssy/p/3388487.html)
+
 - [java提高篇(九)----详解匿名内部类](http://blog.csdn.net/chenssy/article/details/13170015)
+
 - [Java匿名类也能使用构造函数](https://my.oschina.net/sub/blog/222790)  <!--简短有趣的一个小程序计算功能-->
 
 - [java提高篇(五)—–抽象类与接口](http://cmsblogs.com/?p=56)
 
 - [Java中实现对象的比较：Comparable接口和Comparator接口](http://www.cnblogs.com/Kevin-mao/p/5912775.html)
+
 - [Java 中 Comparable 和 Comparator 比较](http://www.cnblogs.com/skywang12345/p/3324788.html)
+
+- ##### 枚举(Enum)
+
+  - [CSDN：重新认识java（十） ---- Enum（枚举类）](https://blog.csdn.net/qq_31655965/article/details/55049192)
+
+    > <!--这个一步步推导出来，语言生动很有说服力！而且之后还有类方法的说明，和用法惯例！上佳-->
+    >
+    > 当你需要一个整形数据的时候，只需要`Weekday.toInt(Weekday.SUN);`，看起来你好像完成了你的任务。……如果想要扩展一下功能，大量的ifelse会让人眼花缭乱。
+    >
+    > ……但是使用那样的形式如果需要一些其他的功能，需要些很多奇奇怪怪的代码。所以，枚举类的出现，就是为了简化这种操作。可以将枚举类理解为是java的一种语法糖。
+    >
+    > 自定义变量与默认的`ordinal`属性并不冲突，ordinal还是按照它的规则给每个枚举变量按顺序赋值。
+
+  - [CSDN：Java 枚举：理解枚举本质](https://blog.csdn.net/veryitman/article/details/7945020) <!--一步一步推导出出来，一般。-->
 
 
 
 #  常用API或类库
 
-
 ##  字符串
 
-- [String、StringBuffer、与StringBuilder的区别](http://www.cnblogs.com/sevenlin/p/sevenlin_StringBuffer_StringBuilder20150806.html)
-- [Java String类的常用方法汇总](http://www.jb51.net/article/88331.htm) 
-- [Java – String Class and its methods explained with examples](https://beginnersbook.com/2013/12/java-strings/)
-- [Java String examples](http://www.java-examples.com/java-string-examples)
-- [String、StringBuffer、与StringBuilder的区别](http://www.cnblogs.com/sevenlin/p/sevenlin_StringBuffer_StringBuilder20150806.html)
-- [StringBuffer与StringBuilder的区别，及实现原理](http://www.cnblogs.com/myhappylife/p/6542633.html)
+- ##### 还不错
+  - [博客园：String、StringBuffer、与StringBuilder的区别](http://www.cnblogs.com/sevenlin/p/sevenlin_StringBuffer_StringBuilder20150806.html)
+
+    > <!--简洁，对区别说的言简意赅但是充分-->
+    >
+    > 查看源码得知，String类的声明是：`public final`，`final`是改变不了的，所以，如果我们用`String`来操作字符串的时候，一旦字符串的值改变，就会在内存多创建一个空间来保存新的字符串，……
+    >
+    > `StringBuffer`和`StringBuilder`都继承了`AbstractStringBuilder`，而`StringBuffer`大部分方法都是synchronized，也就是线程安全的，而`StringBuilder`就没有，所以，我们查看API可以知道，`StringBuilder`可以操作`StringBuffer`，但是`StringBuffer`不可以操作`StringBuilder`，这也是线程的原因……
+
+  - [掘金：Java StringBuilder 和 StringBuffer 源码分析](https://juejin.im/entry/5697099460b2866d9cf6a066)
+
+    > <!--好，可以借鉴源码的风格，不错的学习资源！-->
+    >
+    > 扩容的方法最终是由`expandCapacity()`实现的，在这个方法中首先把容量扩大为原来的容量乘以2再加2，如果此时仍小于指定的容量，那么就把新的容量设为`minimumCapacity`。然后判断是否溢出，如果溢出了，把容量设为`Integer.MAX_VALUE`。最后把`value`值进行拷贝，**这显然是耗时操作**。
+
+  - [Java – String Class and its methods explained with examples](https://beginnersbook.com/2013/12/java-strings/)
+
+    > <!--对每一个方法都有大致说明，以及链接向详细的方法说明和实例-->
+
+- ###### 还行吧
+
+  -  
 
 ## 日期
 
 - [Java 8 – Get Current Date and Time](https://beginnersbook.com/2017/09/java-8-get-current-date-and-time/)
 
-  > 三个类`ava.time.LocalDate`,`java.time.LocalTime` &`java.time.LocalDateTime`
+  > 三个类`java.time.LocalDate`,`java.time.LocalTime` &`java.time.LocalDateTime`
 
 
 
