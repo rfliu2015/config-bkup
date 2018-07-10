@@ -54,6 +54,52 @@
   > ```
   >
 
+- [StackOverFlow：What does the “yield” keyword do?](https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do/231855)
+
+  > <!--深度好文，对浅层次的介绍了了，然而对深层次的介绍和应用，以自己的方式讲的很好！！-->
+  >
+  > `mylist` is an *iterable*. When you use a list comprehension, you create a list, and so an iterable: `mylist = [x*x for x in range(3)]`. These iterables are handy …, but you store all the values in memory …  when you have a lot of values.
+  >
+  >  Generators are iterators, a kind of iterable **you can only iterate over once**. Generators do not store all the values in memory, **they generate the values on the fly**.
+  >
+  > `yield` is a keyword that is used like `return`, except the function will return a generator.
+  >
+  > ```python
+  > >>> def createGenerator():
+  > ...    mylist = range(3)
+  > ...    for i in mylist:
+  > ...        yield i*i
+  > ...
+  > >>> mygenerator = createGenerator() # create a generator
+  > >>> print(mygenerator) # mygenerator is an object!
+  > <generator object createGenerator at 0xb7555c34>
+  > >>> for i in mygenerator:
+  > ...     print(i)
+  > ```
+  >
+  > Here it's a useless example, but it's handy when you know your function will return a huge set of values that you will only need to read once.
+  >
+  > To master `yield`, you must understand that **when you call the function, the code you have written in the function body does not run.** The function only returns the generator object, this is a bit tricky :-)
+  >
+  > The first time the `for` calls the generator object created from your function, it will run the code in your function from the beginning until it hits `yield`, then it'll return the first value of the loop. Then, each other call will run the loop you have written in the function one more time, and return the next value, until there is no value to return.
+  >
+  > `candidates_lt.extend(node._get_child_candidates(distance, min_dist, max_dist))` The `extend()` method is a list object method that expects an iterable and adds its values to the list.
+  >
+  > But in your code it gets a generator, which is good because:
+  >
+  > 1. You don't need to read the values twice.
+  > 2. You may have a lot of children and you don't want them all stored in memory.
+  >
+  > And it works because …. Python expects iterables so it will work with strings, lists, tuples and generators! This is called [*duck typing*](https://en.wikipedia.org/wiki/Duck_typing) and is one of the reason why Python is so cool. But this is another story, for another question...
+  >
+  > #### Itertools, your best friend.
+
+- [Understanding Python Decorators](http://stackoverflow.com/questions/739654/how-can-i-make-a-chain-of-function-decorators-in-python/1594484#1594484)
+
+  > <!--深度好文，不多说！！-->
+  >
+  > 如果你还没有经常性的用装饰器, 你就要思考你的工作需求是不是的太简单了, 或者该考虑下这种AOP模式的开发的作用了。
+
 
 
 # File and I/O
@@ -185,3 +231,8 @@
 # 社区
 
 - [Python Caff - 高品质的python开发者社区](https://pythoncaff.com/)
+- [在线手册中心](http://docs.pythontab.com/)
+
+# Recommended
+
+- [CSDN：python进阶必读汇总](https://blog.csdn.net/u010159842/article/details/77689912)

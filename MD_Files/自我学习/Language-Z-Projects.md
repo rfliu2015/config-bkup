@@ -16,13 +16,15 @@
 
 - [StackOverFlow中文网](http://stackoverflow.org.cn/front/ask/list)
 
-  > 就StackOverFlow的中文版，多看看的话，顺便攒经验。
+  > <!--就StackOverFlow的中文版，多看看的话，顺便攒经验。-->
 
 # 亲身经验
 
 - [知乎专栏：学习编程](https://zhuanlan.zhihu.com/passer)
 
-  > 极好的平台，包括很多笔经面经，还有知识点总结。多看看补充自己的视野。
+  > <!--极好的平台，包括很多笔经面经，还有知识点总结。多看看补充自己的视野。-->
+
+
 
 # 可以尝试的项目
 
@@ -41,20 +43,17 @@
 
 # 开发工具
 
-### ==IntelliJ IDEA==
-
-- [ IntelliJ IDEA优秀插件（编程通用）](http://blog.csdn.net/sujun10/article/details/72852939)
-- [代码生成利器：IDEA 强大的 Live Templates](http://blog.jobbole.com/110607/)
-
-
+- ##### IntelliJ IDEA
+  - [ IntelliJ IDEA优秀插件（编程通用）](http://blog.csdn.net/sujun10/article/details/72852939)
+  - [代码生成利器：IDEA 强大的 Live Templates](http://blog.jobbole.com/110607/)
 
 ## Vim
 
 ### 插件
 
-###### nerdtree
+- ###### NERDTree
 
-- [NERDTree 配置详细](https://blog.csdn.net/ccccdddxxx/article/details/50575753)
+  - [NERDTree 配置详细](https://blog.csdn.net/ccccdddxxx/article/details/50575753)
 
 ### vimrc的一些设置&教程
 
