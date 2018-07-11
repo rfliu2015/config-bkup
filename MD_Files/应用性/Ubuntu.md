@@ -55,14 +55,16 @@
 
     ```shell
     sudo snap install sublime-text
-    # or
+    # or from the official ppa
     wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
     echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
     sudo apt-get update
     sudo apt-get install sublime-text
     ```
 
-  - [[3176] SUBLIME TEXT 2.X, 3.X UNIVERSAL LICENSE KEYS COLLECTION](https://appnee.com/sublime-text-3-universal-license-keys-collection-for-win-mac-linux/)
+  - [sublime text3配置](https://segmentfault.com/a/1190000007967722) <!--比很多人的靠谱得多-->
+
+  - [设置 Sublime Text 的 Python 开发环境 【已翻译100%】](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development) <!--也算靠谱-->
 
 - ###### Pycharm
 

@@ -14,7 +14,7 @@ def get_lines(file_):
 
 def get_suffix_files(folder, suffix_files=None, suffix='java'):
     """
-    递归方法返回所有suffix_file文件.
+    递归方法返回所有文件with suffix='suffix'.
     :param folder:
     :return:
     """

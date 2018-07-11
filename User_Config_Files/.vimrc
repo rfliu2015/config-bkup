@@ -73,8 +73,8 @@ set ruler                          " 打开状态栏标尺
 set cursorline                     " 突出显示当前行
 set syntax=on                      " 语法高亮
 set showmatch                      " 高亮显示匹配的括号
-set laststatus=2                   " 总是显式状态行
 set matchtime=3                    " 匹配括号高亮的时间(单位：0.1s)
+set laststatus=2                   " 总是显式状态行
 set scrolloff=10                   " 光标到屏幕底端保留 10 行 (光标位于屏底看着很不舒服的)
 set lines=35 columns=118           " 启动时的大小
 set nowrap               " 自动换行
@@ -119,7 +119,7 @@ set foldmethod=syntax
 set foldcolumn=2
 set foldlevel=99
 
-au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+" au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 let mapleader = "\<space>"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -140,21 +140,19 @@ set fencs=utf8,gbk,gb2312,gb18030
 
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""""""""""""""""""""""""""""@@@ vim-lastplace.vim"""""""""""""""""""""""""""""""
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"@@@ vim-lastplace.vim"""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:lastplace_ignore = "gitcommit,gitrebase,svn,hgcommit"
 let g:lastplace_ignore_buftype = "quickfix,nofile,help"
 let g:lastplace_open_folds = 0
 
 
-
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""@@@ lightline.vim"""""""""""""""""""""""""""""""
+"@@@ lightline.vim"""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:lightline = {
-            \ 'colorscheme': 'wombat',
+            \ 'colorscheme': 'powerline',
             \ 'active': {
             \   'right': [ [ 'lineinfo' ],
             \              [ 'percent' ],
@@ -167,9 +165,9 @@ let g:lightline = {
 
 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"""""""""""""""""""""""""""""""""@@@ tagbar.vim"""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"@@@ tagbar.vim"""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap <F8> :TagbarToggle<CR>
 let g:tag_sort=0
 let g:tagbar_indent = 0
@@ -177,7 +175,7 @@ let g:tagbar_left=1
 let g:tagbar_width=25
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-""""""""""""""""""""""""""""""""""@@@ indentLine"""""""""""""""""""""""""""""""
+"@@@ indentLine"""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -202,8 +200,8 @@ autocmd FileType vim,tex,zshrc let b:autoformat_autoindent=0
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "@@@ vim-commentary.vim
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <Leader>c :Commentary<Cr>
-vnoremap <Leader>c :Commentary<cr>
+nnoremap cc :Commentary<Cr>
+vnoremap cc :Commentary<cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -223,7 +221,6 @@ autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
 
 " automatically close a tab if the only remaining window is NerdTree
-" autocmd bufenter * if (winnr(“$”) == 1 && exists(“b:NERDTreeType”) && b:NERDTreeType == “primary”) | q | endif
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
@@ -386,6 +383,9 @@ vnoremap <S-TAB> <
 
 nnoremap j gj
 nnoremap k gk
+nnoremap y "+y
+vnoremap y "+y
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "&&& Ctrl
@@ -406,10 +406,10 @@ nnoremap <c-k> <c-w>k
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "&&& Leader
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <Leader>1 %
+nnoremap <Leader>a %
 inoremap <Leader>1 <Space>!=<Space>
-inoremap <Leader>a ()<Left>
-inoremap <Leader>- ->
+inoremap <Leader>c ()<Left>
+inoremap <Leader>a ->
 inoremap <Leader>z <><Left>
 inoremap <Leader>l <End>
 inoremap <Leader>i <Home><Space><Left>
@@ -427,13 +427,13 @@ nnoremap <leader><Leader>l :nohlsearch<cr>:diffupdate<cr>:syntax sync fromstart<
 
 nnoremap <Leader><Leader>q :qa!<Cr>
 nnoremap <Leader>q :q!<Cr>
-nnoremap <Leader><Leader>w :wqa<Cr>
-nnoremap <Leader><Leader>s :split<Cr>
-nnoremap <Leader><Leader>v :vsplit<Cr>
-nnoremap <Leader>z :wq<Cr>
+nnoremap <Leader>z :wqa<Cr>
+nnoremap <Leader>x :split<Cr>
+nnoremap <Leader><Leader>x :vsplit<Cr>
+" nnoremap <Leader>z :wq<Cr>
 
 nnoremap <Leader>/ /^.\+$\n{<Cr>
-nnoremap <Leader>a f(a
+nnoremap <Leader>c f(a
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "&&& 简化
