@@ -49,6 +49,21 @@
     > sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-community
     > ```
 
+- ###### Sublime Text 3
+
+  - [How to Install Sublime Text 3 on Ubuntu and Other Linux Distributions](https://itsfoss.com/sublime-text-3-linux/)
+
+    ```shell
+    sudo snap install sublime-text
+    # or
+    wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+    echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+    sudo apt-get update
+    sudo apt-get install sublime-text
+    ```
+
+  - [[3176] SUBLIME TEXT 2.X, 3.X UNIVERSAL LICENSE KEYS COLLECTION](https://appnee.com/sublime-text-3-universal-license-keys-collection-for-win-mac-linux/)
+
 - ###### Pycharm
 
   - [Itsfoss：How To Install PyCharm In Ubuntu 14.04 and 16.04](https://itsfoss.com/install-pycharm-ubuntu/)
