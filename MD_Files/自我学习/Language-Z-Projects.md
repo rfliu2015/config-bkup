@@ -18,6 +18,10 @@
 
   > <!--就StackOverFlow的中文版，多看看的话，顺便攒经验。-->
 
+- [What are the best programming fonts?](https://www.slant.co/topics/67/~programming-fonts)
+
+  > 在github上的网站 [Top Programming Fonts](https://github.com/hbin/top-programming-fonts)，提供下载安装的脚本！上佳！
+
 # 亲身经验
 
 - [知乎专栏：学习编程](https://zhuanlan.zhihu.com/passer)

@@ -5,64 +5,18 @@
 
 ## 编程语言
 
-- ###### Oracle JDK
-
-  - [Install Oracle Java 8 / 9 in Ubuntu 16.04, Linux Mint 18](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
-
-    ```shell
-    sudo apt install python-software-properties
-    sudo add-apt-repository ppa:webupd8team/java
-    sudo apt update
-    sudo apt install oracle-java8-installer
-    ```
-
-- ###### Intellij
-  - [***Official***：Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
-
-     ```shell
-     # 不要加上--edge选项  # 速度可达~560Kb/s左右
-     sudo snap install intellij-idea-community --classic
-     ```
-
-  - [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目，缓慢-->
-
-    ```shell
-    curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
-    echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
-    # sudo apt update
-    sudo apt install intellij-idea-community
-    ```
-
-    > 也可以从这个仓库安装Pycharm
-
-  - [itsfoss：How To Install IntelliJ IDEA On Ubuntu Linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
-
-    > <!--有两种方法，通过ubuntu-make；通过ppa，速度不错，但更新非最新-->
-    >
-    > ```shell
-    > sudo add-apt-repository ppa:mmk2410/intellij-idea-community
-    > sudo apt-get update
-    > sudo apt-get install intellij-idea-community 
-    > 
-    > # to remove
-    > sudo apt-get remove intellij-idea-community
-    > sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-community
-    > ```
-
 - ###### Sublime Text 3
 
   - [How to Install Sublime Text 3 on Ubuntu and Other Linux Distributions](https://itsfoss.com/sublime-text-3-linux/)
 
     ```shell
     sudo snap install sublime-text
-    # or
+    # or from the official ppa
     wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
     echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
     sudo apt-get update
     sudo apt-get install sublime-text
     ```
-
-  - [[3176] SUBLIME TEXT 2.X, 3.X UNIVERSAL LICENSE KEYS COLLECTION](https://appnee.com/sublime-text-3-universal-license-keys-collection-for-win-mac-linux/)
 
 - ###### Pycharm
 
@@ -89,7 +43,53 @@
   sudo apt install pycharm
   ```
 
+- ###### Oracle JDK
+
+  - [Install Oracle Java 8 / 9 in Ubuntu 16.04, Linux Mint 18](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
+
+    ```shell
+    sudo apt install python-software-properties
+    sudo add-apt-repository ppa:webupd8team/java
+    sudo apt update
+    sudo apt install oracle-java8-installer
+    ```
+
+- ###### Intellij
+
+  - [***Official***：Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
+
+    ```shell
+    # 不要加上--edge选项  # 速度可达~560Kb/s左右
+    sudo snap install intellij-idea-community --classic
+    ```
+
+  - [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目，缓慢-->
+
+    ```shell
+    curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
+    echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
+    # sudo apt update
+    sudo apt install intellij-idea-community
+    ```
+
+    > 也可以从这个仓库安装Pycharm
+
+  - [itsfoss：How To Install IntelliJ IDEA On Ubuntu Linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
+
+    > <!--有两种方法，通过ubuntu-make；通过ppa，速度不错，但更新非最新-->
+    >
+    > ```shell
+    > sudo add-apt-repository ppa:mmk2410/intellij-idea-community
+    > sudo apt-get update
+    > sudo apt-get install intellij-idea-community 
+    > 
+    > # to remove
+    > sudo apt-get remove intellij-idea-community
+    > sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-community
+    > ```
+
 - ###### R
+
   - [RStudio on Ubuntu 18.04 Bionic Beaver Linux](https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux)
 
 ## 评论
@@ -156,6 +156,29 @@
 
 
 
+## 技能
+
+- [在linux中安装/卸载字体](http://blog.wentong.me/2014/05/add-fonts-to-your-linux/)
+
+  ```shell
+  # 安装到 ~/.fonts/ (安装到 ~/.local/share/fonts 原理相同)
+  mv Monaco.ttf ~/.fonts
+  fc-cache -vf  #刷新系统字体缓存
+  
+  # 安装到 /usr/share/fonts/ (需要管理员权限)
+  sudo mkdir -p /usr/share/fonts/custom
+  sudo mv Monaco.ttf /usr/share/fonts/custom
+  sudo chmod 744 /usr/share/fonts/custom/Monaco.ttf
+  
+  sudo mkfontscale  #生成核心字体信息
+  sudo mkfontdir
+  sudo fc-cache -fv
+  ```
+
+  
+
+
+
 ## 系统工具
 
 ```shell
@@ -212,15 +235,26 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-
 ### Typora
 
-```shell
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE # optional, but recommended
-sudo add-apt-repository 'deb https://typora.io/linux ./'
+- [官网](https://typora.io/)
 
-sudo apt-get install typora
-```
+    ```shell
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE # optional, but recommended
+    sudo add-apt-repository 'deb https://typora.io/linux ./'
+
+    sudo apt-get install typora
+    ```
+
+### Sublime Text 3配置
+
+- [如何优雅地使用Sublime Text](https://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/) <!--最佳-->
+- [Sublime Text 3最好的功能、插件和设置](http://www.css88.com/archives/5858) <!--最佳-->
+- [2017 年最佳 Sublime Text 3 主题](http://www.css88.com/archives/7962)
+- [SublimeREPL配置Python运行命令，更换Python路径](https://blog.csdn.net/dchen1993/article/details/53307263)
+- [sublime text3配置](https://segmentfault.com/a/1190000007967722) <!--比很多人的靠谱得多-->
+- [设置 Sublime Text 的 Python 开发环境 【已翻译100%】](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development) <!--也算靠谱-->
+- [设置 Sublime Text 的 Python 开发环境](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development?cmp) <!--还可以-->
 
 ### Google Chrome
 
