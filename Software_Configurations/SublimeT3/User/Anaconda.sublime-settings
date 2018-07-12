@@ -1,0 +1,14 @@
+{
+   //format when save the file
+  "auto_formatting": true,
+  "anaconda_gutter_theme": "stippled_underline",
+  "anaconda_linting": true,
+  "anaconda_linting_behaviour": "save-only",
+  "anaconda_linter_phantoms": true,
+
+
+  "complete_parameters": false,
+  "complete_all_parameters": false,
+
+  "python_interpreter": "python3",
+}

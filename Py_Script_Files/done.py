@@ -1,5 +1,5 @@
 # 为c, c++提供统一的编译脚本
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 from subprocess import call

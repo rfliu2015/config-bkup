@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Anaconda",
+		"AutoFileName",
+		"Boxy Theme",
+		"DocBlockr_Python",
+		"GitGutter",
+		"Material Theme",
+		"Package Control",
+		"Predawn",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeREPL",
+		"Terminal",
+		"Theme - Flatland",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
+	]
+}

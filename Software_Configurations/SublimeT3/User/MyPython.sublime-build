@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "working_dir": "$file_path",
+  "shell_cmd": "/usr/bin/python3 -u \"$file\"",
+  "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+  "selector": "source.python"
+}

@@ -5,50 +5,6 @@
 
 ## 编程语言
 
-- ###### Oracle JDK
-
-  - [Install Oracle Java 8 / 9 in Ubuntu 16.04, Linux Mint 18](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
-
-    ```shell
-    sudo apt install python-software-properties
-    sudo add-apt-repository ppa:webupd8team/java
-    sudo apt update
-    sudo apt install oracle-java8-installer
-    ```
-
-- ###### Intellij
-  - [***Official***：Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
-
-     ```shell
-     # 不要加上--edge选项  # 速度可达~560Kb/s左右
-     sudo snap install intellij-idea-community --classic
-     ```
-
-  - [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目，缓慢-->
-
-    ```shell
-    curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
-    echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
-    # sudo apt update
-    sudo apt install intellij-idea-community
-    ```
-
-    > 也可以从这个仓库安装Pycharm
-
-  - [itsfoss：How To Install IntelliJ IDEA On Ubuntu Linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
-
-    > <!--有两种方法，通过ubuntu-make；通过ppa，速度不错，但更新非最新-->
-    >
-    > ```shell
-    > sudo add-apt-repository ppa:mmk2410/intellij-idea-community
-    > sudo apt-get update
-    > sudo apt-get install intellij-idea-community 
-    > 
-    > # to remove
-    > sudo apt-get remove intellij-idea-community
-    > sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-community
-    > ```
-
 - ###### Sublime Text 3
 
   - [How to Install Sublime Text 3 on Ubuntu and Other Linux Distributions](https://itsfoss.com/sublime-text-3-linux/)
@@ -61,10 +17,6 @@
     sudo apt-get update
     sudo apt-get install sublime-text
     ```
-
-  - [sublime text3配置](https://segmentfault.com/a/1190000007967722) <!--比很多人的靠谱得多-->
-
-  - [设置 Sublime Text 的 Python 开发环境 【已翻译100%】](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development) <!--也算靠谱-->
 
 - ###### Pycharm
 
@@ -91,7 +43,53 @@
   sudo apt install pycharm
   ```
 
+- ###### Oracle JDK
+
+  - [Install Oracle Java 8 / 9 in Ubuntu 16.04, Linux Mint 18](http://tipsonubuntu.com/2016/07/31/install-oracle-java-8-9-ubuntu-16-04-linux-mint-18/)
+
+    ```shell
+    sudo apt install python-software-properties
+    sudo add-apt-repository ppa:webupd8team/java
+    sudo apt update
+    sudo apt install oracle-java8-installer
+    ```
+
+- ###### Intellij
+
+  - [***Official***：Install IntelliJ IDEA on Ubuntu with ***Snaps***](https://blog.jetbrains.com/idea/2017/11/install-intellij-idea-with-snaps/)
+
+    ```shell
+    # 不要加上--edge选项  # 速度可达~560Kb/s左右
+    sudo snap install intellij-idea-community --classic
+    ```
+
+  - [Inofficial ***PPA*** for Jetbrains products](https://github.com/JonasGroeger/jetbrains-ppa)  <!--github项目，缓慢-->
+
+    ```shell
+    curl -s https://s3.eu-central-1.amazonaws.com/jetbrains-ppa/0xA6E8698A.pub.asc | sudo apt-key add -
+    echo "deb http://jetbrains-ppa.s3-website.eu-central-1.amazonaws.com bionic main" | sudo tee /etc/apt/sources.list.d/jetbrains-ppa.list > /dev/null
+    # sudo apt update
+    sudo apt install intellij-idea-community
+    ```
+
+    > 也可以从这个仓库安装Pycharm
+
+  - [itsfoss：How To Install IntelliJ IDEA On Ubuntu Linux](https://itsfoss.com/install-intellij-ubuntu-linux/)
+
+    > <!--有两种方法，通过ubuntu-make；通过ppa，速度不错，但更新非最新-->
+    >
+    > ```shell
+    > sudo add-apt-repository ppa:mmk2410/intellij-idea-community
+    > sudo apt-get update
+    > sudo apt-get install intellij-idea-community 
+    > 
+    > # to remove
+    > sudo apt-get remove intellij-idea-community
+    > sudo add-apt-repository --remove ppa:mmk2410/intellij-idea-community
+    > ```
+
 - ###### R
+
   - [RStudio on Ubuntu 18.04 Bionic Beaver Linux](https://linuxconfig.org/rstudio-on-ubuntu-18-04-bionic-beaver-linux)
 
 ## 评论
@@ -223,6 +221,15 @@ sudo add-apt-repository 'deb https://typora.io/linux ./'
 
 sudo apt-get install typora
 ```
+
+### Sublime Text 3配置
+
+- [如何优雅地使用Sublime Text](https://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/) <!--最佳-->
+- [Sublime Text 3最好的功能、插件和设置](http://www.css88.com/archives/5858) <!--最佳-->
+- [2017 年最佳 Sublime Text 3 主题](http://www.css88.com/archives/7962)
+- [sublime text3配置](https://segmentfault.com/a/1190000007967722) <!--比很多人的靠谱得多-->
+- [设置 Sublime Text 的 Python 开发环境 【已翻译100%】](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development) <!--也算靠谱-->
+- [设置 Sublime Text 的 Python 开发环境](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development?cmp) <!--还可以-->
 
 ### Google Chrome
 
