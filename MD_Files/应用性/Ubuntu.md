@@ -156,6 +156,29 @@
 
 
 
+## 技能
+
+- [在linux中安装/卸载字体](http://blog.wentong.me/2014/05/add-fonts-to-your-linux/)
+
+  ```shell
+  # 安装到 ~/.fonts/ (安装到 ~/.local/share/fonts 原理相同)
+  mv Monaco.ttf ~/.fonts
+  fc-cache -vf  #刷新系统字体缓存
+  
+  # 安装到 /usr/share/fonts/ (需要管理员权限)
+  sudo mkdir -p /usr/share/fonts/custom
+  sudo mv Monaco.ttf /usr/share/fonts/custom
+  sudo chmod 744 /usr/share/fonts/custom/Monaco.ttf
+  
+  sudo mkfontscale  #生成核心字体信息
+  sudo mkfontdir
+  sudo fc-cache -fv
+  ```
+
+  
+
+
+
 ## 系统工具
 
 ```shell
@@ -212,21 +235,23 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-
 ### Typora
 
-```shell
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE # optional, but recommended
-sudo add-apt-repository 'deb https://typora.io/linux ./'
+- [官网](https://typora.io/)
 
-sudo apt-get install typora
-```
+    ```shell
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE # optional, but recommended
+    sudo add-apt-repository 'deb https://typora.io/linux ./'
+
+    sudo apt-get install typora
+    ```
 
 ### Sublime Text 3配置
 
 - [如何优雅地使用Sublime Text](https://jeffjade.com/2015/12/15/2015-04-17-toss-sublime-text/) <!--最佳-->
 - [Sublime Text 3最好的功能、插件和设置](http://www.css88.com/archives/5858) <!--最佳-->
 - [2017 年最佳 Sublime Text 3 主题](http://www.css88.com/archives/7962)
+- [SublimeREPL配置Python运行命令，更换Python路径](https://blog.csdn.net/dchen1993/article/details/53307263)
 - [sublime text3配置](https://segmentfault.com/a/1190000007967722) <!--比很多人的靠谱得多-->
 - [设置 Sublime Text 的 Python 开发环境 【已翻译100%】](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development) <!--也算靠谱-->
 - [设置 Sublime Text 的 Python 开发环境](https://www.oschina.net/translate/setting-up-sublime-text-for-python-development?cmp) <!--还可以-->

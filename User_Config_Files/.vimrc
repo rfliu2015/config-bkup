@@ -75,8 +75,8 @@ set syntax=on                      " 语法高亮
 set showmatch                      " 高亮显示匹配的括号
 set matchtime=3                    " 匹配括号高亮的时间(单位：0.1s)
 set laststatus=2                   " 总是显式状态行
-set scrolloff=10                   " 光标到屏幕底端保留 10 行 (光标位于屏底看着很不舒服的)
-set lines=35 columns=118           " 启动时的大小
+set scrolloff=6                   " 光标到屏幕底端保留 10 行 (光标位于屏底看着很不舒服的)
+set lines=32 columns=98           " 启动时的大小
 set nowrap               " 自动换行
 set list
 set showbreak=↪\
@@ -208,9 +208,9 @@ vnoremap cc :Commentary<cr>
 "@@@ nerdtree.vim
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <F5> :NERDTreeToggle<CR>
-nnoremap <silent> <Leader><Leader>f :NERDTreeFind<CR>
+nnoremap <silent> <C-k>f :NERDTreeFind<CR>
 let NERDTreeWinPos = 'right'
-let g:NERDTreeWinSize=20
+let g:NERDTreeWinSize=16
 
 " 显示行号
 let NERDTreeShowLineNumbers=1
@@ -358,11 +358,11 @@ endfunc
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-augroup AutoSaveFolds
-    autocmd!
-    autocmd BufWinLeave * if expand("%") != "" | mkview | endif
-    autocmd BufWinEnter * if expand("%") != "" | loadview | endif
-augroup END
+" augroup AutoSaveFolds
+"     autocmd!
+"     autocmd BufWinLeave * if expand("%") != "" | mkview | endif
+"     autocmd BufWinEnter * if expand("%") != "" | loadview | endif
+" augroup END
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -374,8 +374,6 @@ onoremap L $
 onoremap H ^
 vnoremap L $
 vnoremap H ^
-nnoremap tn :tabnext<Cr>
-nnoremap tp :tabprevious<Cr>
 nnoremap <TAB> >>
 nnoremap <S-TAB> <<
 vnoremap <TAB> >
@@ -390,17 +388,22 @@ vnoremap y "+y
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "&&& Ctrl
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <C-c>s :%s/\<<c-r>=expand("<cword>")<cr>\>/
+
 inoremap <c-l> <right>
 inoremap <c-j> <down>
 inoremap <c-k> <space>
 inoremap <c-u> <space>
-inoremap <Leader>k <space>
+inoremap <c-l> <right>
 
-nnoremap <c-l> <c-w>l
-nnoremap <c-h> <c-w>h
-nnoremap <c-j> <c-w>j
-nnoremap <c-k> <c-w>k
-
+nnoremap <C-k>a f(l
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-k>n :tabnext<Cr>
+nnoremap <C-k>p :tabprevious<Cr>
+nnoremap <C-k>c :nohlsearch<cr>:diffupdate<cr>:syntax sync fromstart<cr><c-l>
+nnoremap <C-k>s :split<Cr>
+nnoremap <C-k>v :vsplit<Cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -409,41 +412,31 @@ nnoremap <c-k> <c-w>k
 nnoremap <Leader>a %
 inoremap <Leader>1 <Space>!=<Space>
 inoremap <Leader>c ()<Left>
-inoremap <Leader>a ->
 inoremap <Leader>z <><Left>
 inoremap <Leader>l <End>
 inoremap <Leader>i <Home><Space><Left>
+inoremap <Leader>k <space>
 inoremap <Leader>{ <End><Space>{}<Left>
 inoremap <Leader>; <End>;
 inoremap <leader>< <><Left>
-nnoremap <Leader>l :loadview<Cr>
-nnoremap <Leader>m :mkview<Cr>
+" nnoremap <C-k>l :loadview<Cr>
+" nnoremap <C-k>m :mkview<Cr>
 nnoremap <Leader>n :next<Cr>
 nnoremap <Leader>p :previous<Cr>
 inoremap <Leader>o <End><Cr>
 inoremap <Leader>O <Home><Cr><Up>
 nnoremap <Leader>v V
-nnoremap <leader><Leader>l :nohlsearch<cr>:diffupdate<cr>:syntax sync fromstart<cr><c-l>
 
 nnoremap <Leader><Leader>q :qa!<Cr>
-nnoremap <Leader>q :q!<Cr>
+nnoremap <Leader>q :qa!<Cr>
+inoremap <Leader>s <Esc>:w!<cr>
+nnoremap <Leader>s :w!<Cr>
+inoremap <Leader>t ->
 nnoremap <Leader>z :wqa<Cr>
-nnoremap <Leader>x :split<Cr>
-nnoremap <Leader><Leader>x :vsplit<Cr>
 " nnoremap <Leader>z :wq<Cr>
-
-nnoremap <Leader>/ /^.\+$\n{<Cr>
-nnoremap <Leader>c f(a
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "&&& 简化
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap cw ciw
 nnoremap Q @q
 nnoremap <Esc><Esc> :set hlsearch!<Cr>
-
-"&&&
-nnoremap \s :%s//
-nnoremap <leader>s :%s/\<<c-r>=expand("<cword>")<cr>\>/
-inoremap <Leader>t <T><Space>
-
