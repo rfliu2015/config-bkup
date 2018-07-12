@@ -4,7 +4,7 @@
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Colorcoder/Tomorrow-Night (Colorcoded).tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
@@ -48,6 +48,7 @@
 		"side_bar_visible": true,
 		"status_bar_visible": true
 	},
+	"original_color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"remember_open_files": true,
 	"remember_open_folders": true,
 	"save_on_focus_lost": true,
