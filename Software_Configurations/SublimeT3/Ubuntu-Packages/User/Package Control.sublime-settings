@@ -10,12 +10,12 @@
 		"Anaconda",
 		"AutoFileName",
 		"Boxy Theme",
-		"Colorcoder",
 		"DocBlockr_Python",
 		"GitGutter",
 		"Material Theme",
 		"Package Control",
 		"Predawn",
+		"PyYapf Python Formatter",
 		"Seti_UI",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
@@ -24,6 +24,7 @@
 		"Theme - Flatland",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
-		"Vintage Surround"
+		"Vintage Surround",
+		"VintageousPluginSurround"
 	]
 }

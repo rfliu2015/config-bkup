@@ -1,0 +1,6 @@
+{
+
+    // run yapf before saving document
+      "on_save": true,
+      "COLUMN_LIMIT": 79
+}

@@ -4,7 +4,7 @@
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Colorcoder/Tomorrow-Night (Colorcoded).tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
 	"draw_indent_guides": true,
@@ -26,7 +26,7 @@
 	[
 		"no_round"
 	],
-	"font_size": 18,
+	"font_size": 17,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

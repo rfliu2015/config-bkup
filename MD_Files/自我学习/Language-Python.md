@@ -17,6 +17,8 @@
   'Five plus ten is 15 and not 30.'
   ```
 
+- [Python字符串常用方法](https://my.oschina.net/liuyuantao/blog/747379)
+
 - ###### 不具有实用性
 
   - [**深入分析**Python 中 eval 带来的潜在风险](http://python.jobbole.com/82770/)
@@ -167,8 +169,38 @@
 
 ## RE
 
-- [re — Regular expression operations(官方文档)](https://docs.python.org/3/library/re.html)
+- ###### 不错
+
+- [Funhacks：Python 正则表达式 re 模块](http://funhacks.net/2016/12/27/regular_expression/#findall-%E6%96%B9%E6%B3%95) <!--有目录，网页好看-->
+
+- [Python——正则表达式](https://www.cnblogs.com/wwf828/p/7689021.html) <!--也还行吧-->
+
+- [Python 正则表达式详解与 re 模块的使用](http://blog.51cto.com/wangy8961/2129381) <!--并非罗列式，不适合快速参考，适合慢慢学习。没有目录-->
+
+  > `[\u4e00-\u9fa5]+` 代表匹配中文字。
+
+- ###### 还行吧
+
+  - [Python regexes - findall, search, and match](https://howchoo.com/g/zdvmogrlngz/python-regexes-findall-search-and-match)
+
+  > As you can see, this returns a list of matches. If you don't use parentheses to capture any groups or if you only capture one group, the result will be a list of strings. If you capture more than one group, the result will be a list of tuples.
+  >
+  > ```python
+  > text = """
+  > 1. ricochet robots
+  > 2. settlers of catan
+  > 3. acquire
+  > """
+  > re.findall(r'^(\d+)\.(.*)$', text, re.MULTILINE)
+  > # [('1', ' ricochet robots'), ('2', ' settlers of catan'), ('3', ' acquire')]
+  > ```
+
+- ###### 傻大全
+
+  - [re — Regular expression operations(官方文档)](https://docs.python.org/3/library/re.html)
+
 - [python正则表达式re模块详细介绍](http://www.jb51.net/article/50511.htm)
+
 - [Python detailed Re Match, Search Examples - Dot Net Perls](https://www.dotnetperls.com/re-python)
 
 
@@ -185,6 +217,19 @@
 - ##### 傻大全的参考文档
 
   - [Requests: HTTP for Humans](http://www.python-requests.org/en/master/)
+
+    > 中文版[Requests: 让 HTTP 服务人类](http://docs.python-requests.org/zh_CN/latest/)  <!--这个中文版没有侧边目录，而英文版的正好有，两者刚好互补了。--> 
+
+    > 如果你改变了编码，每当你访问 `r.text` ，Request 都将会使用 `r.encoding` 的新值。…这样的话，你应该使用 `r.content` 来找到编码，然后设置 `r.encoding` 为相应的编码。这样就能使用正确的编码解析 `r.text` 了。
+    >
+    > 如果你将 `verify` 设置为 False，Requests 也能忽略对 SSL 证书的验证。
+    >
+    > ```python
+    > >>> requests.get('https://kennethreitz.org', verify=False)
+    > <Response [200]>
+    > ```
+    >
+    > 默认情况下， `verify` 是设置为 True 的。选项 `verify` 仅应用于主机证书。
 
   - [Beautiful Soup 4.4.0. 文档](http://beautifulsoup.readthedocs.io/zh_CN/latest/#)
 
@@ -211,6 +256,10 @@
   > <!--完全讲的自己对每一个章节的读后感，更重要的是做了很详细的思维导图笔记！-->
 
 - [流畅的python要点整理](https://www.jianshu.com/p/7a831fe1d484)
+
+## Python Lines 500 or Less
+
+- [500 line or less 中文翻译计划](https://github.com/HT524/500LineorLess_CN)
 
 ## Problem Solving with Algorithms and Data Structure Using Python
 

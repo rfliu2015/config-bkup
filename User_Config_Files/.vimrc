@@ -189,7 +189,7 @@ let g:autoformat_remove_trailing_spaces = 1
 
 " let g:formatdef_custom_c='"astyle --style=linux -cpU -j -z2 --align-pointer=type"'
 " 大小写关键
-let g:formatdef_custom_c='"clang-format-5.0 -style=file"'
+let g:formatdef_custom_c='"clang-format-6.0 -style=file"'
 " let g:formatdef_custom_c='"clang-format -style=Google"'
 let g:formatters_c = ['custom_c']
 let g:formatters_cpp = ['custom_c']
@@ -345,9 +345,9 @@ let $author_email = "xxxx@xxx.xx"
 
 func SetTitle()
     if &filetype == 'sh'
-        call setline(1, "\#!/bin/bash")
+        call setline(1, "\# !/bin/bash")
     elseif &filetype == 'python'
-        call setline(1, "\#!/usr/bin/python3")
+        call setline(1, "\# !/usr/bin/python3")
         call append(line("."), "\# -*- coding: utf-8 -*-")
     elseif &filetype == 'cpp'
         call setline(1, "#include <iostream>")
@@ -410,8 +410,8 @@ nnoremap <C-k>v :vsplit<Cr>
 "&&& Leader
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <Leader>a %
+inoremap <Leader>a ()<Left>
 inoremap <Leader>1 <Space>!=<Space>
-inoremap <Leader>c ()<Left>
 inoremap <Leader>z <><Left>
 inoremap <Leader>l <End>
 inoremap <Leader>i <Home><Space><Left>
@@ -440,3 +440,4 @@ nnoremap <Leader>z :wqa<Cr>
 nnoremap cw ciw
 nnoremap Q @q
 nnoremap <Esc><Esc> :set hlsearch!<Cr>
+
