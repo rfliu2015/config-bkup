@@ -12,7 +12,7 @@
 
 - [爱翻墙 - 网址导航](http://www.ifanqiang.com/)
 
-# ==NJU==
+# NJU
 
 - [南京大学教务处](http://jw.nju.edu.cn/)
 
@@ -55,7 +55,7 @@
 - [Windows更新补丁下载网站](http://www.catalog.update.microsoft.com/home.aspx)
 - [畅想之星——光盘数据库](http://www.bj.cxstar.cn/bookcd/index/index.do)
 
-#### ==Music==
+#### Music
 
 - [SQ688超高无损音乐](https://www.sq688.com/)
 - [91Flac无损音乐下载](https://www.91flac.com/)
@@ -90,7 +90,7 @@
 - [vip.mdouvip.com/xunlei/](http://vip.mdouvip.com/xunlei/)
 - [麦豆vip分享网|优酷会员账号共享_优酷vip账号分享](http://vip.mdouvip.com/)
 
-#### ==kindle==
+#### kindle
 
 - [您的 Amazon.cn](https://www.amazon.cn/gp/yourstore/home?ie=UTF8&action=sign-out&claim_type=EmailAddress&new_account=1&path=%2Fgp%2Fyourstore%2Fhome&ref_=nav__gno_signout&signIn=1&useRedirectOnSuccess=1&)
 - [免费kindle电子书](https://www.amazon.cn/Kindle%E5%85%8D%E8%B4%B9%E7%94%B5%E5%AD%90%E4%B9%A6/b?ie=UTF8&node=116175071)
@@ -116,7 +116,7 @@
 
 - [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
-## ==Fantacy website==
+## Fantacy website
 
 - [封面故事在 Flipboard 上了！](https://flipboard.com/)
 - [Facebook](https://www.facebook.com/)
@@ -222,6 +222,7 @@
 ## General PE Experience 
 
 - [github codeunion 考研（计算机）的一些建议](https://github.com/CoderUnion/coderunion-github-talk/issues/94)
+- [CSDN：2018考研计算机408经验详谈](https://blog.csdn.net/phoenix_wei/article/details/79659614)
 
 ## The University
 
