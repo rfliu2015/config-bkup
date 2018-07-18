@@ -16,6 +16,7 @@
 ##### Vim Plugins
 
 - [Vim Awesome](http://vimawesome.com/)
+- [vim 入坑指南（六）插件 UltiSnips](http://vimzijun.net/2016/10/30/ultisnip/) <!--很不错！-->
 
 ##### .vimrc
 
