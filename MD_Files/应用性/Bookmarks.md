@@ -236,3 +236,10 @@
 ### NJU
 
 
+
+# Computer Hardware
+
+### 内存条
+
+- [知乎：怎样选购笔记本内存条？](https://www.zhihu.com/question/25013395)
+- [扩展笔记本内存的8大注意事项](http://www.nanerbang.com/article/61/)

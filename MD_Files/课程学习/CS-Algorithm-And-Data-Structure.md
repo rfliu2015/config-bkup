@@ -1,3 +1,7 @@
+[TOC]
+
+---
+
 # Programming Online
 
 - [GeeksForGeeks](https://www.geeksforgeeks.org/)
@@ -7,6 +11,8 @@
 # Others
 
 - [博客园：从《编程之美》买票找零问题说起，娓娓道来卡特兰数——兼爬坑指南](http://www.cnblogs.com/wuyuegb2312/p/3016878.html#suggestion) <!--超详细-->
+
+---
 
 # 树
 
@@ -121,6 +127,76 @@
 
 6. [简书：一种统一的个人想法的非递归遍历二叉树的方法](https://www.jianshu.com/p/49c8cfd07410) <!--看看就行了-->
 
+## 二叉搜索树
+
+###### Article 1
+
+> [CSDN：数据结构和算法——二叉排序树](https://blog.csdn.net/google19890102/article/details/54378628)
+>
+> <!--给出了相当普遍的那个算法。还行。-->
+
+> ###### 构建：
+>
+> ```cpp
+> typedef struct tree_node {
+>         double value;
+>         struct tree_node *left;
+>         struct tree_node *right;
+> }*Tree, TreeNode;
+> ```
+>
+>   `Tree`等价于`TreeNode*`，前者是指针结构。这里使用C语言描述。
+>
+> ###### 查找：
+>
+>   ```cpp
+> int search_value(Tree root, double a, Tree *p);
+>   ```
+>
+> - 尾递归算法。查找成功返回1，否则返回0。失败的情况：`root==nullptr`和不存在查找值。
+> - 递归出口是`root == nullptr`或者查找成功。 
+> - `p`用来记录父节点，所以传入的是pointer；若`root==nullptr`，则p不修改。
+>
+> ###### 插入：
+>
+>   ```cpp
+>   int insert_tree(node *root, double a);
+>   ```
+>
+> - 非递归算法。`root`中已经有`a`，插入失败，返回0；否则返回1.
+> - 若`root!=nullptr`，利用`search_value()`找到待插入节点的父节点。
+> - 因为利用了`search_value()`，所以实现较简单。额外的时间复杂度`O(1)`。
+>
+> ###### 删除：
+>
+> ```cpp
+> int delete_node(node *root, double a);
+> ```
+>
+> 1. <u>节点既无左子树，又无右子树</u>
+>
+>    删除的方法：设置父节点指向该节点的指针为空，直接删除该节点。 
+>
+> 2. <u>若删除的节点只包含左子树或者只包含右子树</u>
+>
+>    删除的方法：删除该节点，以其左子树或者右子树代替该节点。 
+>
+>    > 前两种情况可以统一成：删除某个节点，如果左子树是空的，那么使其右子树（可能是空的）代替该节点。
+>
+> 3. <u>若删除的节点既包含左子树，又包含右子树</u>
+>
+>    删除的方法：找到待删除的节点，选择其左子树中的最大的节点或者其右子树中最小的节点，代替该节点。
+>
+>    > 简单的思考证明。二叉搜索树的垂直投影是单调递增序列，子树的根节点是中位点。
+>    >
+>    > 删除树根节点后，为了补上新的节点，只可以用原根节点左右两边的节点。
+>    >
+>    > 它们分别是左子树序列的最大值和右子树序列的最小值。也是左子树最右的节点，和右子树最左的节点。前者没有右孩子，后者没有左孩子。替补的过程中，又发生了前两种情况的删除。
+
+###### Article 2
+
+> [二叉查找树（BST）](https://songlee24.github.io/2015/01/13/binary-search-tree/) <!--另一篇还不错的文章。懒得看了-->
+
 
 
 # 图
@@ -128,6 +204,8 @@
 ## General
 
 - [Graph Data Structure And Algorithms](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/#introDFSnBFS) <!--既有文章说明，又有代码实现练习-->
+
+
 
 # 排序
 

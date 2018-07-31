@@ -11,10 +11,13 @@
 - [B站超全文史公开课汇总（经典名著）](https://www.bilibili.com/read/cv21466/)
 - [除了edx，coursera，网络还有哪里公开课资源？ - 知乎](https://www.zhihu.com/question/27952897)
 
+
+
 ## Platform
 
 - [全民终身学习课程平台 - 首页 - 精品课 - Home Page](http://www.jingpinke.com/)
 - [全部课程 | 果壳MOOC学院](http://mooc.guokr.com/course/?dept_id=52&order=grading)
+- [1纳米学习](http://1nami.com/)
 
 
 
@@ -31,6 +34,10 @@
 
 - [Bilibili：线性代数的本质【熟肉】](https://www.bilibili.com/video/av5987715?from=search&seid=12621488406557834507)
 - [Bilibili：吴恩达机器学习图解笔记](https://www.bilibili.com/video/av20994456?from=search&seid=14849620634007483368)
+
+#### 线性代数的本质
+
+- [3\. 矩阵与线性变换 (3blue1brown 咪博士 图文注解版)](http://www.ipaomi.com/2017/11/24/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E6%9C%AC%E8%B4%A8%E4%B8%8E%E5%87%A0%E4%BD%95%E6%84%8F%E4%B9%89-03-%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2-3blue1brown-%E5%92%AA/)
 
 ### Probability
 
