@@ -1,7 +1,12 @@
 # Ubuntu 安装软件
 
 - [Ubuntu 常用软件安装](https://www.jianshu.com/p/4d220b01686b)
+
 - [Ubuntu主题美化、个性化设置与常用软件](http://yangbingdong.com/2017/ubuntu-todo-after-install/) <!--全面-->
+
+- [那个程序员的 Linux 常用软件清单](https://juejin.im/entry/58bac8aa8ac2475f006ce7f2)
+
+  > or [简书：那个程序员的Linux常用软件清单](https://www.jianshu.com/p/ac6e13290698)
 
 ## 编程语言
 
