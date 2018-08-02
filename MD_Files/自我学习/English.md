@@ -56,5 +56,11 @@
 
 ### Download
 
+#### 美剧
+
+- [每日美剧](http://www.meirimeiju.com)
+
+#### 乱七八糟
+
 - [新概念英语第二册新概念英语第二册课文MP3下载](http://www.hjenglish.com/nce/xingainian2/)
 - [人人听力网 - 在线英语听力网|英语听力教程|英语听力MP3下载](http://www.rrting.net/)
