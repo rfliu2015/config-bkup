@@ -1,5 +1,5 @@
 # 为shell命令ln加强，使得源路径不必是绝对路径
-#!/usr/bin/python
+# !/usr/bin/python
 # -*- coding: utf-8 -*-
 
 from sys import argv
@@ -7,16 +7,20 @@ from subprocess import call
 import os.path
 
 
-def main(lt):
-    if lt[0] == '-s':
-        path = 1
+def pln(lt):
+    # Only need to find where the src starts
+    # format: -sf src1 src2 ... dest ...
+    if lt[0].startswith('-'):
+        from_ = 1
+    # format: src1 src2 ... dest ... -sf
     else:
-        path = 0
+        from_ = 0
 
-    source = os.path.abspath(lt[path])
-    lt[path] = source
+    src = lt[from_]
+    abs_src = os.path.abspath(src)
+    lt[from_] = abs_src
     call(["ln"] + lt)
 
 
 if __name__ == '__main__':
-    main(argv[1:])
+    pln(argv[1:])
