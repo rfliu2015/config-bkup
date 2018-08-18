@@ -30,13 +30,7 @@
 
 
 
-## Movies
 
-### 李安
-
-- [天涯：捂脸承认最近才看了《卧虎藏龙》，没人觉得章凉凉玉娇龙这角色很恶心么](http://bbs.tianya.cn/post-funinfo-4515074-1.shtml)
-- [豆瓣：论玉娇龙为何跳崖](https://movie.douban.com/review/7156557/) <!--长评，极佳-->
-- [豆瓣：李慕白的情欲世界](https://movie.douban.com/review/1322255/)
 
 ## Design
 

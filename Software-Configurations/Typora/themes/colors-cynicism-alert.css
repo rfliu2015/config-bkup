@@ -1,7 +1,7 @@
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
-  font-size: 16px;
+  font-size: 18px;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -553,20 +553,16 @@ pre,
 pre,
 code {
   font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
-  padding-left: 5rem;
 }
 code {
-  padding: 2px 4px;
-  word-wrap: break-word;
-  color: #555;
-  background: #eee;
-  border-radius: 3px;
-  font-size: 0.9rem;
-  margin: 0, 0, 0, 0;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
 }
 pre code {
   padding: 0;
-  padding-left: 5rem;
   color: #4d4d4c;
   background: none;
   text-shadow: none;

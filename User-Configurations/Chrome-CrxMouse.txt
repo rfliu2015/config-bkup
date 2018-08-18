@@ -128,7 +128,7 @@
     "draginput": false,
     "setdragurl": true,
     "imgfirstcheck": false,
-    "imgfirst": "none",
+    "imgfirst": "alt",
     "dholdkey": "none",
     "text": [
       {
@@ -173,7 +173,10 @@
       },
       {
         "direct": "D",
-        "action": "L_copytext"
+        "action": "L_copyuser",
+        "moreName": "Copy Link",
+        "moreCopystyle": "[%title](%url)",
+        "moreDes": "复制文字及网址为自定义格式"
       },
       {
         "direct": "U",
@@ -199,7 +202,7 @@
       },
       {
         "direct": "D",
-        "action": "I_save"
+        "action": "I_copyurl"
       }
     ]
   },
