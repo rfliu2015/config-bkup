@@ -40,6 +40,7 @@
 - [debugging - How to see which plugins are making Vim slow? - Stack Overflow](https://stackoverflow.com/questions/12213597/how-to-see-which-plugins-are-making-vim-slow)
 - [全键盘Vimium快捷键学习记录 - 简书](http://www.jianshu.com/p/5b627a24f7aa)
 - [VIM Adventures](http://vim-adventures.com/)
+- [Mac上的那些效率神器 - 简书](https://www.jianshu.com/p/536866a4f55c) <!--有好几张高清的vim技术图片-->
 
 #### 外部工具
 

@@ -22,6 +22,7 @@
 #### Specific
 
 - 傻大全
+
   - [**Official**: **Array creation routines**](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.array-creation.html#routines-array-creation)
 
 - 话题很小但不错
@@ -84,7 +85,8 @@
 
 #### General
 
-- **不错**
+- ###### 不错
+
   - [用Python做科学计算：matplotlib-绘制精美的图表](http://old.sebug.net/paper/books/scipydoc/matplotlib_intro.html#)  <!--原理讲得不错，有目录。佳-->
 
   - [matplotlib - **2D and 3D plotting** in Python](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
@@ -103,6 +105,8 @@
     > Matplotlib 中的图形是根据 Figure 实例和 figure 中的一个或多个 Axes 实例构建而成的。Figure 实例为绘图提供了一个画布区域(Canvas)，而 Axes 实例则提供了坐标系，用于分配给画布的特定区域。
     >
     > In most cases, add_subplot would be the prefered method to create axes for plots on a canvas. Only in cases where exact positioning matters, add_axes might be useful. 
+
+  - [matplotlib常用用法总结（持续更新） - 简书](https://www.jianshu.com/p/538b5e776405) <!--不错-->
 
   - [Scipy Lecture Notes: 1.4. Matplotlib: plotting](http://www.scipy-lectures.org/intro/matplotlib/matplotlib.html)
 

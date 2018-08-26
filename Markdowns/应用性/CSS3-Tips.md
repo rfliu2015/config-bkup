@@ -8,4 +8,4 @@
 
 ## 好看CSS3样式
 
-- [<img src="https://i.loli.net/2018/07/10/5b4395db222ec.png" alt="aaa.png" title="aaa.png" style="zoom:30%" />](http://www.hjqjk.com/2017/Python-time-module.html)
+- [<img src="https://i.loli.net/2018/07/10/5b4395db222ec.png" alt="aaa.png" title="aaa.png" style="zoom:80%" />](http://www.hjqjk.com/2017/Python-time-module.html)

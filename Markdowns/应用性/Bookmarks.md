@@ -6,13 +6,18 @@
 
 ---
 
-# Recommended Software And Service
-
 ## Go Beyond the FireWall
 
 - [爱翻墙 - 网址导航](http://www.ifanqiang.com/)
 
-# NJU
+- ##### XX-Net
+
+  - [使用XX-Net科学上网之IPV6 | 💖闪闪的红星💖](http://songjinju.com/2017/10/11/%E4%BD%BF%E7%94%A8xx-net%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BIPV6/)
+  - [ipv6开启方法 · Alvin9999/new-pac Wiki](https://github.com/Alvin9999/new-pac/wiki/ipv6%E5%BC%80%E5%90%AF%E6%96%B9%E6%B3%95)
+
+- [Home · Alvin9999/new-pac Wiki](https://github.com/Alvin9999/new-pac/wiki)
+
+## NJU
 
 - [南京大学教务处](http://jw.nju.edu.cn/)
 
@@ -36,26 +41,18 @@
 
 - [南京大学大学生创新创业训练智能管理系统](http://desktop.nju.edu.cn/cx/)
 
-
-# Browser Search Engine
-
-- [龙轩导航](http://ilxdh.com/)
-- [Google香港](https://www.google.com.hk/)
-
-- [Google](https://www.google.com/ncr)
-
-- [hao123_上网从这里开始](https://www.hao123.com/)
-
-# Daily Practical Websites And Tools
+## Daily Practical Websites And Tools
 
 ### Resources Aggregation
 
+#### 论文&学术 :pen:
+
 - [谷歌学术镜像_Google学术搜索导航](http://dir.scmor.com/google/)
+- [SOOIP 专利查询](http://www.so.iptrm.com/app/main)
 - [Anki与学习群 精华汇合 - 幕布](https://mubu.com/doc/g5GHJKw1B)
-- [Windows更新补丁下载网站](http://www.catalog.update.microsoft.com/home.aspx)
 - [畅想之星——光盘数据库](http://www.bj.cxstar.cn/bookcd/index/index.do)
 
-#### Music
+#### Music :musical_note:
 
 - [SQ688超高无损音乐](https://www.sq688.com/)
 - [91Flac无损音乐下载](https://www.91flac.com/)
@@ -67,24 +64,32 @@
 - [微信传送门](http://chuansong.me/) <!--微信公众账号导航及推荐，反应速度略慢-->
 - [爱微帮](http://www.aiweibang.com/)
 
-#### BT Seed
+#### 影视 :cinema: 
 
-- [BT之家-BT电影天堂-影视资源交流社区](http://www.btbtt.co/)
-- [BT Kitty - 专业BT种子搜索神器、下载利器，免费下载各种BT种子](http://btkitty.pet/)
-- [ED2000资源共享,电驴下载,eD2k,BT种子](http://www.ed2000.com/)
-
-#### Subtitle
-
-- [Zmdown 字幕下载网](http://www.zmdown.com/) <!--记得比较可靠--> 
+> ###### Vip在线
+>
+> - [会员影视中心™](http://v.aptso.cn/)
+> - [云播TV-云播,云影院,云播放,云点播,最新电影,最新电视剧](https://www.yunbtv.com/)
+>
+> ###### BT Seed
+>
+> - [BT之家-BT电影天堂-影视资源交流社区](http://www.btbtt.co/)
+> - [BT Kitty - 专业BT种子搜索神器、下载利器，免费下载各种BT种子](http://cnbtkitty.cc/)
+> - [ED2000资源共享,电驴下载,eD2k,BT种子](http://www.ed2000.com/)
+>
+> ###### Subtitle
+>
+> - [Zmdown 字幕下载网](http://www.zmdown.com/) <!--记得比较可靠--> 
+>
 
 #### Mobile Phone
 
 - [刷机bbs](http://d.shuajibbs.com:8082/)
 #### Baidu Productions
 - [盘多多](http://www.panduoduo.net/)
+- [百度文库 下载页](http://www.blpack.com/) <!--输入账号大量下载-->
 - [坑锋网](http://www.kengso.com/) <!--有点坑，因为很多没有，但是选项比较多-->
 - [轻舟已过万重山](https://www.qzhou.com.cn/)
-- [百度文库 下载页](http://www.blpack.com/) <!--输入账号大量下载-->
 #### Vip Account Sharing
 
 - [vip.mdouvip.com/xunlei/](http://vip.mdouvip.com/xunlei/)
@@ -100,63 +105,52 @@
 - [Kindle4rss](https://kindle4rss.com/)
 ##### 乱七八糟
 
-- [kindle推|kindle推送|kindle图书推送|kindlepush|kindle电子书推送|kindle网站](http://www.kindlepush.com/main)
 - [Export your Kindle Highlights with Clippings.io](https://my.clippings.io/#/)
 - [Free eBooks For Your Kindle or Other eReader | ManyBooks](http://manybooks.net/)
 - [Gutenberg](http://www.gutenberg.org/)
-### To Pay
+### Shopping :moneybag:
 
-- [支付宝](https://www.alipay.com/)
-- [客运服务 | 铁路客户服务中心](https://kyfw.12306.cn/otn/index/init)
-- [淘宝网 - 淘！我喜欢](https://www.taobao.com/)
+- [一元秒杀网-优惠券汇总-实时更新_一元秒杀网](http://www.yymsw.com/)
+- [甜心菜-优惠券实时更新汇总_甜心菜](http://www.tianxincai.com/)
 
-# Intersted Items
+## Intersted Items
 
-## Copywriting Style
+### Fantacy website
+
+- [Reddit](https://www.reddit.com/)
+### Wallpapers
+
+- ##### Suggestions
+  - [有哪些较好的壁纸网站？ - 周广恩的回答 - 知乎](https://www.zhihu.com/question/32762402/answer/58707616)
+
+### pornography
+
+> ##### Video Released Homapage
+>
+> - [91发布地址](http://92.t9p.today/viewthread.php?tid=97046)
+> - [auto发布地址](https://www.emoneyspace.com/avaotudizhi)
+>
+> ##### Available Video URL
+>
+> - [auto.com](http://www.aotu26.com/)
+> - [FreeGet](http://freeget.vip/)
+> - [草榴社区](http://mmm.vu3r.com/index.php)
+> - [pornhub](https://www.pornhub.com/)
+> - [Camster](https://camster.com/) <!--Live online-->
+> - [KindGirls](http://www.kindgirls.com/)
+> - [XHAMSTER](https://xhamster.com/photos)
+>
+> ##### Video URL Resolution
+>
+> - [解析吧](http://www.jiexiba.tech/#/)
+> - [FreeGet](http://freeget.vip/)
+>
+
+### 乱七八糟
 
 - [中文文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines)
 
-## Fantacy website
-
-- [封面故事在 Flipboard 上了！](https://flipboard.com/)
-- [Facebook](https://www.facebook.com/)
-- [YouTube](https://www.youtube.com/)
-- [Twitter](https://twitter.com/)
-- [Reddit](https://www.reddit.com/)
-## Wallpapers
-
-
-- [www.wallpaper4k.com](http://www.wallpaper4k.com/)
-
-### Suggestions
-
-- [有哪些较好的壁纸网站？ - 周广恩的回答 - 知乎](https://www.zhihu.com/question/32762402/answer/58707616)
-
-## pornography
-
-### Video Released Homapage
-
-- [91发布地址](http://92.t9p.today/viewthread.php?tid=97046)
-- [auto发布地址](https://www.emoneyspace.com/avaotudizhi)
-
-### Available Video URL
-
-- [auto.com](http://www.aotu26.com/)
-- [FreeGet](http://freeget.vip/)
-- [草榴社区](http://mmm.vu3r.com/index.php)
-- [pornhub](https://www.pornhub.com/)
-- [Camster](https://camster.com/) <!--Live online-->
-- [KindGirls](http://www.kindgirls.com/)
-- [XHAMSTER](https://xhamster.com/photos)
-
-### Video URL Resolution
-
-- [解析吧](http://www.jiexiba.tech/#/)
-- [FreeGet](http://freeget.vip/)
-
-
-
-# Techniques
+## Techniques
 
 ### Regular Expression
 
@@ -166,78 +160,41 @@
 - [regexr.com](http://regexr.com/)
 
 
-# Tools Online 
+## Tools Online :hammer_and_wrench:
 
-## Introduction And Recommentation
+### 乱七八糟
 
 - [免费图床工具推荐](https://www.zybuluo.com/yexiaoqi/note/210029)
 - [图片无损压缩工具有哪些？](https://www.zhihu.com/question/19779256)
+- [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
 
-## Tools
+### Tools :wrench:
 
-##### Picture Compressing
+- [NiceTool](http://www.nicetool.net/) <!--在线工具大全，用完即走，触手可及_好工具网-->
+- [UZER.ME -- 您的云端超级应用空间](https://uzer.me/z/apps)
+
+#### 图片处理
 
 - [Tiny Png](https://tinypng.com/)
+- [ocrmaker](http://www.ocrmaker.com/)
 
-##### 在线作图
+#### 在线作图
 
 - [免费在线作图，实时协作](https://processon.com/)
 
-##### ==图床==
+#### ==图床==
 
-###### General
+- ##### General
+  - [收集常见的公共图床](https://blog.nfz.moe/archives/collection-of-image-hosting.html)
+  - [国内外部分可用图床推荐对比](https://www.jianshu.com/p/9dbef7ae6e3b)
 
-- [收集常见的公共图床](https://blog.nfz.moe/archives/collection-of-image-hosting.html)
-- [国内外部分可用图床推荐对比](https://www.jianshu.com/p/9dbef7ae6e3b)
+- ##### Specific
+  - [SM.MS](https://sm.ms/) <!--支持https，不限数量，但打开略慢--> 
+  - [路过图床](https://imgchr.com/) <!--打开快-->
+  - [我的图床](http://bearther.azurewebsites.net/)
+  - [小贱贱图床](http://pic.xiaojianjian.net/) <!--用的是微博相册，所以访问速度比较快，20/day，只有链接-->
 
-###### Specific
-
-- [SM.MS](https://sm.ms/) <!--支持https，不限数量，但打开略慢--> 
-- [路过图床](https://imgchr.com/) <!--打开快-->
-- [我的图床](http://bearther.azurewebsites.net/)
-- [小贱贱图床](http://pic.xiaojianjian.net/) <!--用的是微博相册，所以访问速度比较快，20/day，只有链接-->
-
-##### OCR Online
-
-- [ocrmaker](http://www.ocrmaker.com/)
-
-##### Emoji List
-
-- [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
-
-
-
-# Postgraduation Examination
-
-## PE BBS
-
-- [考研论坛](http://bbs.kaoyan.com/)
-
-## PE Websites
-
-- [考研帮_让考研简单不孤单！_考研网（kaoyan.com）](http://www.kaoyan.com/)
-- [中国研究生招生信息网](http://yz.chsi.com.cn/)
-
-
-## General PE Experience 
-
-- [github codeunion 考研（计算机）的一些建议](https://github.com/CoderUnion/coderunion-github-talk/issues/94)
-- [CSDN：2018考研计算机408经验详谈](https://blog.csdn.net/phoenix_wei/article/details/79659614)
-
-## The University
-
-### FDU
-
-1. [2018招生简章](http://yz.chsi.com.cn/sch/viewZszc--infoId-1868121556,categoryId-10461186,schId-368127,mindex-12.dhtml)
-2. [2018计算机科学与技术招生目录](http://www.fduky.com/yuanxi/details.aspx?id=2863#3) <!-- 45-35 -->
-3. [2018软件工程招生目录](http://www.fduky.com/yuanxi/details.aspx?id=2862#3) <!-- 52-46 -->
-4. [复旦大学2017年考研复试分数线（学术型）](http://www.chinakaoyan.com/info/article/id/156429.shtml)
-
-### NJU
-
-
-
-# Computer Hardware
+## Computer Hardware
 
 ### 内存条
 

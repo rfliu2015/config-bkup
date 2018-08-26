@@ -4,7 +4,7 @@
 
 ---
 
-# General
+## General [:top:](#Curriculums)
 
 - [专栏 - 计算机理论基础: Forec's notes](http://blog.forec.cn/columns/cs-basic.html)
 
@@ -14,9 +14,13 @@
 
   > 在IT行业，学习的一些好习惯和坏习惯。
 
-# Specific
+- [如何成为一位「不那么差」的程序员 | crossoverJie's Blog](https://crossoverjie.top/2018/08/12/personal/how-to-be-developer/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 
-## 计算机语言
+- [如何从业余爱好者自学进阶成专业开发者](https://mp.weixin.qq.com/s?__biz=MjM5MzA0OTkwMA%3D%3D&mid=2651197532&idx=1&sn=ad6965827c6d1d5bbd364bdf2c65ea63#wechat_redirect)
+
+## 
+
+## 计算机语言 [🔝](#Curriculums)
 
 ##### Article 1
 
@@ -68,35 +72,35 @@
 
 
 
-# 经典书籍笔记
+## 经典书籍笔记 [🔝](#Curriculums)
 
-### 「深入理解计算机系统」
+### 『深入理解计算机系统』
 
 - [《深入理解计算机系统》| **信息的表示和处理**](https://www.jianshu.com/p/58cb75d9404e?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
-### 「计算机网络：自顶向下方法Sixth」
+### 『计算机网络：自顶向下方法Sixth』
 
 ![](https://upload-images.jianshu.io/upload_images/2941343-c76b682f3ff23a2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/318)
 
-#### 第一章 计算机网络和因特网
+##### 第一章 计算机网络和因特网
 
 - [简书：Chapter one: 计算机网络和因特网](https://www.jianshu.com/p/d388d0528524)
 - [第一章复习题 by Wonter](https://www.jianshu.com/p/4158a9258b01)
 - [第一章复习题 by maxwellyue](https://www.jianshu.com/p/47f1adf5fb1f)
 
-#### 第二章 应用层
+##### 第二章 应用层
 
 - [简书：计算机网络自顶向下——应用层 by 牛严](https://www.jianshu.com/p/48f2bebaeb40)
 - [简书：读书笔记——应用层 by Hans941](https://www.jianshu.com/p/1b53e88e5864?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
-#### 第三章 运输层
+##### 第三章 运输层
 
 - [简书：计算机网络自顶向下——运输层 by 牛严](https://www.jianshu.com/p/0bbc559e7b05)
 
-#### 第四章 网络层
+##### 第四章 网络层
 
 - [简书：计算机网络自顶向下——网络层 by 牛严](https://www.jianshu.com/p/78330d05537c)
 
-#### 第五帮 网络层
+##### 第五章 网络层
 
 - [简书：计算机网络自顶向下——链路层 by 牛严](https://www.jianshu.com/p/16c716ec06b7)

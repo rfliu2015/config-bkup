@@ -23,7 +23,7 @@
 
 # Respective Subject
 
-## ==Mathemathics==
+## Mathemathics :deciduous_tree:
 
 ### Statistics
 
@@ -43,8 +43,9 @@
 
 - [Bilibili：概率机器学习基础：MIT概率课图解笔记](https://www.bilibili.com/video/av23922698?from=search&seid=14849620634007483368)
 
-## ==Computer Science==
+## Computer Science :deciduous_tree:
 
+- [YouTube 上有哪些计算机方面的值得推荐的公开课？ - 知乎](https://www.zhihu.com/question/49071324)
 - [Bilibili：【合集：10分钟速成课：计算机科学 Crash Course Computer Science】](https://www.bilibili.com/video/av21376839?from=search&seid=2541656215463523566)  
 
 ### 机器学习
@@ -53,11 +54,11 @@
 - [Bilibili：吴恩达机器学习图解笔记](https://www.bilibili.com/video/av20994456?from=search&seid=14849620634007483368)
 - [Bilibili：概率机器学习基础：MIT概率课图解笔记](https://www.bilibili.com/video/av23922698?from=search&seid=14849620634007483368)
 
-## ==Psychology==
+## Psychology :deciduous_tree:
 
 - [Bilibili：耶鲁大学公开课：心理学导论](https://www.bilibili.com/video/av920083)
 
-## ==Philosophy==
+## Philosophy :deciduous_tree:
 
 ### General
 

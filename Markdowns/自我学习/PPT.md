@@ -16,12 +16,18 @@
 - [办公族PPT教程：PowerPoint常用快捷键大全（非常全面）](http://www.officezu.com/a/powerpoint/5055.html)
 - [简书：PPT快捷键大全：提高你30%的设计效率](https://www.jianshu.com/p/3f447779775a)
 
-#### 图表设计
+#### 图表设计 :bar_chart:
 
 - [知乎：PPT图表有哪些设计和美化方法？下面这种PPT图表是如何制作的？](https://www.zhihu.com/question/41515234)
 - [学习 PPT 图表设计，看这一篇可能就够了](https://www.digitaling.com/articles/30306.html) <!--图表的设计原则和合适情况-->
 
-### Unclassfied Ones
+#### 表格
+
+- [原来美化一份PPT表格这么简单，这4点你越早知道越好！](https://mp.weixin.qq.com/s?__biz=MjM5MDgxNjc0MA%3D%3D&mid=2651001844&idx=1&sn=356c6b2e09f7a0eafeb5d31b3fce7a1f#wechat_redirect)
+
+### 杂七杂八
+
+- [这6个批量处理的技巧，让你的效率提升100倍！](https://mp.weixin.qq.com/s?__biz=MjM5MDgxNjc0MA%3D%3D&mid=2651001730&idx=1&sn=2e08f4d65f0296c0a8b1411c27a37065#wechat_redirect)
 
 - [揭秘PPT中不为人知却好用到爆的合并形状功能](https://www.jianshu.com/p/a4d1d8e6d864)
 - [PPT基础视频教程：编辑顶点](https://www.bilibili.com/video/av7528481/)
@@ -36,7 +42,11 @@
 
 - [Subtle patterns](https://www.toptal.com/designers/subtlepatterns/) <!--图案填充-->
 
-### ==Picture==
+### ==模板==
+
+- [一个有情怀的免费PPT模板下载网站！ - 优品PPT](http://www.ypppt.com/) <!--PPT模板下载 免费PPT模板下载 精美免费PPT模板下载-->
+
+### ==Picture== :framed_picture:
 
 #### Picture Search
 
@@ -64,3 +74,4 @@
 
 - [Myfonts](https://www.myfonts.com/) <!--英文字体识别-->
 - [求字体网](http://www.qiuziti.com/)
+
