@@ -5,6 +5,7 @@
 - [Github: Best Windows Windows Apps](https://github.com/stackia/best-windows-apps)
 - [Windows常用软件推荐 *by HelloDog*](https://wsgzao.github.io/post/windows/)  <!--2016/04--->
 - [ifanr: Windows 上有什么鲜为人知的好软件？| 自爆区 023](http://www.ifanr.com/app/823084)
+- [毕生珍藏！ 10 款实用软件！建议收藏 by 酷长 · 电脑手机软件 ](http://www.jianshu.com/p/502a68d6fbf4)
 
 ### 具体的推荐
 
@@ -23,15 +24,15 @@
     - [免费开源的 Windows 管理剪贴板，让你处理文字更高效：Ditto - 少数派](https://sspai.com/post/43700)
 
 
-### 破解&绿化网站
+### 软件分享网站
 
 - ##### 不错 :thumbsup:
 
   - [zd423 - 软件分享平台领跑者](http://www.zdfans.com/) <!--High Quality-->
-  - [下一个好软件](https://www.xia1ge.com/) <!--Win, Android, IOS, Mac-->
   - [7k 免费科学上网工具](https://www.7k21.com/)
   - [精品绿色软件](https://www.portablesoft.org/)
   - [胡萝卜周-欢迎访问胡萝卜周博客](http://www.carrotchou.blog/)
+  - [下一个好软件](https://www.xia1ge.com/) <!--Win, Android, IOS, Mac-->
 - ###### 不怎么样
 
   - [精品资源分享](http://www.jpzyfx.com/) <!--不怎么样-->
@@ -46,7 +47,7 @@
 
 ### Web Browers
 
-#### ?? Chrome
+#### ? Chrome
 
 - [Google Chrome下载地址](https://api.shuax.com/tools/getchrome)
 - [绿色便携版谷歌浏览器制作流程 - 申杰博客 - 博客园](http://www.cnblogs.com/shenjieblog/p/5290106.html)
@@ -56,7 +57,7 @@
 
 - [提供Chrome商店中优秀的Chrome插件推荐与下载服务](http://chromecj.com/)
 
-#### ?? 星愿浏览器
+#### ? 星愿浏览器
 
 -  [福利吧：星愿浏览器：度盘高速下载&看视频无广告](http://fuliba.net/twinkstar.html) <!--有绿色版本4.0-->
 
@@ -82,7 +83,7 @@
 
 - [解决磁盘只读、介质受写入保护或者不能写入和删除数据的问题](http://www.cnblogs.com/programsky/p/5522838.html)
 
-## 软件注册码
+## ? 软件注册码
 
 - `XYplorer` 密钥
 
@@ -93,3 +94,5 @@
 
   用户名：`ttrar.com`
   序列号：`DKAZQ-R9TYP-5SM2A-9Z8KD-3E2RK `
+
+  [序列号](http://www.zdfans.com/html/7569.html)：`DMAZM-WHY52-AX222-ZQJXN-79JXH`
