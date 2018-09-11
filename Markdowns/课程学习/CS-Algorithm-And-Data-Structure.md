@@ -540,7 +540,15 @@ void postorderTraversal(TreeNode root):
 
 - [数据结构和算法学习笔记：图论](http://www.yeolar.com/note/2012/05/30/ds-graph/) <!--冷门的一些东西-->
 
+## 📁 查找
+
+- [B树和B+树的插入、删除图文详解 - nullzx - 博客园](https://www.cnblogs.com/nullzx/p/8729425.html)
+- [B树和B+树的总结 - banananana - 博客园](https://www.cnblogs.com/George1994/p/7008732.html)
+- [【经典数据结构】B树与B+树 - vincently - 博客园](https://www.cnblogs.com/vincently/p/4526560.html)
+
 ## 📁 排序
+
+- [常见排序算法 · 看云](https://www.kancloud.cn/kancloud/sort-algorithm)
 
 - [面试中的 10 大排序算法总结](http://www.codeceo.com/article/10-sort-algorithm-interview.html) <!--不错。每个算法前都有长段说明，语言通俗。-->
 - [简书：八大排序的Java实现](https://www.jianshu.com/p/7f39f04af138)

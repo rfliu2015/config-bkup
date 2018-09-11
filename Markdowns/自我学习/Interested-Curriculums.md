@@ -3,7 +3,6 @@
 [TOC]
 
 
-
 # Recommend
 
 - [知乎专栏：这些公开课让你脑洞大开 | 物语](https://zhuanlan.zhihu.com/p/21561233)
@@ -23,7 +22,10 @@
 
 # Respective Subject
 
-## Mathemathics :deciduous_tree:
+## Mathemathics 🌳
+
+- [一张图，带你进入数学世界 ](http://mp.weixin.qq.com/s?__biz=MzA4NDU1MDY5OA%3D%3D&mid=2653192310&idx=1&sn=df092c1711e16f38ac62ed0d8cc483f9#wechat_redirect
+  )
 
 ### Statistics
 
@@ -43,7 +45,7 @@
 
 - [Bilibili：概率机器学习基础：MIT概率课图解笔记](https://www.bilibili.com/video/av23922698?from=search&seid=14849620634007483368)
 
-## Computer Science :deciduous_tree:
+## Computer Science 🌳
 
 - [YouTube 上有哪些计算机方面的值得推荐的公开课？ - 知乎](https://www.zhihu.com/question/49071324)
 - [Bilibili：【合集：10分钟速成课：计算机科学 Crash Course Computer Science】](https://www.bilibili.com/video/av21376839?from=search&seid=2541656215463523566)  
@@ -54,11 +56,11 @@
 - [Bilibili：吴恩达机器学习图解笔记](https://www.bilibili.com/video/av20994456?from=search&seid=14849620634007483368)
 - [Bilibili：概率机器学习基础：MIT概率课图解笔记](https://www.bilibili.com/video/av23922698?from=search&seid=14849620634007483368)
 
-## Psychology :deciduous_tree:
+## Psychology 🌳
 
 - [Bilibili：耶鲁大学公开课：心理学导论](https://www.bilibili.com/video/av920083)
 
-## Philosophy :deciduous_tree:
+## Philosophy 🌳
 
 ### General
 
