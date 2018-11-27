@@ -4,7 +4,7 @@
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
 	"draw_indent_guides": true,

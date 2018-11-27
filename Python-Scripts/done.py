@@ -7,7 +7,7 @@ from sys import argv
 from os import path
 
 cmplors = {'c': 'gcc', 'cpp': 'g++', 'py': 'python3', 'f90': 'gfortran'}
-src_fmts = ['c', 'cpp', 'py', 'java', 'f90']
+src_extensions = ['c', 'cpp', 'py', 'java', 'f90']
 header_fmts = ['h']
 
 
@@ -20,14 +20,14 @@ def get_suffix(file):
     Returns:
         str -- suffix of file. May ''
     """
-    suffix = path.splitext(file)[-1]
+    _, suffix = path.splitext(file)
     if suffix:
-        return suffix[1:]
+        return suffix[1:]  # remove dot
     else:
         return ''
 
 
-def get_name(file):
+def get_genuine_name(file):
     """get file name, suffix not inclusive.
 
     Arguments:
@@ -36,59 +36,65 @@ def get_name(file):
     Returns:
         str -- filename
     """
-    name = path.splitext(file)[0]
+    name, _ = path.splitext(path.basename(file))
     if name:
         return name
     else:
         return ''
 
 
-def main(so_files):
-    if not so_files:
+def main(cmd_line):
+    if not cmd_line:
         raise ValueError('parameter is invalid!')
 
     # --- get format of src and out files ---
     # first file is important
-    fst_file = so_files[0]
+    fst_file = cmd_line[0]
     fst_fmt = get_suffix(fst_file)
 
-    # first file is the out file
-    if fst_fmt not in src_fmts:
+    # --first file is the out file--
+    if fst_fmt not in src_extensions:
         out_file = fst_file
-        src_files = so_files[1:]
+        src_files = cmd_line[1:]
         # get the src file format
         for _srcf in src_files:
-            _srcf_fmt = get_suffix(_srcf)
-            if _srcf_fmt in src_fmts:
-                src_fmt = _srcf_fmt
+            may_src_fmt = get_suffix(_srcf)
+            if may_src_fmt in src_extensions:
+                src_fmt = may_src_fmt
                 break
 
-    # first file isn't the out file
+    # --first file isn't the out file--
     else:
-        last_file = so_files[-1]
+        last_file = cmd_line[-1]
         last_fmt = get_suffix(last_file)
-        # the last file is src file
-        if last_fmt in src_fmts:
-            src_files = so_files[:]
+
+        # -the last file is src file
+        # so outfile not given-
+        if last_fmt in src_extensions:
+            src_files = cmd_line[:]
             src_fmt = last_fmt
 
             # the out file from the last file name
-            out_file = get_name(last_file) + '.out'
-        # the last file is out file
+            out_file = get_genuine_name(last_file) + '.out'
+
+        # -the last file is out file-
         else:
-            src_files = so_files[:-1]
+            src_files = cmd_line[:-1]
             src_fmt = fst_fmt
             out_file = last_file
 
-    # --- start executing the compiling---
+    # --- start executing the compiling ---
     compilor = cmplors[src_fmt]
 
     if src_fmt == 'cpp':
-        call(compilor + ' ' + ' '.join(src_files) +
-             ' -Wall -g -std=c++11 -o ' + out_file, shell=True)
+        call(
+            compilor + ' ' + ' '.join(src_files) + ' -Wall -g -std=c++11 -o ' +
+            out_file,
+            shell=True)
     elif src_fmt == 'c':
-        call(compilor + ' ' + ' '.join(src_files) +
-             ' -Wall -g -o ' + out_file, shell=True)
+        call(
+            compilor + ' ' + ' '.join(src_files) + ' -Wall -g -o ' + out_file,
+            shell=True)
     elif src_fmt == 'py':
         call(compilor + ' ' + ' '.join(src_files), shell=True)
     elif src_fmt == 'f90':
@@ -96,5 +102,5 @@ def main(so_files):
 
 
 if __name__ == '__main__':
-    files = argv[1:]
-    main(files)
+    cmd_line = argv[1:]
+    main(cmd_line)
