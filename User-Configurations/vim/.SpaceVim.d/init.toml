@@ -25,16 +25,22 @@
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = true
     bootstrap_before = "myspacevim#before"
+    snippet_engine = "neosnippet"
 
 [[layers]]
-name = 'lang#python'
-
-[[layers]]
-  name = "lang#c"
+name = "lang#c"
+clang_executable = "/usr/bin/clang"
+libclang_path = "/usr/lib/llvm-3.8/lib/"
+  [layer.clang_std]
+  c = "c11"
+  cpp = "c++1z"
+  objc = "c11"
+  objcpp = "c++1z"
 
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
+auto-completion-delay = 50
 auto-completion-return-key-behavior = "complete"
 auto-completion-tab-key-behavior = "smart"
 
@@ -44,10 +50,19 @@ name = "format"
 [[layers]]
 name = "colorscheme"
 
+# 只有在vim查看lang-c部分才能看到支持deoplete-clang2
+[[layers]]
+name = "tweekmonster/deoplete-clang2"
+
+
 [[layers]]
 name = 'shell'
 default_position = 'top'
 default_height = 30
 
 [[custom_plugins]]
-    name = "Chiel92/vim-autoformat"
+name = "Chiel92/vim-autoformat"
+
+# 其实spacevim默认支持的那些插件可以直接使用
+# 比如vim-surround，对用户是半透明的，但是自己可以直接用
+# 有点坑的是，这些插件自己的配置，还要自己另外去看他们的vim文档
