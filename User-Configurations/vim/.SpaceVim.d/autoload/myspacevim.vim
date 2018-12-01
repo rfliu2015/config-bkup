@@ -31,10 +31,6 @@ func! myspacevim#before() abort
     onoremap H ^
     vnoremap L $
     vnoremap H ^
-    nnoremap <TAB> >
-    nnoremap <S-TAB> <
-    vnoremap <TAB> >
-    vnoremap <S-TAB> <
 
     nnoremap j gj
     nnoremap k gk
@@ -74,6 +70,22 @@ func! myspacevim#before() abort
     "============================================================
     " set guicursor=i:ver25-iCursor
     set conceallevel=3
+    let g:spacevim_statusline_left_sections =
+                \ [
+                \ 'winnr',
+                \ 'filename',
+                \ 'major mode',
+                \ 'minor mode lighters',
+                \ 'version control info'
+                \ ]
+    let g:spacevim_statusline_right_sections =
+                \ [
+                \ 'fileformat',
+                \ 'cursorpos',
+                \ 'percentage',
+                \ 'time'
+                \ ]
+
 
     "============================================================
     "============================================================

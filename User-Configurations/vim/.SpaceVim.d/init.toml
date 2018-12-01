@@ -27,6 +27,7 @@
     bootstrap_before = "myspacevim#before"
     snippet_engine = "neosnippet"
 
+
 [[layers]]
 name = "lang#c"
 clang_executable = "/usr/bin/clang"
@@ -62,6 +63,7 @@ default_height = 30
 
 [[custom_plugins]]
 name = "Chiel92/vim-autoformat"
+name = "google/vim-searchindex"
 
 # 其实spacevim默认支持的那些插件可以直接使用
 # 比如vim-surround，对用户是半透明的，但是自己可以直接用
