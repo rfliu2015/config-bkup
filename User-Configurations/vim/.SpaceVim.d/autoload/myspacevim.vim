@@ -11,7 +11,6 @@ func! myspacevim#before() abort
     " let g:formatdef_custom_c='"astyle --style=linux -cpU -j -z2 --align-pointer=type"'
     " 大小写关键
     let g:formatdef_custom_c='"clang-format-6.0 -style=file"'
-    " let g:formatdef_custom_c='"clang-format -style=Google"'
     let g:formatters_c = ['custom_c']
     let g:formatters_cpp = ['custom_c']
 
@@ -21,6 +20,11 @@ func! myspacevim#before() abort
     " @@@ neo-make
     "============================================================
     " let g:clang_library_path='/usr/lib/llvm-3.8/lib/libclang.so.1'
+
+    "============================================================
+    "============================================================
+    " @@@ autocomplete
+    "============================================================
 
     "============================================================
     "============================================================
@@ -91,21 +95,21 @@ func! myspacevim#before() abort
     "============================================================
     " @@@ Deoplete
     "============================================================
-    " let g:spacevim_autocomplete_method = 'YouCompleteMe'
-    let g:spacevim_autocomplete_method = 'deoplete'
-    let g:deoplete#enable_at_startup = 1
+    let g:spacevim_autocomplete_method = 'ycm'
+    " let g:spacevim_autocomplete_method = 'deoplete-clang2'
+    " let g:deoplete#enable_at_startup = 1
 
     "============================================================
     "============================================================
     " @@@ Deoplete-Clang2
     "============================================================
-    let g:clang_library_path = '/usr/lib/llvm-3.8/lib/libclang.so.1'
+    " let g:clang_library_path = '/usr/lib/llvm-3.8/lib/libclang.so.1'
     " let g:deoplete#sources#clang#flags = ['-Iwhatever', ...]
-    let g:deoplete#sources#clang#executable = '/usr/bin/clang'
-    let g:deoplete#sources#clang#autofill_neomake = 1
+    " let g:deoplete#sources#clang#executable = '/usr/bin/clang'
+    " let g:deoplete#sources#clang#autofill_neomake = 1
     " let g:neomake_<filetype>_enabled_makers = ["clang"]
-    let g:neomake_c_enabled_makers = ["clang"]
-    let g:neomake_cpp_enabled_makers = ["clang"]
+    " let g:neomake_c_enabled_makers = ["clang"]
+    " let g:neomake_cpp_enabled_makers = ["clang"]
 
 
     "============================================================
@@ -113,7 +117,6 @@ func! myspacevim#before() abort
     " @@@ YouCompleteMe
     "============================================================
     let g:spacevim_enable_ycm = 1
-    " let g:spacevim_autocomplete_method = 'YouCompleteMe'
 	let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
     let g:ycm_confirm_extra_conf = 0 "关闭加载.ycm_extra_conf.py提示
     "-----------"
