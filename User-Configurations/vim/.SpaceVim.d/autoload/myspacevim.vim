@@ -14,6 +14,12 @@ func! myspacevim#before() abort
     let g:formatters_c = ['custom_c']
     let g:formatters_cpp = ['custom_c']
 
+    "============================================================
+    "============================================================
+    " @@@ tagbar
+    "============================================================
+    nnoremap <silent> <F9> :TagbarToggle<CR>
+
 
     "============================================================
     "============================================================
@@ -21,10 +27,6 @@ func! myspacevim#before() abort
     "============================================================
     " let g:clang_library_path='/usr/lib/llvm-3.8/lib/libclang.so.1'
 
-    "============================================================
-    "============================================================
-    " @@@ autocomplete
-    "============================================================
 
     "============================================================
     "============================================================
@@ -54,19 +56,29 @@ func! myspacevim#before() abort
     " &&& Ctrl
     "============================================================
     nnoremap <C-c>s :%s/\<<c-r>=expand("<cword>")<cr>\>/
+    inoremap <C-d>a this->
 
     inoremap <c-l> <right>
-    inoremap <c-j> <down>
-    inoremap <c-k> <space>
-    inoremap <c-u> <space>
+    " inoremap <c-j> <down>
+    " inoremap <c-k> <space>
+    " inoremap <c-u> <space>
     inoremap <c-l> <right>
 
-    nnoremap <C-k>a f(l
     inoremap <C-k>[ <End><Space>{<Cr>}<Left><Cr><Up><Tab>
     inoremap <C-K>i ->
     inoremap <C-K>l <Esc>o<Esc>cc
-    nnoremap <C-k>s :w<Cr>
+    nnoremap <C-d>s :w<Cr>
     inoremap <C-k>; <End>;
+    inoremap <C-k>a !=
+
+    "============================================================
+    "============================================================
+    " 基本操作
+    "============================================================
+    set mousemodel=extend
+    set ignorecase
+    set smartcase
+    set incsearch
 
     "============================================================
     "============================================================
@@ -87,29 +99,16 @@ func! myspacevim#before() abort
                 \ 'fileformat',
                 \ 'cursorpos',
                 \ 'percentage',
-                \ 'time'
                 \ ]
+                " \ 'time'
 
 
     "============================================================
     "============================================================
     " @@@ Deoplete
     "============================================================
-    let g:spacevim_autocomplete_method = 'ycm'
     " let g:spacevim_autocomplete_method = 'deoplete-clang2'
     " let g:deoplete#enable_at_startup = 1
-
-    "============================================================
-    "============================================================
-    " @@@ Deoplete-Clang2
-    "============================================================
-    " let g:clang_library_path = '/usr/lib/llvm-3.8/lib/libclang.so.1'
-    " let g:deoplete#sources#clang#flags = ['-Iwhatever', ...]
-    " let g:deoplete#sources#clang#executable = '/usr/bin/clang'
-    " let g:deoplete#sources#clang#autofill_neomake = 1
-    " let g:neomake_<filetype>_enabled_makers = ["clang"]
-    " let g:neomake_c_enabled_makers = ["clang"]
-    " let g:neomake_cpp_enabled_makers = ["clang"]
 
 
     "============================================================
@@ -117,6 +116,7 @@ func! myspacevim#before() abort
     " @@@ YouCompleteMe
     "============================================================
     let g:spacevim_enable_ycm = 1
+    let g:spacevim_autocomplete_method = 'YouCompleteMe'
 	let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
     let g:ycm_confirm_extra_conf = 0 "关闭加载.ycm_extra_conf.py提示
     "-----------"
@@ -135,8 +135,24 @@ func! myspacevim#before() abort
     inoremap <expr> <PageDown> pumvisible() ? "\<PageDown>\<C-p>\<C-n>" : "\<PageDown>"
     inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
     "-----------"
+    " 很关键的设置，不然没办法识别本地函数
     let g:ycm_semantic_triggers =  {
             \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
             \ 'cs,lua,javascript': ['re!\w{2}'],
             \ }
+
+    "============================================================
+    "============================================================
+    " @@@ Complete-parameter
+    "============================================================
+    let g:complete_parameter_use_ultisnips_mapping = 1
+    let g:complete_parameter_py_keep_value = 2
+    let g:neosnippet#disable_select_mode_mappings = 0
+    inoremap <silent><expr> ( complete_parameter#pre_complete("()")
+    smap <M-j> <Plug>(complete_parameter#goto_next_parameter)
+    imap <M-j> <Plug>(complete_parameter#goto_next_parameter)
+    nmap <M-j> <Plug>(complete_parameter#goto_next_parameter)
+    smap <M-k> <Plug>(complete_parameter#goto_previous_parameter)
+    imap <M-k> <Plug>(complete_parameter#goto_previous_parameter)
+    nmap <M-k> <Plug>(complete_parameter#goto_previous_parameter)
 endf

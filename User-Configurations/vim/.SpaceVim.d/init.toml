@@ -16,7 +16,7 @@
     background = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
-    enable_guicolors = true
+    enable_guicolors = false
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
     statusline_separator = "arrow"
@@ -25,31 +25,34 @@
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = true
     bootstrap_before = "myspacevim#before"
-    snippet_engine = "neosnippet"
+    # snippet_engine = "neosnippet"
     # snippet_engine = "ultisnips"
 
 
 [[layers]]
-name = "lang#c"
+    name = "lang#c"
 
 # Enable autocomplete layer
 [[layers]]
-name = 'autocomplete'
-auto-completion-delay = 50
-auto-completion-return-key-behavior = "complete"
-auto-completion-tab-key-behavior = "smart"
+    name = 'autocomplete'
+    auto-completion-delay = 50
+    auto-completion-return-key-behavior = "complete"
+    auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
-name = "colorscheme"
+    name = "colorscheme"
 
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
+    name = 'shell'
+    default_position = 'top'
+    default_height = 30
 
 [[custom_plugins]]
-name = "google/vim-searchindex"
-name = "Chiel92/vim-autoformat"
+    name = 'google/vim-searchindex'
+
+[[custom_plugins]]
+    name = 'Chiel92/vim-autoformat'
+
 # 只有在vim查看lang-c部分才能看到支持deoplete-clang2
 # name = "tweekmonster/deoplete-clang2"
 
