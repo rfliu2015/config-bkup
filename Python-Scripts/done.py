@@ -43,7 +43,7 @@ def get_genuine_name(file):
         return ''
 
 
-def main(cmd_line):
+def main(cmd_line: list):
     if not cmd_line:
         raise ValueError('parameter is invalid!')
 

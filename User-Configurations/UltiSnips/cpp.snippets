@@ -2,24 +2,53 @@ snippet inio "#include <iostream>" w
 #include <iostream>
 endsnippet
 
-snippet inc "#include " w
-#include ${1}
+snippet incf "#include local header"
+#include "${1}"
 endsnippet
 
+snippet incs "#include <cstdio>" w
+#include <cstdio>
+endsnippet
 
-snippet std "use namespace std" w
+snippet inal "#include <algorithm>" w
+#include <algorithm>
+endsnippet
+
+snippet insr "#include <cstring>" w
+#include <cstring>
+endsnippet
+
+snippet inl "#include <>" w
+#include <${1}>
+endsnippet
+
+snippet scan "scanf function"
+scanf("%d${1}", &${2});
+endsnippet
+
+snippet ustd "using namespace std"
 using namespace std;
 endsnippet
 
+snippet while "while"
+while(${1:true}) {
+    ${2}
+}
+endsnippet
+snippet whi "while"
+while(${1:true}) {
+    ${2}
+}
+endsnippet
+
 snippet tm "template" w
-template <typename T>
+template <typename t>
 
 endsnippet
 
-snippet while "while" w
-while(${1:true}) {
-	${2}
-}
+snippet fi "if" w
+if( ${1:true} ) 
+    ${2}
 endsnippet
 
 snippet th "this->" w
@@ -27,15 +56,22 @@ this->
 endsnippet
 
 
-snippet tt "<T>" w
-<T> ${1}
+snippet tt "<t>" w
+<t> ${1}
+endsnippet
+
+snippet st "std::"
+std::${1}
 endsnippet
 
 snippet cend "cout << endl;" w
-std::cout << std::endl;
+std::cout << "\n";
 endsnippet
 
 snippet vor "vector" w
 vector<${1:double}> ${2:vec};
 endsnippet
 
+snippet prn "printf(\n);" w
+printf("${1:\n}");${2}
+endsnippet

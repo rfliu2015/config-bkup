@@ -1,6 +1,42 @@
 func! myspacevim#before() abort
     "============================================================
     "============================================================
+    " 基本操作
+    "============================================================
+    set mousemodel=extend       " 设置鼠标功能
+    set autochdir               " 将当前目录自动切换为文件所在目录
+    set autoindent                     " 继承前一行的缩进方式，特别适用于多行注释
+    set ignorecase
+    set smartcase               " 智能搜索
+    set incsearch               " 搜索并且异步显示
+    set smartindent                    " 打开智能缩进
+    set noshowmode
+
+
+    "============================================================
+    "============================================================
+    " 外观
+    "============================================================
+    " set guicursor=i:ver25-iCursor
+    set conceallevel=3
+    let g:spacevim_statusline_left_sections =
+                \ [
+                \ 'winnr',
+                \ 'filename',
+                \ 'major mode',
+                \ 'minor mode lighters',
+                \ 'version control info'
+                \ ]
+    let g:spacevim_statusline_right_sections =
+                \ [
+                \ 'fileformat',
+                \ 'cursorpos',
+                \ 'percentage',
+                \ 'time'
+                \ ]
+
+    "============================================================
+    "============================================================
     " @@@ vim-autoformat.vim
     "============================================================
     noremap <silent> <F4> :Autoformat<CR>
@@ -23,13 +59,6 @@ func! myspacevim#before() abort
 
     "============================================================
     "============================================================
-    " @@@ neo-make
-    "============================================================
-    " let g:clang_library_path='/usr/lib/llvm-3.8/lib/libclang.so.1'
-
-
-    "============================================================
-    "============================================================
     " &&& 快捷键重置
     nnoremap L $
     nnoremap H ^
@@ -42,73 +71,43 @@ func! myspacevim#before() abort
     nnoremap k gk
     nnoremap y "+y
     vnoremap y "+y
+    nnoremap z cl
     "============================================================
     " &&& 简化
     nnoremap cw ciw
     nnoremap dw diw
     nnoremap Q @q
     nnoremap <silent> <Esc><Esc> :set hlsearch!<Cr>
+    nnoremap '' ``
     "============================================================
     " &&& 新的快捷键
-    inoremap <C-K>o <Esc>o
 
     "============================================================
     " &&& Ctrl
     "============================================================
-    nnoremap <C-c>s :%s/\<<c-r>=expand("<cword>")<cr>\>/
+    nnoremap <C-c>s :%s/\<<c-r>=expand("<cword>")<cr>\>\C/
     inoremap <C-d>a this->
+    snoremap <C-d>a this->
+    inoremap <C-d>t <t>
+    inoremap <C-d>d std::
 
     inoremap <c-l> <right>
-    " inoremap <c-j> <down>
-    " inoremap <c-k> <space>
-    " inoremap <c-u> <space>
-    inoremap <c-l> <right>
+    snoremap <c-l> <right>
 
     inoremap <C-k>[ <End><Space>{<Cr>}<Left><Cr><Up><Tab>
     inoremap <C-K>i ->
     inoremap <C-K>l <Esc>o<Esc>cc
-    nnoremap <C-d>s :w<Cr>
+    nnoremap <C-a>s :w<Cr>
+    nnoremap <C-a>c :%y+<Cr>
+    nnoremap <C-a>d :%d<Cr>
     inoremap <C-k>; <End>;
-    inoremap <C-k>a !=
+    inoremap <C-d>n !=
 
-    "============================================================
-    "============================================================
-    " 基本操作
-    "============================================================
-    set mousemodel=extend
-    set ignorecase
-    set smartcase
-    set incsearch
+    nnoremap <C-j> 8jzz
+    nnoremap <C-k> 8kzz
+    vnoremap <C-j> 8jzz
+    vnoremap <C-k> 8kzz
 
-    "============================================================
-    "============================================================
-    " 外观
-    "============================================================
-    " set guicursor=i:ver25-iCursor
-    set conceallevel=3
-    let g:spacevim_statusline_left_sections =
-                \ [
-                \ 'winnr',
-                \ 'filename',
-                \ 'major mode',
-                \ 'minor mode lighters',
-                \ 'version control info'
-                \ ]
-    let g:spacevim_statusline_right_sections =
-                \ [
-                \ 'fileformat',
-                \ 'cursorpos',
-                \ 'percentage',
-                \ ]
-                " \ 'time'
-
-
-    "============================================================
-    "============================================================
-    " @@@ Deoplete
-    "============================================================
-    " let g:spacevim_autocomplete_method = 'deoplete-clang2'
-    " let g:deoplete#enable_at_startup = 1
 
 
     "============================================================

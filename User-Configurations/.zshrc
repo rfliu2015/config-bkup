@@ -94,7 +94,7 @@ alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v="vim"
 alias ains="sudo apt install"
-alias pins="pip3 install --user"
+alias pins="pip3 install --user -i https://pypi.tuna.tsinghua.edu.cn/simple"
 alias conins="conda install -c conda-forge"
 alias arm="sudo apt remove"
 alias prm="sudo apt-get purge"
@@ -103,11 +103,12 @@ alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
 alias gv="gvim"
 alias snow="shutdown -h now"
-alias vrc="vim ~/.vimrc"
+alias vrc="vim ~/myspacevim.vim"
 alias python="python3.5"
 alias py="python3.5"
 alias ado="python3.5 ~/bin/ado.py"
 alias pln="python3.5 ~/bin/pln.py"
+alias da="python3.5 ~/bin/da.py"
 alias lines="python3.5 ~/bin/lines.py"
 
 alias -s md="typora"
@@ -134,4 +135,21 @@ alias gpull="git pull origin master"
 
 # 特定目录
 conf='/home/storm/Git/config-bkup'
+
+export HDF=/usr/local/hdf5
+export PATH=$HDF/bin:$PATH
+export HDF_LIB=$HDF/lib
+export HDF_INC=$HDF/include
+
+export ZLIB=/usr/local/zlib
+export ZLIB_LIB=$ZLIB/lib
+export ZLIB_INC=$ZLIB/include
+
+export MPI=/usr/local/openmpi
+export PATH=$MPI/bin:$PATH
+export MPI_LIB=$MPI/lib
+export MPI_INC=$MPI/include
+
+# export http_proxy="http://127.0.0.1:12333"
+
 
