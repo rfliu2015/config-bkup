@@ -25,8 +25,9 @@
     enable_tabline_filetype_icon = true
     enable_statusline_display_mode = true
     bootstrap_before = "myspacevim#before"
+    bootstrap_after  = "myspacevim#after"
     # snippet_engine = "neosnippet"
-    # snippet_engine = "ultisnips"
+    snippet_engine = "ultisnips"
 
 
 [[layers]]

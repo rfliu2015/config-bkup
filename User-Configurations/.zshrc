@@ -9,6 +9,7 @@ export ZSH=/home/storm/.oh-my-zsh
     # it'll load a random theme each time that oh-my-zsh is loaded.
     # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
     ZSH_THEME="random"
+    # ZSH_THEME="wedisagree"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -97,26 +98,28 @@ alias ains="sudo apt install"
 alias pins="pip3 install --user -i https://pypi.tuna.tsinghua.edu.cn/simple"
 alias conins="conda install -c conda-forge"
 alias arm="sudo apt remove"
-alias prm="sudo apt-get purge"
+alias prm="sudo apt purge"
 alias puni="pip3 uninstall"
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
 alias gv="gvim"
+alias ccopy="clipcopy"
 alias snow="shutdown -h now"
 alias vrc="vim ~/myspacevim.vim"
-alias python="python3.5"
-alias py="python3.5"
-alias ado="python3.5 ~/bin/ado.py"
-alias pln="python3.5 ~/bin/pln.py"
-alias da="python3.5 ~/bin/da.py"
-alias lines="python3.5 ~/bin/lines.py"
+alias py="python3.6"
+alias ado="python3.6 ~/bin/ado.py"
+alias pln="python3.6 ~/bin/pln.py"
+alias da="python3.6 ~/bin/da.py"
+alias lines="python3.6 ~/bin/lines.py"
+alias rou="rm *.out"
 
 alias -s md="typora"
 alias -s cpp="vim"
 alias -s hpp="vim"
 alias -s h="vim"
 alias -s c="vim"
-alias -s py="python3.5"
+alias -s txt="vim"
+alias -s py="python3.6"
 
 
 # *** for ncl
@@ -151,5 +154,4 @@ export MPI_LIB=$MPI/lib
 export MPI_INC=$MPI/include
 
 # export http_proxy="http://127.0.0.1:12333"
-
-
+# xmodmap ~/.xmodmap

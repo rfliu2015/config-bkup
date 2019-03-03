@@ -1,24 +1,12 @@
 func! myspacevim#before() abort
     "============================================================
     "============================================================
-    " 基本操作
-    "============================================================
-    set mousemodel=extend       " 设置鼠标功能
-    set autochdir               " 将当前目录自动切换为文件所在目录
-    set autoindent                     " 继承前一行的缩进方式，特别适用于多行注释
-    set ignorecase
-    set smartcase               " 智能搜索
-    set incsearch               " 搜索并且异步显示
-    set smartindent                    " 打开智能缩进
-    set noshowmode
-
-
-    "============================================================
-    "============================================================
-    " 外观
+    " Appearance
     "============================================================
     " set guicursor=i:ver25-iCursor
     set conceallevel=3
+    set scrolloff=6
+    nnoremap <silent> <M-s> :set laststatus=0<Cr>
     let g:spacevim_statusline_left_sections =
                 \ [
                 \ 'winnr',
@@ -44,7 +32,6 @@ func! myspacevim#before() abort
     let g:autoformat_retab = 1
     let g:autoformat_remove_trailing_spaces = 1
 
-    " let g:formatdef_custom_c='"astyle --style=linux -cpU -j -z2 --align-pointer=type"'
     " 大小写关键
     let g:formatdef_custom_c='"clang-format-6.0 -style=file"'
     let g:formatters_c = ['custom_c']
@@ -59,64 +46,11 @@ func! myspacevim#before() abort
 
     "============================================================
     "============================================================
-    " &&& 快捷键重置
-    nnoremap L $
-    nnoremap H ^
-    onoremap L $
-    onoremap H ^
-    vnoremap L $
-    vnoremap H ^
-
-    nnoremap j gj
-    nnoremap k gk
-    nnoremap y "+y
-    vnoremap y "+y
-    nnoremap z cl
-    "============================================================
-    " &&& 简化
-    nnoremap cw ciw
-    nnoremap dw diw
-    nnoremap Q @q
-    nnoremap <silent> <Esc><Esc> :set hlsearch!<Cr>
-    nnoremap '' ``
-    "============================================================
-    " &&& 新的快捷键
-
-    "============================================================
-    " &&& Ctrl
-    "============================================================
-    nnoremap <C-c>s :%s/\<<c-r>=expand("<cword>")<cr>\>\C/
-    inoremap <C-d>a this->
-    snoremap <C-d>a this->
-    inoremap <C-d>t <t>
-    inoremap <C-d>d std::
-
-    inoremap <c-l> <right>
-    snoremap <c-l> <right>
-
-    inoremap <C-k>[ <End><Space>{<Cr>}<Left><Cr><Up><Tab>
-    inoremap <C-K>i ->
-    inoremap <C-K>l <Esc>o<Esc>cc
-    nnoremap <C-a>s :w<Cr>
-    nnoremap <C-a>c :%y+<Cr>
-    nnoremap <C-a>d :%d<Cr>
-    inoremap <C-k>; <End>;
-    inoremap <C-d>n !=
-
-    nnoremap <C-j> 8jzz
-    nnoremap <C-k> 8kzz
-    vnoremap <C-j> 8jzz
-    vnoremap <C-k> 8kzz
-
-
-
-    "============================================================
-    "============================================================
     " @@@ YouCompleteMe
     "============================================================
     let g:spacevim_enable_ycm = 1
     let g:spacevim_autocomplete_method = 'YouCompleteMe'
-	let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+	let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
     let g:ycm_confirm_extra_conf = 0 "关闭加载.ycm_extra_conf.py提示
     "-----------"
     let g:ycm_add_preview_to_completeopt = 0
@@ -136,9 +70,14 @@ func! myspacevim#before() abort
     "-----------"
     " 很关键的设置，不然没办法识别本地函数
     let g:ycm_semantic_triggers =  {
-            \ 'c,cpp,python,java,go,erlang,perl': ['re!\w{2}'],
-            \ 'cs,lua,javascript': ['re!\w{2}'],
+            \ 'c,cpp,python': ['re!\w{2}'],
             \ }
+    let g:ycm_filetype_specific_completion_to_disable = {
+      \ 'gitcommit': 1,
+      \ 'go': 1,
+      \ 'java': 1,
+      \ 'python': 1
+      \}
 
     "============================================================
     "============================================================
@@ -154,4 +93,75 @@ func! myspacevim#before() abort
     smap <M-k> <Plug>(complete_parameter#goto_previous_parameter)
     imap <M-k> <Plug>(complete_parameter#goto_previous_parameter)
     nmap <M-k> <Plug>(complete_parameter#goto_previous_parameter)
+endf
+
+function! myspacevim#after() abort
+    "====================================================
+    " 基本操作
+    "====================================================
+    set mousemodel=extend       " 设置鼠标功能
+    set autochdir               " 将当前目录自动切换为文件所在目录
+    set autoindent              " 继承前一行的缩进方式，
+                                " 特别适用于多行注释
+    set ignorecase
+    set smartcase               " 智能搜索
+    set incsearch               " 搜索并且异步显示
+    set smartindent             " 打开智能缩进
+    set noshowmode
+    set fo-=r
+
+
+    "====================================================
+    " &&& 快捷键重置
+    "====================================================
+
+    nnoremap L $
+    nnoremap H ^
+    onoremap L $
+    onoremap H ^
+    vnoremap L $
+    vnoremap H ^
+
+    " nnoremap j gj
+    " nnoremap k gk
+    nnoremap y "+y
+    vnoremap y "+y
+    nnoremap z cl
+    "============================================================
+    " &&& 简化
+    nnoremap cw ciw
+    nnoremap dw diw
+    nnoremap Q @q
+    nnoremap <silent> <Esc><Esc> :set hlsearch!<Cr>
+    nnoremap '' ``
+    iunmap jk
+    "============================================================
+    " &&& 新的快捷键
+
+    "============================================================
+    " &&& Ctrl
+    "============================================================
+    nnoremap <C-c>s :%s/\<<c-r>=expand("<cword>")<cr>\>\C/
+    inoremap <C-d>a this->
+    snoremap <C-d>a this->
+    inoremap <C-d>t <t>
+    inoremap <C-d>d std::
+
+    inoremap <c-l> <right>
+    snoremap <c-l> <Esc><right>
+
+    inoremap <C-k>[ <End><Space>{<Cr>}<Left><Cr><Up><Tab>
+    inoremap <C-K>i ->
+    inoremap <C-K>l <Esc>o<Esc>cc
+    nnoremap <C-a>s :w<Cr>
+    nnoremap <C-a>c :%y+<Cr>
+    nnoremap <C-a>d :%d<Cr>
+    inoremap <C-k>; <End>;
+    inoremap <C-d>n !=
+
+    nnoremap <C-j> 8jzz
+    nnoremap <C-k> 8kzz
+    vnoremap <C-j> 8jzz
+    vnoremap <C-k> 8kzz
+
 endf

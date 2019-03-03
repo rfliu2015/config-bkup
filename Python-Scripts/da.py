@@ -9,25 +9,29 @@ from ado import main as domain
 
 
 def dealWith(passedArgv: list):
-    if not passedArgv:
+    if not passedArgv or passedArgv[0] == "rou":
         raise ValueError("Error! Parameters Invalid!")
 
     fullFile, = passedArgv
     fileName, suffix = os.path.splitext(fullFile)
     tryToFind = '.'.join([fileName, 'out'])
 
-    if os.path.exists(tryToFind):
-        call('./' + tryToFind, shell=True)
-        return
-    # 没有找到
-    tryToFind = str(fileName)
-    if os.path.exists(tryToFind):
-        call('./' + tryToFind, shell=True)
-        return
+    try:
+        if os.path.exists(tryToFind):
+            call('./' + tryToFind, shell=True)
+            return
+        # 没有找到
+        tryToFind = str(fileName)
+        if os.path.exists(tryToFind):
+            call('./' + tryToFind, shell=True)
+            return
 
-    # 自己去执行
-    domain([fullFile])
-    dealWith([fullFile])
+        # 自己去执行
+        domain([fullFile])
+        print('=====Finished compiling=====')
+        dealWith([fullFile])
+    except KeyboardInterrupt:
+        exit
 
 
 if __name__ == "__main__":
